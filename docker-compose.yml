@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: architecture_evidence_search
+    ports:
+      - "8000:8000"
+      - "8501:8501"
+    environment:
+      - APP_ENV=production
+      - DATABASE_URL=sqlite:///./enterprise_search.db
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+    volumes:
+      - ./data:/app/data
+      - ./enterprise_search.db:/app/enterprise_search.db
+    restart: unless-stopped
