@@ -1,0 +1,1 @@
+feedback_id,timestamp,user_id,query_id,query,recommended_document_id,useful_yes_no,trustworthy_yes_no,consulted_additional_source_yes_no,first_answer_accepted,comments,data_status
