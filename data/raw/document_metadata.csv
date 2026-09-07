@@ -1,0 +1,1001 @@
+document_id,author_id,author_role,team,department,created_date,updated_date,approval_status,approval_date,version,status,authority_level,confidentiality_level,document_type,source_type,review_frequency,next_review_date
+ADR-001,emp_102,Senior Engineer,Engineering Core Team,Engineering,2021-03-15,2021-03-15,Approved,2021-03-15,1.0,Superseded,Senior Engineer,Internal,Architecture Decision Record,Git Markdown,Annual,2022-03-15
+ADR-002,emp_003,Architecture Board,Security Core Team,Security,2025-09-01,2025-09-01,Approved,2025-09-01,1.0,Active,Architecture Board,Internal,Architecture Decision Record,Confluence,Annual,2026-09-01
+DOC-0003,emp_004,Security Engineer,Security Core Team,Security,2025-05-10,2025-05-10,Approved,2025-05-10,1.0,Active,Senior Architect,Restricted,Policy,Git Markdown,Annual,2026-05-10
+DOC-0004,emp_130,Architecture Board,Data Engineering Core Team,Data Engineering,2022-03-24,2023-07-13,Approved,2023-07-13,3.2,Active,Architecture Board,Confidential,Technical Design Document,Confluence,Annual,2024-07-12
+DOC-0005,emp_448,Engineer,Product Core Team,Product,2021-11-15,2023-01-29,Approved,2023-01-29,1.1,Superseded,Engineer,Restricted,Meeting Decision,Git Markdown,Annual,2024-01-29
+DOC-0006,emp_665,Chief Architect,Engineering Core Team,Engineering,2025-08-26,2026-07-13,Draft,,3.0,Draft,Chief Architect,Public,Meeting Decision,Confluence,Annual,2027-07-13
+DOC-0007,emp_384,Engineer,Platform Core Team,Platform,2024-07-25,2025-08-02,Draft,,3.1,Draft,Engineer,Public,Policy,Git Markdown,Annual,2026-08-02
+DOC-0008,emp_755,Principal Engineer,Security Core Team,Security,2022-03-26,2026-01-26,Draft,,1.0,Draft,Principal Engineer,Public,Deprecated Document,Confluence,Annual,2027-01-26
+DOC-0009,emp_771,Architecture Team,Data Engineering Core Team,Data Engineering,2023-03-22,2025-10-16,Draft,,3.2,Draft,Architecture Team,Restricted,Policy,Git Markdown,Annual,2026-10-16
+DOC-0010,emp_621,Senior Architect,Architecture Core Team,Architecture,2021-07-06,2025-09-30,Approved,2025-09-30,1.2,Active,Senior Architect,Internal,Policy,Confluence,Annual,2026-09-30
+DOC-0011,emp_357,Unverified,Security Core Team,Security,2025-10-29,2025-11-03,Draft,,2.0,Draft,Unverified,Restricted,Deprecated Document,Git Markdown,Annual,2026-11-03
+DOC-0012,emp_208,Unverified,Product Core Team,Product,2025-09-20,2026-06-06,Under Review,,1.2,Draft,Unverified,Public,Meeting Decision,Confluence,Annual,2027-06-06
+DOC-0013,emp_159,Architecture Team,Product Core Team,Product,2025-12-04,2026-04-28,Approved,2026-04-28,2.0,Superseded,Architecture Team,Internal,Project Documentation,Git Markdown,Annual,2027-04-28
+DOC-0014,emp_652,Architecture Team,Architecture Core Team,Architecture,2024-12-31,2025-11-15,Rejected,,3.1,Draft,Architecture Team,Confidential,Project Documentation,Confluence,Annual,2026-11-15
+DOC-0015,emp_702,Architecture Board,Engineering Core Team,Engineering,2022-04-17,2025-08-04,Under Review,,3.2,Superseded,Architecture Board,Public,Deprecated Document,Git Markdown,Annual,2026-08-04
+DOC-0016,emp_785,Principal Engineer,Data Engineering Core Team,Data Engineering,2022-03-15,2025-03-23,Under Review,,3.2,Draft,Principal Engineer,Confidential,Policy,Confluence,Annual,2026-03-23
+DOC-0017,emp_462,Engineer,Engineering Core Team,Engineering,2023-04-22,2025-12-03,Approved,2025-12-03,3.0,Active,Engineer,Public,Standard,Git Markdown,Annual,2026-12-03
+DOC-0018,emp_559,Unverified,Platform Core Team,Platform,2023-05-15,2024-05-24,Draft,,1.1,Draft,Unverified,Public,Engineering Note,Confluence,Annual,2025-05-24
+DOC-0019,emp_516,Senior Architect,Product Core Team,Product,2023-09-13,2024-11-23,Approved,2024-11-23,1.1,Active,Senior Architect,Restricted,Policy,Git Markdown,Annual,2025-11-23
+DOC-0020,emp_294,Senior Architect,DevOps Core Team,DevOps,2022-03-22,2022-07-19,Approved,2022-07-19,1.0,Active,Senior Architect,Confidential,Meeting Decision,Confluence,Annual,2023-07-19
+ADR-021,emp_001,Chief Architect,Architecture Core Team,Architecture,2025-11-10,2026-01-20,Approved,2026-01-20,3.0,Active,Chief Architect,Internal,Architecture Decision Record,Git Markdown,Annual,2027-01-20
+DOC-0022,emp_791,Chief Architect,Platform Core Team,Platform,2023-04-07,2023-12-08,Approved,2023-12-08,2.2,Active,Chief Architect,Restricted,Project Documentation,Confluence,Annual,2024-12-07
+DOC-0023,emp_787,Senior Architect,Architecture Core Team,Architecture,2023-07-26,2025-05-03,Approved,2025-05-03,3.2,Superseded,Senior Architect,Public,Meeting Decision,Git Markdown,Annual,2026-05-03
+DOC-0024,emp_478,Architecture Team,Architecture Core Team,Architecture,2021-11-20,2024-05-05,Draft,,3.2,Draft,Architecture Team,Public,Meeting Decision,Confluence,Annual,2025-05-05
+DOC-0025,emp_209,Chief Architect,Platform Core Team,Platform,2021-11-15,2023-05-26,Draft,,3.1,Draft,Chief Architect,Internal,Deprecated Document,Git Markdown,Annual,2024-05-25
+DOC-0026,emp_749,Chief Architect,Architecture Core Team,Architecture,2025-08-26,2026-01-14,Approved,2026-01-14,1.2,Superseded,Chief Architect,Restricted,Standard,Confluence,Annual,2027-01-14
+DOC-0027,emp_807,Chief Architect,Engineering Core Team,Engineering,01/23/2024,2024-02-28,Draft,,1.1,Draft,Chief Architect,Internal,Engineering Note,Git Markdown,Annual,2025-02-27
+DOC-0028,emp_462,Chief Architect,Platform Core Team,Platform,2025-12-16,2026-07-27,Rejected,,3.0,Draft,Chief Architect,Internal,Deprecated Document,Confluence,Annual,2027-07-27
+DOC-0029,emp_901,Senior Engineer,Engineering Core Team,Engineering,2025-07-01,2026-06-08,Under Review,,3.0,Draft,Senior Engineer,Confidential,Standard,Git Markdown,Annual,2027-06-08
+DOC-0030,emp_412,Senior Engineer,Product Core Team,Product,2022-04-02,2022-05-20,Under Review,,2.0,Draft,Senior Engineer,Restricted,Project Documentation,Confluence,Annual,2023-05-20
+DOC-0031,emp_218,Architecture Board,Data Engineering Core Team,Data Engineering,2022-01-01,2025-04-04,Draft,,3.1,Superseded,Architecture Board,Restricted,Meeting Decision,Git Markdown,Annual,2026-04-04
+DOC-0032,emp_360,Architecture Team,Engineering Core Team,Engineering,2024-12-22,2026-03-13,Approved,2026-03-13,3.2,Active,Architecture Team,Internal,Architecture Decision Record,Confluence,Annual,2027-03-13
+DOC-0033,emp_837,Chief Architect,Data Engineering Core Team,Data Engineering,2023-11-05,2024-09-16,Rejected,,3.1,Draft,Chief Architect,Internal,Meeting Decision,Git Markdown,Annual,2025-09-16
+DOC-0034,emp_515,Principal Engineer,DevOps Core Team,DevOps,2025-09-04,2025-09-04,Draft,,2.2,Draft,Principal Engineer,Restricted,Deprecated Document,Confluence,Annual,2026-09-04
+DOC-0035,emp_390,Chief Architect,Security Core Team,Security,2024-09-21,2026-07-01,Draft,,1.2,Superseded,Chief Architect,Restricted,Deprecated Document,Git Markdown,Annual,2027-07-01
+DOC-0036,emp_566,Chief Architect,Platform Core Team,Platform,2025-12-20,2026-05-30,Under Review,,2.1,Draft,Chief Architect,Confidential,Standard,Confluence,Annual,2027-05-30
+DOC-0037,emp_324,Engineer,Product Core Team,Product,2025-07-05,2026-06-26,Rejected,,1.0,Superseded,Engineer,Confidential,Engineering Note,Git Markdown,Annual,2027-06-26
+DOC-0038,emp_727,Project Notes,Data Engineering Core Team,Data Engineering,2023-05-24,2026-06-19,Rejected,,3.1,Draft,Project Notes,Confidential,Deprecated Document,Confluence,Annual,2027-06-19
+DOC-0039,emp_381,Architecture Team,Product Core Team,Product,2021-06-08,2025-06-08,Draft,,2.1,Draft,Architecture Team,Public,Policy,Git Markdown,Annual,2026-06-08
+DOC-0040,emp_517,Engineer,Platform Core Team,Platform,2024-01-17,2025-05-08,Rejected,,2.1,Superseded,Engineer,Public,Security Recommendation,Confluence,Annual,2026-05-08
+DOC-0041,emp_871,Principal Engineer,Engineering Core Team,Engineering,10/14/2025,2026-05-16,Under Review,,2.1,Draft,Principal Engineer,Confidential,Standard,Git Markdown,Annual,2027-05-16
+DOC-0042,emp_230,Project Notes,Security Core Team,Security,2023-12-30,2024-01-26,Rejected,,3.0,Draft,Project Notes,Public,Draft Document,Confluence,Annual,2025-01-25
+DOC-0043,emp_435,Engineer,Engineering Core Team,Engineering,2023-07-21,2025-05-20,Draft,,2.1,Draft,Engineer,Confidential,Project Documentation,Git Markdown,Annual,2026-05-20
+DOC-0044,emp_329,Senior Engineer,Data Engineering Core Team,Data Engineering,2025-05-19,2026-04-17,Approved,2026-04-17,1.0,Active,Senior Engineer,Internal,Technical Design Document,Confluence,Annual,2027-04-17
+DOC-0045,emp_885,Principal Engineer,Platform Core Team,Platform,2021-12-10,2025-05-03,Approved,2025-05-03,1.1,Active,Principal Engineer,Public,Security Recommendation,Git Markdown,Annual,2026-05-03
+DOC-0046,emp_177,Architecture Team,Security Core Team,Security,2024-11-15,2025-07-21,Approved,2025-07-21,2.2,Active,Architecture Team,Public,Draft Document,Confluence,Annual,2026-07-21
+DOC-0047,emp_170,Senior Engineer,Data Engineering Core Team,Data Engineering,2024-08-19,2025-08-03,Approved,2025-08-03,2.0,Active,Senior Engineer,Confidential,Deprecated Document,Git Markdown,Annual,2026-08-03
+DOC-0048,emp_851,Senior Architect,Platform Core Team,Platform,2026-06-01,2026-07-12,Draft,,3.1,Draft,Senior Architect,Confidential,Deprecated Document,Confluence,Annual,2027-07-12
+DOC-0049,emp_385,Chief Architect,Product Core Team,Product,05/15/2022,2026-07-29,Rejected,,3.1,Draft,Chief Architect,Restricted,Policy,Git Markdown,Annual,2027-07-29
+DOC-0050,emp_448,Principal Engineer,Platform Core Team,Platform,2025-12-08,2026-05-09,Draft,,3.0,Draft,Principal Engineer,Public,Meeting Decision,Confluence,Annual,2027-05-09
+DOC-0051,emp_558,Project Notes,Platform Core Team,Platform,2021-07-10,2023-03-04,Under Review,,1.1,Draft,Project Notes,Restricted,Architecture Decision Record,Git Markdown,Annual,2024-03-03
+DOC-0052,emp_819,Senior Engineer,Data Engineering Core Team,Data Engineering,2022-07-09,2024-03-27,Draft,,3.0,Draft,Senior Engineer,Restricted,Policy,Confluence,Annual,2025-03-27
+DOC-0053,emp_841,Principal Engineer,Platform Core Team,Platform,2026-06-24,2026-07-27,Draft,,1.1,Draft,Principal Engineer,Internal,Draft Document,Git Markdown,Annual,2027-07-27
+DOC-0054,emp_666,Architecture Board,Architecture Core Team,Architecture,2024-11-29,2025-04-07,Rejected,,1.2,Superseded,Architecture Board,Restricted,Meeting Decision,Confluence,Annual,2026-04-07
+DOC-0055,emp_941,Chief Architect,Architecture Core Team,Architecture,2023-04-01,2026-01-02,Approved,2026-01-02,3.0,Active,Chief Architect,Internal,Technical Design Document,Git Markdown,Annual,2027-01-02
+DOC-0056,emp_882,Unverified,Platform Core Team,Platform,2024-05-26,2026-01-26,Under Review,,2.1,Draft,Unverified,Confidential,Standard,Confluence,Annual,2027-01-26
+DOC-0057,emp_881,Chief Architect,Data Engineering Core Team,Data Engineering,2024-07-05,2025-02-06,Draft,,1.0,Draft,Chief Architect,Internal,Project Documentation,Git Markdown,Annual,2026-02-06
+DOC-0058,emp_133,Principal Engineer,DevOps Core Team,DevOps,2022-08-14,2026-07-31,Draft,,2.0,Draft,Principal Engineer,Internal,Project Documentation,Confluence,Annual,2027-07-31
+DOC-0059,emp_217,Engineer,DevOps Core Team,DevOps,2022-04-06,2025-11-22,Under Review,,1.0,Draft,Engineer,Public,Deprecated Document,Git Markdown,Annual,2026-11-22
+DOC-0060,emp_805,Project Notes,Security Core Team,Security,2024-12-04,2026-01-20,Draft,,2.1,Draft,Project Notes,Public,Meeting Decision,Confluence,Annual,2027-01-20
+DOC-0061,emp_334,Chief Architect,Architecture Core Team,Architecture,2024-04-17,2024-05-08,Draft,,1.1,Draft,Chief Architect,Confidential,Draft Document,Git Markdown,Annual,2025-05-08
+DOC-0062,emp_581,Chief Architect,DevOps Core Team,DevOps,2023-04-17,2025-02-27,Draft,,1.1,Draft,Chief Architect,Confidential,Security Recommendation,Confluence,Annual,2026-02-27
+DOC-0063,emp_190,Project Notes,Product Core Team,Product,2022-06-01,2024-03-24,Approved,2024-03-24,2.2,Active,Project Notes,Public,Security Recommendation,Git Markdown,Annual,2025-03-24
+DOC-0064,emp_740,Project Notes,Platform Core Team,Platform,2025-04-06,2025-05-02,Under Review,,1.1,Draft,Project Notes,Confidential,Policy,Confluence,Annual,2026-05-02
+DOC-0065,emp_418,Senior Architect,Data Engineering Core Team,Data Engineering,2021-01-29,2024-03-05,Approved,2024-03-05,1.1,Active,Senior Architect,Public,Deprecated Document,Git Markdown,Annual,2025-03-05
+DOC-0066,emp_954,Engineer,DevOps Core Team,DevOps,2026-07-01,2026-07-31,Under Review,,1.1,Draft,Engineer,Internal,Policy,Confluence,Annual,2027-07-31
+DOC-0067,emp_448,Engineer,Engineering Core Team,Engineering,2022-07-02,2022-07-07,Draft,,3.2,Draft,Engineer,Confidential,Deprecated Document,Git Markdown,Annual,2023-07-07
+DOC-0068,emp_429,Project Notes,Architecture Core Team,Architecture,2026-07-02,2026-07-24,Under Review,,1.1,Draft,Project Notes,Public,Project Documentation,Confluence,Annual,2027-07-24
+DOC-0069,emp_137,Project Notes,DevOps Core Team,DevOps,10/26/2023,2026-07-10,Draft,,2.0,Draft,Project Notes,Confidential,Engineering Note,Git Markdown,Annual,2027-07-10
+DOC-0070,emp_446,Principal Engineer,Engineering Core Team,Engineering,2024-11-19,2025-12-31,Approved,2025-12-31,3.2,Active,Principal Engineer,Confidential,Draft Document,Confluence,Annual,2026-12-31
+DOC-0071,emp_340,Chief Architect,Data Engineering Core Team,Data Engineering,2022-04-11,2026-06-18,Approved,2026-06-18,1.2,Active,Chief Architect,Public,Meeting Decision,Git Markdown,Annual,2027-06-18
+DOC-0072,emp_467,Principal Engineer,Architecture Core Team,Architecture,2023-06-02,2024-03-26,Rejected,,1.0,Draft,Principal Engineer,Internal,Security Recommendation,Confluence,Annual,2025-03-26
+DOC-0073,emp_337,Senior Architect,Platform Core Team,Platform,2024-07-30,2025-04-16,Rejected,,1.1,Draft,Senior Architect,Restricted,Policy,Git Markdown,Annual,2026-04-16
+DOC-0074,emp_806,Engineer,Data Engineering Core Team,Data Engineering,2023-07-25,2025-04-03,Under Review,,2.0,Draft,Engineer,Internal,Meeting Decision,Confluence,Annual,2026-04-03
+DOC-0075,emp_381,Engineer,Architecture Core Team,Architecture,2024-03-05,2026-02-05,Approved,2026-02-05,3.1,Active,Engineer,Restricted,Architecture Decision Record,Git Markdown,Annual,2027-02-05
+DOC-0076,emp_794,Principal Engineer,DevOps Core Team,DevOps,2024-07-10,2024-10-17,Approved,2024-10-17,2.0,Active,Principal Engineer,Restricted,Engineering Note,Confluence,Annual,2025-10-17
+DOC-0077,emp_305,Senior Architect,DevOps Core Team,DevOps,2025-05-30,2026-03-02,Draft,,2.0,Draft,Senior Architect,Restricted,Engineering Note,Git Markdown,Annual,2027-03-02
+DOC-0078,emp_579,Chief Architect,Product Core Team,Product,2021-10-16,2026-01-07,Under Review,,3.2,Draft,Chief Architect,Confidential,Technical Design Document,Confluence,Annual,2027-01-07
+DOC-0079,emp_370,Architecture Board,Product Core Team,Product,2021-09-11,2024-03-30,Draft,,3.1,Draft,Architecture Board,Confidential,Deprecated Document,Git Markdown,Annual,2025-03-30
+DOC-0080,emp_734,Architecture Board,Platform Core Team,Platform,2022-11-03,2026-04-05,Under Review,,3.1,Draft,Architecture Board,Restricted,Deprecated Document,Confluence,Annual,2027-04-05
+DOC-0081,emp_199,Chief Architect,Architecture Core Team,Architecture,2025-12-23,2026-05-09,Under Review,,2.2,Draft,Chief Architect,Confidential,Project Documentation,Git Markdown,Annual,2027-05-09
+DOC-0082,emp_386,Engineer,Engineering Core Team,Engineering,2024-11-14,2025-11-28,Under Review,,1.1,Draft,Engineer,Public,Architecture Decision Record,Confluence,Annual,2026-11-28
+DOC-0083,emp_294,Principal Engineer,Engineering Core Team,Engineering,2026-04-28,2026-06-25,Approved,2026-06-25,3.2,Active,Principal Engineer,Public,Technical Design Document,Git Markdown,Annual,2027-06-25
+DOC-0084,emp_949,Chief Architect,Data Engineering Core Team,Data Engineering,2022-03-01,2025-06-13,Under Review,,1.1,Draft,Chief Architect,Internal,Deprecated Document,Confluence,Annual,2026-06-13
+DOC-0085,emp_356,Unverified,Platform Core Team,Platform,08/14/2021,2025-04-28,Approved,2025-04-28,2.0,Active,Unverified,Restricted,Engineering Note,Git Markdown,Annual,2026-04-28
+DOC-0086,emp_587,Chief Architect,Security Core Team,Security,2025-05-13,2025-11-14,Approved,2025-11-14,1.2,Active,Chief Architect,Public,Policy,Confluence,Annual,2026-11-14
+DOC-0087,emp_162,Architecture Board,Architecture Core Team,Architecture,2025-10-02,2026-04-25,Rejected,,2.2,Draft,Architecture Board,Confidential,Policy,Git Markdown,Annual,2027-04-25
+DOC-0088,emp_739,Principal Engineer,Engineering Core Team,Engineering,2024-01-29,2026-01-27,Draft,,3.2,Draft,Principal Engineer,Restricted,Draft Document,Confluence,Annual,2027-01-27
+DOC-0089,emp_838,Unverified,DevOps Core Team,DevOps,2023-05-31,2025-12-10,Under Review,,2.1,Draft,Unverified,Confidential,Project Documentation,Git Markdown,Annual,2026-12-10
+DOC-0090,emp_803,Senior Architect,Architecture Core Team,Architecture,2021-05-18,2021-11-20,Approved,2021-11-20,1.2,Superseded,Senior Architect,Restricted,Policy,Confluence,Annual,2022-11-20
+DOC-0091,emp_520,Chief Architect,Data Engineering Core Team,Data Engineering,2025-11-25,2026-05-14,Rejected,,3.0,Draft,Chief Architect,Restricted,Security Recommendation,Git Markdown,Annual,2027-05-14
+DOC-0092,emp_329,Project Notes,Platform Core Team,Platform,2022-12-19,2026-01-31,Draft,,2.2,Superseded,Project Notes,Internal,Technical Design Document,Confluence,Annual,2027-01-31
+DOC-0093,emp_129,Principal Engineer,DevOps Core Team,DevOps,2022-07-14,2026-06-22,Draft,,2.0,Draft,Principal Engineer,Internal,Engineering Note,Git Markdown,Annual,2027-06-22
+DOC-0094,emp_864,Chief Architect,Platform Core Team,Platform,2022-03-17,2024-04-25,Rejected,,1.1,Draft,Chief Architect,Restricted,Deprecated Document,Confluence,Annual,2025-04-25
+DOC-0095,emp_261,Senior Architect,Engineering Core Team,Engineering,2021-04-12,2025-01-21,Approved,2025-01-21,3.1,Active,Senior Architect,Confidential,Draft Document,Git Markdown,Annual,2026-01-21
+DOC-0096,emp_540,Senior Engineer,Data Engineering Core Team,Data Engineering,2022-08-04,2026-05-23,Rejected,,2.0,Draft,Senior Engineer,Internal,Technical Design Document,Confluence,Annual,2027-05-23
+DOC-0097,emp_882,Senior Architect,Architecture Core Team,Architecture,2022-08-16,2024-06-17,Approved,2024-06-17,2.0,Active,Senior Architect,Internal,Meeting Decision,Git Markdown,Annual,2025-06-17
+DOC-0098,emp_506,Chief Architect,Product Core Team,Product,2023-06-13,2023-07-21,Rejected,,2.2,Draft,Chief Architect,Confidential,Architecture Decision Record,Confluence,Annual,2024-07-20
+DOC-0099,emp_432,Architecture Board,Engineering Core Team,Engineering,2025-06-30,2026-05-12,Rejected,,2.0,Draft,Architecture Board,Confidential,Engineering Note,Git Markdown,Annual,2027-05-12
+DOC-0100,emp_991,Engineer,Data Engineering Core Team,Data Engineering,2025-03-08,2026-02-18,Under Review,,1.0,Draft,Engineer,Public,Meeting Decision,Confluence,Annual,2027-02-18
+DOC-0101,emp_205,Architecture Team,DevOps Core Team,DevOps,2022-06-09,2023-07-18,Under Review,,3.0,Draft,Architecture Team,Internal,Engineering Note,Git Markdown,Annual,2024-07-17
+DOC-0102,emp_984,Senior Engineer,Data Engineering Core Team,Data Engineering,2021-11-06,2024-04-24,Approved,2024-04-24,3.1,Active,Senior Engineer,Restricted,Security Recommendation,Confluence,Annual,2025-04-24
+DOC-0103,emp_158,Architecture Board,Security Core Team,Security,2025-08-31,2026-01-24,Approved,2026-01-24,3.1,Active,Architecture Board,Confidential,Security Recommendation,Git Markdown,Annual,2027-01-24
+DOC-0104,emp_719,Senior Engineer,Product Core Team,Product,2023-10-24,2024-03-26,Approved,2024-03-26,2.2,Active,Senior Engineer,Public,Policy,Confluence,Annual,2025-03-26
+DOC-0105,emp_635,Unverified,Security Core Team,Security,2021-11-22,2023-12-07,Draft,,2.1,Draft,Unverified,Restricted,Draft Document,Git Markdown,Annual,2024-12-06
+DOC-0106,emp_196,Senior Engineer,Architecture Core Team,Architecture,2024-10-21,2025-11-20,Draft,,3.2,Draft,Senior Engineer,Internal,Deprecated Document,Confluence,Annual,2026-11-20
+DOC-0107,emp_709,Senior Architect,Architecture Core Team,Architecture,2022-09-27,2025-11-14,Rejected,,2.0,Draft,Senior Architect,Public,Technical Design Document,Git Markdown,Annual,2026-11-14
+DOC-0108,emp_319,Senior Architect,Architecture Core Team,Architecture,2026-04-25,2026-08-01,Rejected,,1.0,Draft,Senior Architect,Public,Security Recommendation,Confluence,Annual,2027-08-01
+DOC-0109,emp_997,Senior Engineer,Data Engineering Core Team,Data Engineering,2021-09-26,2025-01-31,Rejected,,1.2,Draft,Senior Engineer,Internal,Draft Document,Git Markdown,Annual,2026-01-31
+DOC-0110,emp_725,Project Notes,DevOps Core Team,DevOps,2025-03-21,2026-04-08,Rejected,,1.1,Draft,Project Notes,Confidential,Meeting Decision,Confluence,Annual,2027-04-08
+DOC-0111,emp_896,Principal Engineer,Security Core Team,Security,2023-10-27,2025-04-19,Rejected,,1.2,Draft,Principal Engineer,Internal,Standard,Git Markdown,Annual,2026-04-19
+DOC-0112,emp_971,Unverified,Architecture Core Team,Architecture,2022-08-07,2023-01-25,Under Review,,3.0,Draft,Unverified,Confidential,Technical Design Document,Confluence,Annual,2024-01-25
+DOC-0113,emp_505,Architecture Board,Engineering Core Team,Engineering,2023-02-05,2024-06-01,Rejected,,2.0,Draft,Architecture Board,Public,Deprecated Document,Git Markdown,Annual,2025-06-01
+DOC-0114,emp_139,Senior Architect,Product Core Team,Product,2026-02-22,2026-06-22,Under Review,,2.1,Draft,Senior Architect,Public,Meeting Decision,Confluence,Annual,2027-06-22
+DOC-0115,emp_894,Chief Architect,Platform Core Team,Platform,2022-05-02,2024-01-08,Approved,2024-01-08,2.2,Superseded,Chief Architect,Confidential,Meeting Decision,Git Markdown,Annual,2025-01-07
+DOC-0116,emp_688,Unverified,Data Engineering Core Team,Data Engineering,2025-01-11,2025-06-07,Draft,,3.1,Draft,Unverified,Internal,Project Documentation,Confluence,Annual,2026-06-07
+DOC-0117,emp_638,Chief Architect,Data Engineering Core Team,Data Engineering,2023-11-06,2026-01-19,Approved,2026-01-19,2.0,Active,Chief Architect,Confidential,Deprecated Document,Git Markdown,Annual,2027-01-19
+DOC-0118,emp_346,Senior Engineer,Product Core Team,Product,2025-04-30,2026-02-21,Under Review,,3.1,Superseded,Senior Engineer,Internal,Technical Design Document,Confluence,Annual,2027-02-21
+DOC-0119,emp_833,Chief Architect,Platform Core Team,Platform,2021-03-17,2022-11-07,Under Review,,1.0,Superseded,Chief Architect,Restricted,Policy,Git Markdown,Annual,2023-11-07
+DOC-0120,emp_392,Architecture Team,Architecture Core Team,Architecture,2025-11-01,2025-11-25,Draft,,2.1,Draft,Architecture Team,Confidential,Security Recommendation,Confluence,Annual,2026-11-25
+DOC-0121,emp_476,Project Notes,Platform Core Team,Platform,2022-07-01,2022-12-17,Rejected,,3.0,Superseded,Project Notes,Restricted,Deprecated Document,Git Markdown,Annual,2023-12-17
+DOC-0122,emp_270,Engineer,Architecture Core Team,Architecture,2022-12-21,2025-06-23,Approved,2025-06-23,2.2,Active,Engineer,Confidential,Policy,Confluence,Annual,2026-06-23
+DOC-0123,emp_625,Senior Engineer,DevOps Core Team,DevOps,2026-05-06,2026-05-09,Under Review,,3.1,Draft,Senior Engineer,Public,Engineering Note,Git Markdown,Annual,2027-05-09
+DOC-0124,emp_719,Architecture Board,Architecture Core Team,Architecture,2024-10-22,2026-01-25,Draft,,1.2,Draft,Architecture Board,Internal,Engineering Note,Confluence,Annual,2027-01-25
+DOC-0125,emp_853,Architecture Board,Platform Core Team,Platform,2023-10-20,2025-04-02,Rejected,,1.1,Draft,Architecture Board,Restricted,Engineering Note,Git Markdown,Annual,2026-04-02
+DOC-0126,emp_225,Architecture Team,DevOps Core Team,DevOps,2025-10-13,2025-11-19,Rejected,,3.1,Draft,Architecture Team,Public,Engineering Note,Confluence,Annual,2026-11-19
+DOC-0127,emp_655,Unverified,Architecture Core Team,Architecture,2025-12-31,2026-03-17,Under Review,,3.2,Draft,Unverified,Internal,Meeting Decision,Git Markdown,Annual,2027-03-17
+DOC-0128,emp_909,Architecture Team,Product Core Team,Product,2021-02-23,2023-03-04,Draft,,3.0,Draft,Architecture Team,Public,Policy,Confluence,Annual,2024-03-03
+DOC-0129,emp_228,Chief Architect,Security Core Team,Security,2024-08-08,2024-10-22,Rejected,,3.1,Draft,Chief Architect,Internal,Security Recommendation,Git Markdown,Annual,2025-10-22
+DOC-0130,emp_614,Engineer,Platform Core Team,Platform,2025-08-30,2025-11-01,Under Review,,1.1,Draft,Engineer,Internal,Architecture Decision Record,Confluence,Annual,2026-11-01
+DOC-0131,emp_750,Architecture Team,Engineering Core Team,Engineering,2022-07-17,2023-03-30,Draft,,1.2,Draft,Architecture Team,Internal,Deprecated Document,Git Markdown,Annual,2024-03-29
+DOC-0132,emp_945,Architecture Board,Data Engineering Core Team,Data Engineering,2021-06-16,2021-09-17,Draft,,3.1,Draft,Architecture Board,Public,Architecture Decision Record,Confluence,Annual,2022-09-17
+DOC-0133,emp_924,Architecture Team,Architecture Core Team,Architecture,2022-09-02,2025-03-18,Approved,2025-03-18,1.1,Active,Architecture Team,Confidential,Standard,Git Markdown,Annual,2026-03-18
+DOC-0134,emp_508,Senior Engineer,Architecture Core Team,Architecture,2025-04-07,2025-10-13,Approved,2025-10-13,2.0,Active,Senior Engineer,Restricted,Engineering Note,Confluence,Annual,2026-10-13
+DOC-0135,emp_986,Architecture Team,Security Core Team,Security,2025-07-25,2026-01-08,Draft,,1.1,Draft,Architecture Team,Confidential,Engineering Note,Git Markdown,Annual,2027-01-08
+DOC-0136,emp_320,Architecture Team,Security Core Team,Security,2022-12-24,2023-04-02,Draft,,3.2,Draft,Architecture Team,Confidential,Draft Document,Confluence,Annual,2024-04-01
+DOC-0137,emp_882,Senior Engineer,Platform Core Team,Platform,2023-01-20,2023-04-22,Rejected,,3.0,Superseded,Senior Engineer,Restricted,Standard,Git Markdown,Annual,2024-04-21
+DOC-0138,emp_231,Chief Architect,Product Core Team,Product,2023-03-18,2025-04-20,Draft,,2.0,Draft,Chief Architect,Internal,Technical Design Document,Confluence,Annual,2026-04-20
+DOC-0139,emp_923,Senior Engineer,Engineering Core Team,Engineering,2023-11-30,2025-03-11,Under Review,,3.0,Draft,Senior Engineer,Restricted,Policy,Git Markdown,Annual,2026-03-11
+DOC-0140,emp_619,Senior Engineer,DevOps Core Team,DevOps,2023-12-27,2025-05-11,Draft,,1.1,Draft,Senior Engineer,Restricted,Deprecated Document,Confluence,Annual,2026-05-11
+DOC-0141,emp_371,Project Notes,Product Core Team,Product,2024-03-28,2024-11-16,Approved,2024-11-16,1.2,Active,Project Notes,Confidential,Draft Document,Git Markdown,Annual,2025-11-16
+DOC-0142,emp_119,Architecture Team,DevOps Core Team,DevOps,2022-10-05,2025-02-08,Under Review,,1.1,Draft,Architecture Team,Confidential,Policy,Confluence,Annual,2026-02-08
+DOC-0143,emp_432,Unverified,Platform Core Team,Platform,2023-12-13,2025-01-01,Draft,,2.2,Draft,Unverified,Restricted,Policy,Git Markdown,Annual,2026-01-01
+DOC-0144,emp_296,Project Notes,Product Core Team,Product,2022-07-26,2025-09-10,Draft,,2.1,Draft,Project Notes,Internal,Project Documentation,Confluence,Annual,2026-09-10
+DOC-0145,emp_224,Principal Engineer,Data Engineering Core Team,Data Engineering,2024-10-17,2026-04-26,Rejected,,2.1,Draft,Principal Engineer,Internal,Draft Document,Git Markdown,Annual,2027-04-26
+DOC-0146,emp_319,Project Notes,Security Core Team,Security,2025-08-23,2026-05-25,Draft,,3.2,Draft,Project Notes,Internal,Project Documentation,Confluence,Annual,2027-05-25
+DOC-0147,emp_202,Architecture Board,DevOps Core Team,DevOps,2022-11-08,2025-07-02,Approved,2025-07-02,1.0,Active,Architecture Board,Internal,Standard,Git Markdown,Annual,2026-07-02
+DOC-0148,emp_428,Principal Engineer,DevOps Core Team,DevOps,2024-08-15,2024-10-14,Approved,2024-10-14,1.2,Active,Principal Engineer,Public,Meeting Decision,Confluence,Annual,2025-10-14
+DOC-0149,emp_290,Project Notes,Product Core Team,Product,2025-12-01,2025-12-10,Approved,2025-12-10,3.0,Active,Project Notes,Restricted,Meeting Decision,Git Markdown,Annual,2026-12-10
+DOC-0150,emp_579,Unverified,Security Core Team,Security,2022-01-30,2022-09-17,Draft,,2.2,Draft,Unverified,Restricted,Meeting Decision,Confluence,Annual,2023-09-17
+DOC-0151,emp_725,Senior Architect,Architecture Core Team,Architecture,2025-08-21,2026-03-27,Draft,,3.0,Superseded,Senior Architect,Internal,Standard,Git Markdown,Annual,2027-03-27
+DOC-0152,emp_557,Architecture Team,Architecture Core Team,Architecture,2026-05-08,2026-06-19,Draft,,3.0,Draft,Architecture Team,Restricted,Meeting Decision,Confluence,Annual,2027-06-19
+DOC-0153,emp_263,Principal Engineer,Engineering Core Team,Engineering,2024-11-06,2026-04-04,Draft,,3.1,Draft,Principal Engineer,Restricted,Standard,Git Markdown,Annual,2027-04-04
+DOC-0154,emp_525,Senior Engineer,Platform Core Team,Platform,2026-02-13,2026-06-13,Under Review,,3.2,Draft,Senior Engineer,Public,Deprecated Document,Confluence,Annual,2027-06-13
+DOC-0155,emp_948,Architecture Board,Data Engineering Core Team,Data Engineering,2026-01-24,2026-06-02,Under Review,,1.0,Draft,Architecture Board,Restricted,Deprecated Document,Git Markdown,Annual,2027-06-02
+DOC-0156,emp_622,Chief Architect,DevOps Core Team,DevOps,2025-07-15,2025-08-12,Rejected,,2.1,Draft,Chief Architect,Public,Policy,Confluence,Annual,2026-08-12
+DOC-0157,emp_936,Principal Engineer,Engineering Core Team,Engineering,2025-03-08,2025-10-17,Approved,2025-10-17,2.2,Superseded,Principal Engineer,Public,Architecture Decision Record,Git Markdown,Annual,2026-10-17
+DOC-0158,emp_284,Engineer,Engineering Core Team,Engineering,2025-04-18,2026-03-12,Draft,,2.1,Draft,Engineer,Confidential,Engineering Note,Confluence,Annual,2027-03-12
+DOC-0159,emp_221,Senior Engineer,Data Engineering Core Team,Data Engineering,2026-07-27,2026-07-31,Rejected,,3.0,Draft,Senior Engineer,Public,Engineering Note,Git Markdown,Annual,2027-07-31
+DOC-0160,emp_488,Unverified,DevOps Core Team,DevOps,05/22/2022,2024-12-20,Draft,,1.2,Draft,Unverified,Public,Project Documentation,Confluence,Annual,2025-12-20
+DOC-0161,emp_168,Architecture Team,Engineering Core Team,Engineering,2024-05-01,2024-06-04,Rejected,,3.0,Draft,Architecture Team,Internal,Technical Design Document,Git Markdown,Annual,2025-06-04
+DOC-0162,emp_615,Senior Architect,Platform Core Team,Platform,2022-04-25,2026-06-01,Draft,,3.1,Draft,Senior Architect,Internal,Meeting Decision,Confluence,Annual,2027-06-01
+DOC-0163,emp_381,Principal Engineer,Platform Core Team,Platform,02/15/2024,2025-10-12,Under Review,,2.2,Draft,Principal Engineer,Confidential,Architecture Decision Record,Git Markdown,Annual,2026-10-12
+DOC-0164,emp_518,Engineer,Security Core Team,Security,2022-09-07,2024-10-16,Under Review,,2.0,Draft,Engineer,Internal,Engineering Note,Confluence,Annual,2025-10-16
+DOC-0165,emp_670,Engineer,Data Engineering Core Team,Data Engineering,2021-10-02,2023-12-06,Under Review,,2.2,Draft,Engineer,Public,Deprecated Document,Git Markdown,Annual,2024-12-05
+DOC-0166,emp_374,Architecture Board,DevOps Core Team,DevOps,2024-10-11,2026-06-22,Approved,2026-06-22,3.2,Active,Architecture Board,Internal,Standard,Confluence,Annual,2027-06-22
+DOC-0167,emp_859,Architecture Team,Engineering Core Team,Engineering,2025-03-10,2026-03-31,Rejected,,3.2,Draft,Architecture Team,Internal,Technical Design Document,Git Markdown,Annual,2027-03-31
+DOC-0168,emp_646,Project Notes,Architecture Core Team,Architecture,2022-09-24,2024-03-12,Draft,,2.1,Draft,Project Notes,Public,Security Recommendation,Confluence,Annual,2025-03-12
+DOC-0169,emp_146,Engineer,Architecture Core Team,Architecture,2025-11-05,2026-02-26,Under Review,,3.2,Superseded,Engineer,Confidential,Draft Document,Git Markdown,Annual,2027-02-26
+DOC-0170,emp_663,Project Notes,Data Engineering Core Team,Data Engineering,2022-06-12,2025-03-08,Rejected,,3.1,Draft,Project Notes,Internal,Security Recommendation,Confluence,Annual,2026-03-08
+DOC-0171,emp_134,Unverified,DevOps Core Team,DevOps,2026-04-20,2026-07-14,Approved,2026-07-14,2.0,Active,Unverified,Internal,Technical Design Document,Git Markdown,Annual,2027-07-14
+DOC-0172,emp_732,Architecture Board,Security Core Team,Security,02/13/2026,2026-06-16,Rejected,,3.2,Superseded,Architecture Board,Confidential,Draft Document,Confluence,Annual,2027-06-16
+DOC-0173,emp_932,Unverified,Architecture Core Team,Architecture,2025-07-10,2025-10-09,Approved,2025-10-09,3.0,Active,Unverified,Internal,Standard,Git Markdown,Annual,2026-10-09
+DOC-0174,emp_482,Chief Architect,Product Core Team,Product,2023-07-30,2024-12-09,Under Review,,1.2,Draft,Chief Architect,Public,Standard,Confluence,Annual,2025-12-09
+DOC-0175,emp_184,Senior Architect,Engineering Core Team,Engineering,2025-09-28,2026-05-08,Draft,,1.2,Draft,Senior Architect,Public,Policy,Git Markdown,Annual,2027-05-08
+DOC-0176,emp_800,Chief Architect,Architecture Core Team,Architecture,2026-01-16,2026-06-04,Approved,2026-06-04,2.0,Active,Chief Architect,Internal,Meeting Decision,Confluence,Annual,2027-06-04
+DOC-0177,emp_680,Architecture Team,Architecture Core Team,Architecture,2024-10-18,2026-04-24,Draft,,3.0,Draft,Architecture Team,Public,Standard,Git Markdown,Annual,2027-04-24
+DOC-0178,emp_448,Chief Architect,Security Core Team,Security,2025-04-24,2026-03-04,Rejected,,2.0,Draft,Chief Architect,Restricted,Draft Document,Confluence,Annual,2027-03-04
+DOC-0179,emp_290,Engineer,Data Engineering Core Team,Data Engineering,2024-09-15,2025-10-09,Approved,2025-10-09,2.0,Active,Engineer,Public,Draft Document,Git Markdown,Annual,2026-10-09
+DOC-0180,emp_469,Senior Engineer,DevOps Core Team,DevOps,2021-07-07,2021-07-17,Draft,,2.0,Draft,Senior Engineer,Internal,Technical Design Document,Confluence,Annual,2022-07-17
+DOC-0181,emp_126,Chief Architect,Data Engineering Core Team,Data Engineering,2022-12-26,2026-02-03,Approved,2026-02-03,2.1,Active,Chief Architect,Public,Technical Design Document,Git Markdown,Annual,2027-02-03
+DOC-0182,emp_273,Unverified,Data Engineering Core Team,Data Engineering,2021-12-14,2022-09-24,Draft,,1.0,Draft,Unverified,Internal,Standard,Confluence,Annual,2023-09-24
+DOC-0183,emp_352,Principal Engineer,Engineering Core Team,Engineering,2024-05-01,2026-01-22,Under Review,,1.1,Draft,Principal Engineer,Public,Policy,Git Markdown,Annual,2027-01-22
+DOC-0184,emp_442,Project Notes,Product Core Team,Product,2025-07-29,2026-06-27,Under Review,,3.2,Draft,Project Notes,Internal,Standard,Confluence,Annual,2027-06-27
+DOC-0185,emp_433,Architecture Team,Architecture Core Team,Architecture,2022-07-29,2024-10-10,Draft,,3.0,Superseded,Architecture Team,Internal,Standard,Git Markdown,Annual,2025-10-10
+DOC-0186,emp_951,Principal Engineer,Platform Core Team,Platform,2025-08-05,2026-03-02,Rejected,,2.0,Draft,Principal Engineer,Restricted,Technical Design Document,Confluence,Annual,2027-03-02
+DOC-0187,emp_647,Engineer,Security Core Team,Security,2026-03-07,2026-06-22,Approved,2026-06-22,2.2,Active,Engineer,Public,Deprecated Document,Git Markdown,Annual,2027-06-22
+DOC-0188,emp_870,Engineer,Platform Core Team,Platform,2026-06-01,2026-07-21,Rejected,,1.1,Superseded,Engineer,Internal,Security Recommendation,Confluence,Annual,2027-07-21
+DOC-0189,emp_483,Project Notes,Data Engineering Core Team,Data Engineering,2023-08-07,2026-05-27,Under Review,,1.1,Draft,Project Notes,Public,Standard,Git Markdown,Annual,2027-05-27
+DOC-0190,emp_419,Senior Engineer,Product Core Team,Product,2023-07-22,2024-09-17,Draft,,2.2,Draft,Senior Engineer,Confidential,Security Recommendation,Confluence,Annual,2025-09-17
+DOC-0191,emp_793,Chief Architect,Product Core Team,Product,2026-03-20,2026-05-21,Under Review,,2.2,Draft,Chief Architect,Confidential,Engineering Note,Git Markdown,Annual,2027-05-21
+DOC-0192,emp_505,Engineer,Platform Core Team,Platform,2025-02-19,2025-09-09,Rejected,,2.0,Draft,Engineer,Internal,Architecture Decision Record,Confluence,Annual,2026-09-09
+DOC-0193,emp_433,Senior Engineer,Engineering Core Team,Engineering,2023-07-27,2024-03-16,Rejected,,3.1,Draft,Senior Engineer,Confidential,Project Documentation,Git Markdown,Annual,2025-03-16
+DOC-0194,emp_933,Senior Architect,Product Core Team,Product,2026-02-25,2026-08-01,Approved,2026-08-01,2.0,Active,Senior Architect,Internal,Meeting Decision,Confluence,Annual,2027-08-01
+DOC-0195,emp_688,Senior Architect,Security Core Team,Security,2023-05-17,2024-05-31,Rejected,,3.2,Draft,Senior Architect,Internal,Standard,Git Markdown,Annual,2025-05-31
+DOC-0196,emp_986,Architecture Board,Architecture Core Team,Architecture,2026-05-04,2026-05-05,Rejected,,2.2,Draft,Architecture Board,Confidential,Security Recommendation,Confluence,Annual,2027-05-05
+DOC-0197,emp_914,Architecture Board,Platform Core Team,Platform,2022-08-22,2022-10-27,Draft,,2.0,Draft,Architecture Board,Confidential,Project Documentation,Git Markdown,Annual,2023-10-27
+DOC-0198,emp_374,Chief Architect,Data Engineering Core Team,Data Engineering,2025-08-14,2026-02-17,Approved,2026-02-17,2.2,Active,Chief Architect,Internal,Deprecated Document,Confluence,Annual,2027-02-17
+DOC-0199,emp_560,Architecture Board,Platform Core Team,Platform,2022-12-15,2023-06-11,Rejected,,1.0,Draft,Architecture Board,Internal,Meeting Decision,Git Markdown,Annual,2024-06-10
+DOC-0200,emp_730,Senior Architect,DevOps Core Team,DevOps,2025-05-27,2025-09-09,Under Review,,3.1,Draft,Senior Architect,Restricted,Engineering Note,Confluence,Annual,2026-09-09
+DOC-0201,emp_795,Unverified,Data Engineering Core Team,Data Engineering,2021-10-05,2025-12-19,Rejected,,2.2,Draft,Unverified,Internal,Technical Design Document,Git Markdown,Annual,2026-12-19
+DOC-0202,emp_601,Engineer,Architecture Core Team,Architecture,2024-03-28,2026-01-04,Draft,,2.1,Draft,Engineer,Public,Engineering Note,Confluence,Annual,2027-01-04
+DOC-0203,emp_565,Senior Engineer,Data Engineering Core Team,Data Engineering,2022-11-02,2026-02-05,Approved,2026-02-05,2.2,Active,Senior Engineer,Restricted,Policy,Git Markdown,Annual,2027-02-05
+DOC-0204,emp_374,Project Notes,Security Core Team,Security,2025-08-24,2026-01-16,Draft,,1.2,Draft,Project Notes,Confidential,Security Recommendation,Confluence,Annual,2027-01-16
+DOC-0205,emp_227,Architecture Board,Engineering Core Team,Engineering,2023-06-23,2026-01-12,Approved,2026-01-12,2.0,Active,Architecture Board,Internal,Engineering Note,Git Markdown,Annual,2027-01-12
+DOC-0206,emp_184,Principal Engineer,DevOps Core Team,DevOps,2024-09-22,2026-07-18,Under Review,,3.1,Superseded,Principal Engineer,Internal,Security Recommendation,Confluence,Annual,2027-07-18
+DOC-0207,emp_235,Chief Architect,Platform Core Team,Platform,2022-04-09,2025-03-07,Rejected,,3.1,Superseded,Chief Architect,Public,Draft Document,Git Markdown,Annual,2026-03-07
+DOC-0208,emp_191,Engineer,Engineering Core Team,Engineering,2021-07-31,2023-05-03,Draft,,1.1,Draft,Engineer,Internal,Technical Design Document,Confluence,Annual,2024-05-02
+DOC-0209,emp_550,Senior Architect,Data Engineering Core Team,Data Engineering,2025-01-19,2025-08-25,Rejected,,2.0,Draft,Senior Architect,Public,Security Recommendation,Git Markdown,Annual,2026-08-25
+DOC-0210,emp_539,Senior Engineer,DevOps Core Team,DevOps,2025-06-09,2025-08-19,Under Review,,1.0,Draft,Senior Engineer,Restricted,Security Recommendation,Confluence,Annual,2026-08-19
+DOC-0211,emp_402,Engineer,Platform Core Team,Platform,2025-05-25,2026-07-05,Under Review,,1.0,Draft,Engineer,Confidential,Architecture Decision Record,Git Markdown,Annual,2027-07-05
+DOC-0212,emp_981,Engineer,Architecture Core Team,Architecture,05/12/2023,2025-05-29,Under Review,,1.0,Draft,Engineer,Public,Draft Document,Confluence,Annual,2026-05-29
+DOC-0213,emp_885,Unverified,Security Core Team,Security,2023-05-18,2025-08-18,Approved,2025-08-18,3.2,Active,Unverified,Internal,Standard,Git Markdown,Annual,2026-08-18
+DOC-0214,emp_434,Unverified,Product Core Team,Product,2024-04-16,2026-01-25,Approved,2026-01-25,2.2,Active,Unverified,Internal,Standard,Confluence,Annual,2027-01-25
+DOC-0215,emp_782,Principal Engineer,Security Core Team,Security,2021-09-02,2021-09-27,Under Review,,1.1,Draft,Principal Engineer,Restricted,Engineering Note,Git Markdown,Annual,2022-09-27
+DOC-0216,emp_850,Principal Engineer,Architecture Core Team,Architecture,2025-04-29,2025-05-14,Draft,,2.2,Draft,Principal Engineer,Public,Technical Design Document,Confluence,Annual,2026-05-14
+DOC-0217,emp_468,Unverified,Security Core Team,Security,2023-10-21,2026-03-18,Under Review,,2.0,Draft,Unverified,Public,Architecture Decision Record,Git Markdown,Annual,2027-03-18
+DOC-0218,emp_147,Architecture Team,Product Core Team,Product,2023-01-16,2025-03-10,Under Review,,1.2,Draft,Architecture Team,Confidential,Policy,Confluence,Annual,2026-03-10
+DOC-0219,emp_222,Senior Engineer,Product Core Team,Product,2024-10-10,2024-12-02,Under Review,,3.0,Draft,Senior Engineer,Confidential,Deprecated Document,Git Markdown,Annual,2025-12-02
+DOC-0220,emp_188,Senior Engineer,Product Core Team,Product,2023-07-25,2023-08-10,Draft,,3.1,Draft,Senior Engineer,Internal,Deprecated Document,Confluence,Annual,2024-08-09
+DOC-0221,emp_878,Unverified,Product Core Team,Product,2021-11-05,2021-11-18,Rejected,,3.1,Superseded,Unverified,Public,Project Documentation,Git Markdown,Annual,2022-11-18
+DOC-0222,emp_310,Chief Architect,Product Core Team,Product,2026-07-07,2026-07-14,Rejected,,1.0,Draft,Chief Architect,Restricted,Deprecated Document,Confluence,Annual,2027-07-14
+DOC-0223,emp_865,Project Notes,DevOps Core Team,DevOps,2024-04-04,2024-07-10,Under Review,,2.0,Draft,Project Notes,Public,Technical Design Document,Git Markdown,Annual,2025-07-10
+DOC-0224,emp_817,Engineer,Architecture Core Team,Architecture,2022-10-14,2025-04-28,Draft,,1.0,Draft,Engineer,Public,Security Recommendation,Confluence,Annual,2026-04-28
+DOC-0225,emp_466,Unverified,Security Core Team,Security,2023-07-15,2025-04-06,Rejected,,1.0,Draft,Unverified,Internal,Project Documentation,Git Markdown,Annual,2026-04-06
+DOC-0226,emp_193,Senior Architect,Platform Core Team,Platform,2026-06-07,2026-06-29,Rejected,,3.1,Draft,Senior Architect,Restricted,Project Documentation,Confluence,Annual,2027-06-29
+DOC-0227,emp_573,Chief Architect,Security Core Team,Security,2025-07-05,2025-09-14,Approved,2025-09-14,1.0,Superseded,Chief Architect,Internal,Technical Design Document,Git Markdown,Annual,2026-09-14
+DOC-0228,emp_122,Chief Architect,Engineering Core Team,Engineering,02/09/2022,2025-09-23,Rejected,,1.1,Draft,Chief Architect,Public,Technical Design Document,Confluence,Annual,2026-09-23
+DOC-0229,emp_130,Project Notes,Security Core Team,Security,2024-10-31,2026-01-10,Under Review,,1.1,Draft,Project Notes,Restricted,Standard,Git Markdown,Annual,2027-01-10
+DOC-0230,emp_610,Principal Engineer,Data Engineering Core Team,Data Engineering,2025-12-13,2026-05-02,Rejected,,2.1,Superseded,Principal Engineer,Internal,Standard,Confluence,Annual,2027-05-02
+DOC-0231,emp_900,Engineer,DevOps Core Team,DevOps,2023-09-10,2026-05-29,Draft,,3.1,Draft,Engineer,Confidential,Security Recommendation,Git Markdown,Annual,2027-05-29
+DOC-0232,emp_928,Architecture Board,Engineering Core Team,Engineering,2023-12-21,2024-12-21,Under Review,,1.0,Draft,Architecture Board,Internal,Policy,Confluence,Annual,2025-12-21
+DOC-0233,emp_959,Senior Engineer,Platform Core Team,Platform,2021-12-27,2023-04-25,Draft,,3.1,Draft,Senior Engineer,Public,Engineering Note,Git Markdown,Annual,2024-04-24
+DOC-0234,emp_655,Project Notes,Platform Core Team,Platform,12/26/2021,2024-09-25,Approved,2024-09-25,1.2,Superseded,Project Notes,Internal,Meeting Decision,Confluence,Annual,2025-09-25
+DOC-0235,emp_834,Senior Engineer,Platform Core Team,Platform,2026-02-25,2026-05-18,Approved,2026-05-18,3.2,Superseded,Senior Engineer,Internal,Engineering Note,Git Markdown,Annual,2027-05-18
+DOC-0236,emp_444,Chief Architect,Architecture Core Team,Architecture,2022-10-23,2023-07-29,Under Review,,2.2,Draft,Chief Architect,Confidential,Meeting Decision,Confluence,Annual,2024-07-28
+DOC-0237,emp_781,Architecture Team,Data Engineering Core Team,Data Engineering,2025-07-27,2025-10-24,Rejected,,3.1,Draft,Architecture Team,Internal,Draft Document,Git Markdown,Annual,2026-10-24
+DOC-0238,emp_716,Senior Architect,Product Core Team,Product,2026-03-02,2026-04-27,Approved,2026-04-27,1.1,Active,Senior Architect,Public,Security Recommendation,Confluence,Annual,2027-04-27
+DOC-0239,emp_111,Project Notes,Engineering Core Team,Engineering,03/06/2022,2023-07-30,Approved,2023-07-30,1.2,Active,Project Notes,Public,Meeting Decision,Git Markdown,Annual,2024-07-29
+DOC-0240,emp_459,Engineer,Security Core Team,Security,2023-02-08,2023-09-03,Rejected,,3.2,Draft,Engineer,Internal,Deprecated Document,Confluence,Annual,2024-09-02
+DOC-0241,emp_207,Principal Engineer,Engineering Core Team,Engineering,2022-12-02,2023-11-15,Rejected,,1.2,Draft,Principal Engineer,Public,Technical Design Document,Git Markdown,Annual,2024-11-14
+DOC-0242,emp_721,Senior Architect,Engineering Core Team,Engineering,2021-11-18,2022-03-07,Approved,2022-03-07,1.1,Active,Senior Architect,Restricted,Standard,Confluence,Annual,2023-03-07
+DOC-0243,emp_155,Senior Architect,Security Core Team,Security,2021-01-08,2023-06-02,Approved,2023-06-02,3.2,Active,Senior Architect,Confidential,Security Recommendation,Git Markdown,Annual,2024-06-01
+DOC-0244,emp_964,Project Notes,Architecture Core Team,Architecture,2022-09-24,2024-12-16,Rejected,,3.1,Draft,Project Notes,Public,Technical Design Document,Confluence,Annual,2025-12-16
+DOC-0245,emp_145,Project Notes,Architecture Core Team,Architecture,2023-06-20,2026-01-27,Draft,,2.2,Draft,Project Notes,Public,Meeting Decision,Git Markdown,Annual,2027-01-27
+DOC-0246,emp_523,Unverified,DevOps Core Team,DevOps,2022-04-11,2025-05-18,Approved,2025-05-18,3.1,Active,Unverified,Confidential,Draft Document,Confluence,Annual,2026-05-18
+DOC-0247,emp_684,Unverified,Security Core Team,Security,2025-06-28,2026-04-16,Under Review,,2.0,Draft,Unverified,Internal,Deprecated Document,Git Markdown,Annual,2027-04-16
+DOC-0248,emp_306,Engineer,Security Core Team,Security,2025-09-05,2026-07-06,Draft,,3.0,Draft,Engineer,Public,Engineering Note,Confluence,Annual,2027-07-06
+DOC-0249,emp_905,Architecture Board,Architecture Core Team,Architecture,2024-04-18,2025-10-05,Rejected,,1.0,Superseded,Architecture Board,Public,Draft Document,Git Markdown,Annual,2026-10-05
+DOC-0250,emp_370,Engineer,Architecture Core Team,Architecture,2024-09-03,2026-01-13,Rejected,,2.1,Superseded,Engineer,Internal,Standard,Confluence,Annual,2027-01-13
+DOC-0251,emp_150,Architecture Team,Security Core Team,Security,2026-03-01,2026-05-08,Draft,,2.1,Superseded,Architecture Team,Restricted,Policy,Git Markdown,Annual,2027-05-08
+DOC-0252,emp_407,Senior Architect,Product Core Team,Product,2025-05-05,2026-07-01,Draft,,2.2,Draft,Senior Architect,Public,Policy,Confluence,Annual,2027-07-01
+DOC-0253,emp_627,Architecture Board,Security Core Team,Security,2021-05-15,2023-02-11,Rejected,,3.2,Draft,Architecture Board,Public,Engineering Note,Git Markdown,Annual,2024-02-11
+DOC-0254,emp_567,Architecture Board,Engineering Core Team,Engineering,2026-02-24,2026-05-27,Under Review,,2.2,Draft,Architecture Board,Confidential,Architecture Decision Record,Confluence,Annual,2027-05-27
+DOC-0255,emp_281,Project Notes,Architecture Core Team,Architecture,2024-04-16,2025-11-01,Draft,,2.2,Draft,Project Notes,Public,Policy,Git Markdown,Annual,2026-11-01
+DOC-0256,emp_762,Architecture Team,Data Engineering Core Team,Data Engineering,2024-10-19,2025-05-18,Draft,,3.0,Draft,Architecture Team,Public,Project Documentation,Confluence,Annual,2026-05-18
+DOC-0257,emp_358,Architecture Team,Product Core Team,Product,2025-07-07,2025-12-10,Draft,,2.1,Draft,Architecture Team,Confidential,Draft Document,Git Markdown,Annual,2026-12-10
+DOC-0258,emp_107,Chief Architect,Product Core Team,Product,2024-09-18,2025-10-06,Draft,,1.1,Draft,Chief Architect,Public,Deprecated Document,Confluence,Annual,2026-10-06
+DOC-0259,emp_292,Principal Engineer,Architecture Core Team,Architecture,2023-11-26,2026-01-17,Under Review,,3.1,Draft,Principal Engineer,Restricted,Engineering Note,Git Markdown,Annual,2027-01-17
+DOC-0260,emp_514,Engineer,Architecture Core Team,Architecture,2025-02-17,2025-03-25,Under Review,,3.0,Draft,Engineer,Confidential,Standard,Confluence,Annual,2026-03-25
+DOC-0261,emp_285,Unverified,Product Core Team,Product,2021-07-19,2024-03-09,Under Review,,3.2,Draft,Unverified,Internal,Meeting Decision,Git Markdown,Annual,2025-03-09
+DOC-0262,emp_862,Architecture Team,Platform Core Team,Platform,2023-05-12,2025-03-20,Draft,,2.1,Draft,Architecture Team,Public,Meeting Decision,Confluence,Annual,2026-03-20
+DOC-0263,emp_299,Project Notes,Data Engineering Core Team,Data Engineering,2021-09-03,2026-07-15,Rejected,,2.0,Draft,Project Notes,Internal,Deprecated Document,Git Markdown,Annual,2027-07-15
+DOC-0264,emp_983,Senior Engineer,Security Core Team,Security,05/15/2025,2025-06-25,Rejected,,1.1,Draft,Senior Engineer,Public,Engineering Note,Confluence,Annual,2026-06-25
+DOC-0265,emp_904,Project Notes,Product Core Team,Product,2021-09-23,2025-03-04,Rejected,,2.1,Draft,Project Notes,Confidential,Technical Design Document,Git Markdown,Annual,2026-03-04
+DOC-0266,emp_875,Senior Engineer,Architecture Core Team,Architecture,2022-01-26,2022-03-03,Approved,2022-03-03,1.0,Active,Senior Engineer,Restricted,Deprecated Document,Confluence,Annual,2023-03-03
+DOC-0267,emp_943,Chief Architect,Architecture Core Team,Architecture,2022-09-03,2024-04-20,Rejected,,3.2,Draft,Chief Architect,Restricted,Architecture Decision Record,Git Markdown,Annual,2025-04-20
+DOC-0268,emp_268,Architecture Team,Security Core Team,Security,2021-02-09,2022-05-22,Under Review,,1.0,Draft,Architecture Team,Public,Standard,Confluence,Annual,2023-05-22
+DOC-0269,emp_997,Engineer,DevOps Core Team,DevOps,2025-04-29,2026-01-27,Approved,2026-01-27,1.2,Active,Engineer,Public,Meeting Decision,Git Markdown,Annual,2027-01-27
+DOC-0270,emp_660,Chief Architect,Security Core Team,Security,2023-08-30,2024-07-08,Under Review,,3.0,Draft,Chief Architect,Restricted,Meeting Decision,Confluence,Annual,2025-07-08
+DOC-0271,emp_950,Engineer,Data Engineering Core Team,Data Engineering,2023-11-14,2025-11-19,Approved,2025-11-19,1.1,Active,Engineer,Internal,Technical Design Document,Git Markdown,Annual,2026-11-19
+DOC-0272,emp_264,Principal Engineer,Architecture Core Team,Architecture,01/28/2024,2025-06-19,Under Review,,2.1,Draft,Principal Engineer,Internal,Architecture Decision Record,Confluence,Annual,2026-06-19
+DOC-0273,emp_192,Senior Architect,Data Engineering Core Team,Data Engineering,2021-06-03,2025-06-23,Approved,2025-06-23,3.0,Active,Senior Architect,Confidential,Deprecated Document,Git Markdown,Annual,2026-06-23
+DOC-0274,emp_972,Architecture Board,Engineering Core Team,Engineering,2023-01-08,2024-10-09,Rejected,,1.0,Draft,Architecture Board,Public,Meeting Decision,Confluence,Annual,2025-10-09
+DOC-0275,emp_999,Principal Engineer,Architecture Core Team,Architecture,2023-02-03,2025-01-04,Under Review,,2.1,Superseded,Principal Engineer,Restricted,Technical Design Document,Git Markdown,Annual,2026-01-04
+DOC-0276,emp_235,Chief Architect,Security Core Team,Security,2026-07-04,2026-07-31,Under Review,,3.1,Superseded,Chief Architect,Confidential,Architecture Decision Record,Confluence,Annual,2027-07-31
+DOC-0277,emp_599,Project Notes,Engineering Core Team,Engineering,12/23/2025,2026-04-07,Rejected,,2.2,Superseded,Project Notes,Restricted,Technical Design Document,Git Markdown,Annual,2027-04-07
+DOC-0278,emp_631,Senior Engineer,DevOps Core Team,DevOps,2024-11-10,2025-02-15,Rejected,,1.1,Draft,Senior Engineer,Restricted,Deprecated Document,Confluence,Annual,2026-02-15
+DOC-0279,emp_758,Architecture Board,Product Core Team,Product,2023-11-02,2026-03-20,Rejected,,1.0,Draft,Architecture Board,Confidential,Engineering Note,Git Markdown,Annual,2027-03-20
+DOC-0280,emp_758,Unverified,Data Engineering Core Team,Data Engineering,2023-04-06,2024-07-30,Approved,2024-07-30,3.1,Active,Unverified,Public,Standard,Confluence,Annual,2025-07-30
+DOC-0281,emp_513,Chief Architect,DevOps Core Team,DevOps,2021-03-15,2024-04-29,Approved,2024-04-29,3.2,Active,Chief Architect,Restricted,Standard,Git Markdown,Annual,2025-04-29
+DOC-0282,emp_945,Senior Engineer,Security Core Team,Security,2025-07-31,2025-11-22,Rejected,,3.2,Draft,Senior Engineer,Confidential,Architecture Decision Record,Confluence,Annual,2026-11-22
+DOC-0283,emp_449,Architecture Board,Engineering Core Team,Engineering,08/27/2025,2026-07-17,Draft,,2.2,Draft,Architecture Board,Public,Security Recommendation,Git Markdown,Annual,2027-07-17
+DOC-0284,emp_360,Chief Architect,DevOps Core Team,DevOps,2022-02-06,2023-02-25,Approved,2023-02-25,2.0,Active,Chief Architect,Confidential,Draft Document,Confluence,Annual,2024-02-25
+DOC-0285,emp_748,Architecture Board,Product Core Team,Product,2021-09-10,2026-01-08,Rejected,,3.2,Draft,Architecture Board,Internal,Draft Document,Git Markdown,Annual,2027-01-08
+DOC-0286,emp_899,Unverified,Security Core Team,Security,2024-11-17,2026-07-02,Under Review,,1.0,Draft,Unverified,Confidential,Engineering Note,Confluence,Annual,2027-07-02
+DOC-0287,emp_380,Architecture Team,Security Core Team,Security,2026-05-28,2026-07-10,Draft,,1.0,Draft,Architecture Team,Confidential,Standard,Git Markdown,Annual,2027-07-10
+DOC-0288,emp_747,Unverified,Product Core Team,Product,2022-02-16,2023-04-21,Draft,,3.0,Draft,Unverified,Internal,Project Documentation,Confluence,Annual,2024-04-20
+DOC-0289,emp_591,Unverified,Engineering Core Team,Engineering,2024-03-14,2026-01-26,Rejected,,3.1,Draft,Unverified,Confidential,Draft Document,Git Markdown,Annual,2027-01-26
+DOC-0290,emp_304,Architecture Board,Platform Core Team,Platform,2025-03-17,2026-04-23,Draft,,1.0,Draft,Architecture Board,Restricted,Meeting Decision,Confluence,Annual,2027-04-23
+DOC-0291,emp_985,Unverified,Security Core Team,Security,2025-03-01,2026-04-03,Under Review,,3.1,Draft,Unverified,Public,Project Documentation,Git Markdown,Annual,2027-04-03
+DOC-0292,emp_861,Architecture Board,Data Engineering Core Team,Data Engineering,2022-02-20,2025-08-13,Rejected,,3.2,Draft,Architecture Board,Restricted,Meeting Decision,Confluence,Annual,2026-08-13
+DOC-0293,emp_559,Principal Engineer,Product Core Team,Product,2026-07-08,2026-07-29,Approved,2026-07-29,1.2,Active,Principal Engineer,Public,Engineering Note,Git Markdown,Annual,2027-07-29
+DOC-0294,emp_105,Principal Engineer,Platform Core Team,Platform,2023-08-14,2024-06-26,Approved,2024-06-26,2.2,Active,Principal Engineer,Public,Security Recommendation,Confluence,Annual,2025-06-26
+DOC-0295,emp_902,Chief Architect,Security Core Team,Security,2023-12-13,2024-07-25,Under Review,,3.0,Draft,Chief Architect,Confidential,Security Recommendation,Git Markdown,Annual,2025-07-25
+DOC-0296,emp_469,Senior Engineer,Platform Core Team,Platform,2022-03-24,2026-06-12,Rejected,,3.0,Draft,Senior Engineer,Public,Meeting Decision,Confluence,Annual,2027-06-12
+DOC-0297,emp_798,Architecture Board,Data Engineering Core Team,Data Engineering,2023-02-21,2023-10-11,Rejected,,3.1,Draft,Architecture Board,Public,Security Recommendation,Git Markdown,Annual,2024-10-10
+DOC-0298,emp_144,Project Notes,Product Core Team,Product,2026-01-14,2026-06-29,Under Review,,1.0,Draft,Project Notes,Internal,Meeting Decision,Confluence,Annual,2027-06-29
+DOC-0299,emp_786,Architecture Team,DevOps Core Team,DevOps,2025-11-07,2026-06-12,Approved,2026-06-12,3.2,Active,Architecture Team,Confidential,Project Documentation,Git Markdown,Annual,2027-06-12
+DOC-0300,emp_138,Senior Engineer,Engineering Core Team,Engineering,2021-05-31,2021-09-19,Under Review,,3.0,Draft,Senior Engineer,Internal,Technical Design Document,Confluence,Annual,2022-09-19
+DOC-0301,emp_117,Senior Engineer,Security Core Team,Security,2024-10-10,2025-02-08,Approved,2025-02-08,3.0,Active,Senior Engineer,Public,Standard,Git Markdown,Annual,2026-02-08
+DOC-0302,emp_388,Chief Architect,Architecture Core Team,Architecture,2023-02-21,2025-05-10,Approved,2025-05-10,3.0,Active,Chief Architect,Internal,Policy,Confluence,Annual,2026-05-10
+DOC-0303,emp_793,Principal Engineer,DevOps Core Team,DevOps,2026-05-15,2026-05-16,Under Review,,1.2,Draft,Principal Engineer,Confidential,Security Recommendation,Git Markdown,Annual,2027-05-16
+DOC-0304,emp_522,Architecture Team,DevOps Core Team,DevOps,2021-10-19,2022-09-13,Under Review,,2.0,Draft,Architecture Team,Public,Deprecated Document,Confluence,Annual,2023-09-13
+DOC-0305,emp_174,Unverified,Product Core Team,Product,2024-10-07,2024-12-14,Draft,,3.2,Superseded,Unverified,Confidential,Meeting Decision,Git Markdown,Annual,2025-12-14
+DOC-0306,emp_734,Principal Engineer,Platform Core Team,Platform,2026-01-18,2026-03-08,Draft,,2.2,Draft,Principal Engineer,Restricted,Technical Design Document,Confluence,Annual,2027-03-08
+DOC-0307,emp_272,Engineer,Product Core Team,Product,2022-10-04,2024-02-20,Under Review,,3.1,Draft,Engineer,Restricted,Architecture Decision Record,Git Markdown,Annual,2025-02-19
+DOC-0308,emp_893,Senior Engineer,Security Core Team,Security,2023-09-25,2024-05-04,Under Review,,1.1,Draft,Senior Engineer,Internal,Meeting Decision,Confluence,Annual,2025-05-04
+DOC-0309,emp_969,Architecture Board,DevOps Core Team,DevOps,2024-07-17,2024-08-17,Rejected,,1.0,Draft,Architecture Board,Restricted,Deprecated Document,Git Markdown,Annual,2025-08-17
+DOC-0310,emp_501,Senior Engineer,Product Core Team,Product,2025-12-31,2026-07-16,Draft,,3.2,Draft,Senior Engineer,Public,Project Documentation,Confluence,Annual,2027-07-16
+DOC-0311,emp_243,Unverified,Product Core Team,Product,2021-11-23,2022-11-24,Under Review,,2.1,Draft,Unverified,Public,Policy,Git Markdown,Annual,2023-11-24
+DOC-0312,emp_784,Architecture Board,Architecture Core Team,Architecture,2023-11-27,2026-06-13,Rejected,,2.0,Draft,Architecture Board,Public,Project Documentation,Confluence,Annual,2027-06-13
+DOC-0313,emp_692,Principal Engineer,Product Core Team,Product,2024-03-13,2024-09-07,Rejected,,2.2,Draft,Principal Engineer,Public,Deprecated Document,Git Markdown,Annual,2025-09-07
+DOC-0314,emp_598,Senior Engineer,Security Core Team,Security,2025-12-22,2026-05-25,Approved,2026-05-25,1.1,Active,Senior Engineer,Internal,Policy,Confluence,Annual,2027-05-25
+DOC-0315,emp_470,Senior Architect,Platform Core Team,Platform,2025-01-09,2025-05-10,Under Review,,2.2,Draft,Senior Architect,Public,Draft Document,Git Markdown,Annual,2026-05-10
+DOC-0316,emp_349,Architecture Board,Platform Core Team,Platform,2021-09-19,2024-12-06,Under Review,,3.0,Draft,Architecture Board,Internal,Architecture Decision Record,Confluence,Annual,2025-12-06
+DOC-0317,emp_187,Principal Engineer,Security Core Team,Security,2023-07-09,2026-02-28,Rejected,,2.2,Draft,Principal Engineer,Internal,Project Documentation,Git Markdown,Annual,2027-02-28
+DOC-0318,emp_841,Senior Architect,DevOps Core Team,DevOps,03/04/2026,2026-06-28,Approved,2026-06-28,2.0,Active,Senior Architect,Public,Security Recommendation,Confluence,Annual,2027-06-28
+DOC-0319,emp_281,Chief Architect,Security Core Team,Security,2026-01-21,2026-06-27,Approved,2026-06-27,3.2,Active,Chief Architect,Public,Policy,Git Markdown,Annual,2027-06-27
+DOC-0320,emp_634,Engineer,Product Core Team,Product,2023-01-29,2023-04-27,Rejected,,2.1,Draft,Engineer,Restricted,Standard,Confluence,Annual,2024-04-26
+DOC-0321,emp_588,Principal Engineer,Security Core Team,Security,2026-02-07,2026-02-28,Draft,,3.1,Draft,Principal Engineer,Restricted,Project Documentation,Git Markdown,Annual,2027-02-28
+DOC-0322,emp_107,Unverified,Data Engineering Core Team,Data Engineering,2024-09-02,2025-03-31,Rejected,,1.1,Draft,Unverified,Restricted,Standard,Confluence,Annual,2026-03-31
+DOC-0323,emp_873,Engineer,Data Engineering Core Team,Data Engineering,2023-04-27,2026-05-31,Rejected,,3.2,Draft,Engineer,Confidential,Project Documentation,Git Markdown,Annual,2027-05-31
+DOC-0324,emp_975,Senior Architect,DevOps Core Team,DevOps,2025-03-12,2025-07-07,Rejected,,1.0,Draft,Senior Architect,Internal,Technical Design Document,Confluence,Annual,2026-07-07
+DOC-0325,emp_498,Senior Architect,DevOps Core Team,DevOps,2025-07-06,2025-08-21,Under Review,,3.1,Draft,Senior Architect,Public,Architecture Decision Record,Git Markdown,Annual,2026-08-21
+DOC-0326,emp_728,Engineer,Engineering Core Team,Engineering,2022-08-10,2025-12-15,Under Review,,2.0,Draft,Engineer,Internal,Deprecated Document,Confluence,Annual,2026-12-15
+DOC-0327,emp_628,Unverified,Platform Core Team,Platform,2024-06-13,2024-12-03,Approved,2024-12-03,3.0,Active,Unverified,Internal,Project Documentation,Git Markdown,Annual,2025-12-03
+DOC-0328,emp_700,Engineer,DevOps Core Team,DevOps,2023-11-27,2023-12-12,Approved,2023-12-12,3.1,Active,Engineer,Restricted,Project Documentation,Confluence,Annual,2024-12-11
+DOC-0329,emp_688,Engineer,Platform Core Team,Platform,2022-06-19,2023-06-12,Rejected,,3.0,Draft,Engineer,Restricted,Architecture Decision Record,Git Markdown,Annual,2024-06-11
+DOC-0330,emp_486,Project Notes,Data Engineering Core Team,Data Engineering,2023-09-18,2025-01-28,Draft,,2.2,Draft,Project Notes,Confidential,Draft Document,Confluence,Annual,2026-01-28
+DOC-0331,emp_748,Engineer,Architecture Core Team,Architecture,2024-10-18,2025-06-10,Draft,,2.2,Draft,Engineer,Public,Project Documentation,Git Markdown,Annual,2026-06-10
+DOC-0332,emp_667,Chief Architect,Security Core Team,Security,2023-09-03,2025-06-06,Draft,,3.1,Draft,Chief Architect,Internal,Engineering Note,Confluence,Annual,2026-06-06
+DOC-0333,emp_853,Architecture Team,DevOps Core Team,DevOps,2025-11-23,2026-01-29,Under Review,,1.2,Draft,Architecture Team,Restricted,Project Documentation,Git Markdown,Annual,2027-01-29
+DOC-0334,emp_882,Architecture Board,DevOps Core Team,DevOps,2026-05-16,2026-05-21,Draft,,2.2,Draft,Architecture Board,Restricted,Deprecated Document,Confluence,Annual,2027-05-21
+DOC-0335,emp_155,Senior Architect,Security Core Team,Security,2025-06-25,2026-01-27,Rejected,,1.2,Draft,Senior Architect,Restricted,Deprecated Document,Git Markdown,Annual,2027-01-27
+DOC-0336,emp_805,Senior Engineer,Engineering Core Team,Engineering,2021-01-25,2024-11-05,Under Review,,1.1,Draft,Senior Engineer,Restricted,Architecture Decision Record,Confluence,Annual,2025-11-05
+DOC-0337,emp_727,Project Notes,Platform Core Team,Platform,2023-01-20,2024-01-31,Rejected,,2.2,Draft,Project Notes,Restricted,Security Recommendation,Git Markdown,Annual,2025-01-30
+DOC-0338,emp_933,Architecture Team,Data Engineering Core Team,Data Engineering,2025-01-16,2025-10-19,Under Review,,2.0,Draft,Architecture Team,Internal,Technical Design Document,Confluence,Annual,2026-10-19
+DOC-0339,emp_611,Engineer,Engineering Core Team,Engineering,2026-08-01,2026-08-01,Rejected,,3.2,Draft,Engineer,Public,Engineering Note,Git Markdown,Annual,2027-08-01
+DOC-0340,emp_959,Project Notes,Product Core Team,Product,2023-07-11,2025-05-26,Draft,,3.2,Draft,Project Notes,Restricted,Technical Design Document,Confluence,Annual,2026-05-26
+DOC-0341,emp_278,Unverified,DevOps Core Team,DevOps,2022-12-29,2024-10-24,Rejected,,2.0,Draft,Unverified,Confidential,Meeting Decision,Git Markdown,Annual,2025-10-24
+DOC-0342,emp_746,Engineer,Platform Core Team,Platform,2024-03-16,2025-05-04,Approved,2025-05-04,2.0,Superseded,Engineer,Restricted,Draft Document,Confluence,Annual,2026-05-04
+DOC-0343,emp_555,Principal Engineer,DevOps Core Team,DevOps,2025-03-12,2026-01-06,Rejected,,1.0,Draft,Principal Engineer,Internal,Security Recommendation,Git Markdown,Annual,2027-01-06
+DOC-0344,emp_197,Chief Architect,Platform Core Team,Platform,2026-04-03,2026-07-24,Approved,2026-07-24,2.2,Superseded,Chief Architect,Public,Technical Design Document,Confluence,Annual,2027-07-24
+DOC-0345,emp_353,Architecture Team,Security Core Team,Security,2023-06-27,2024-03-11,Under Review,,3.1,Superseded,Architecture Team,Restricted,Meeting Decision,Git Markdown,Annual,2025-03-11
+DOC-0346,emp_814,Senior Architect,Data Engineering Core Team,Data Engineering,2021-12-29,2025-04-22,Rejected,,3.2,Draft,Senior Architect,Confidential,Deprecated Document,Confluence,Annual,2026-04-22
+DOC-0347,emp_552,Chief Architect,Security Core Team,Security,2023-01-20,2025-05-13,Draft,,1.0,Draft,Chief Architect,Internal,Meeting Decision,Git Markdown,Annual,2026-05-13
+DOC-0348,emp_109,Principal Engineer,Security Core Team,Security,2025-06-23,2025-11-19,Under Review,,3.1,Draft,Principal Engineer,Internal,Standard,Confluence,Annual,2026-11-19
+DOC-0349,emp_325,Engineer,Platform Core Team,Platform,2021-06-12,2023-10-24,Under Review,,3.2,Draft,Engineer,Restricted,Meeting Decision,Git Markdown,Annual,2024-10-23
+DOC-0350,emp_239,Senior Architect,Platform Core Team,Platform,2021-08-15,2025-03-11,Rejected,,2.2,Draft,Senior Architect,Confidential,Meeting Decision,Confluence,Annual,2026-03-11
+DOC-0351,emp_388,Chief Architect,Engineering Core Team,Engineering,09/14/2021,2025-09-17,Rejected,,1.0,Draft,Chief Architect,Internal,Meeting Decision,Git Markdown,Annual,2026-09-17
+DOC-0352,emp_574,Senior Engineer,Product Core Team,Product,2022-11-08,2023-04-21,Under Review,,2.0,Superseded,Senior Engineer,Confidential,Architecture Decision Record,Confluence,Annual,2024-04-20
+DOC-0353,emp_886,Chief Architect,Security Core Team,Security,2023-02-28,2025-08-23,Under Review,,1.0,Draft,Chief Architect,Confidential,Project Documentation,Git Markdown,Annual,2026-08-23
+DOC-0354,emp_430,Principal Engineer,Security Core Team,Security,2024-07-12,2026-07-27,Approved,2026-07-27,3.2,Active,Principal Engineer,Public,Engineering Note,Confluence,Annual,2027-07-27
+DOC-0355,emp_341,Chief Architect,Engineering Core Team,Engineering,2022-10-27,2022-11-26,Under Review,,3.0,Draft,Chief Architect,Confidential,Standard,Git Markdown,Annual,2023-11-26
+DOC-0356,emp_480,Senior Architect,Product Core Team,Product,2022-05-25,2023-04-12,Rejected,,3.1,Superseded,Senior Architect,Public,Technical Design Document,Confluence,Annual,2024-04-11
+DOC-0357,emp_338,Project Notes,Engineering Core Team,Engineering,07/04/2026,2026-07-21,Draft,,2.2,Draft,Project Notes,Internal,Security Recommendation,Git Markdown,Annual,2027-07-21
+DOC-0358,emp_672,Project Notes,Engineering Core Team,Engineering,2024-01-17,2025-12-30,Rejected,,1.2,Draft,Project Notes,Restricted,Meeting Decision,Confluence,Annual,2026-12-30
+DOC-0359,emp_643,Chief Architect,Data Engineering Core Team,Data Engineering,2023-07-10,2025-03-06,Draft,,2.0,Draft,Chief Architect,Confidential,Engineering Note,Git Markdown,Annual,2026-03-06
+DOC-0360,emp_838,Senior Engineer,Architecture Core Team,Architecture,2024-09-10,2026-03-15,Rejected,,3.1,Draft,Senior Engineer,Internal,Technical Design Document,Confluence,Annual,2027-03-15
+DOC-0361,emp_774,Unverified,Engineering Core Team,Engineering,2021-03-31,2025-12-05,Under Review,,1.0,Draft,Unverified,Public,Technical Design Document,Git Markdown,Annual,2026-12-05
+DOC-0362,emp_638,Project Notes,Product Core Team,Product,12/07/2024,2025-08-26,Approved,2025-08-26,3.2,Active,Project Notes,Public,Draft Document,Confluence,Annual,2026-08-26
+DOC-0363,emp_920,Project Notes,Product Core Team,Product,2023-01-10,2026-02-25,Rejected,,3.0,Draft,Project Notes,Restricted,Architecture Decision Record,Git Markdown,Annual,2027-02-25
+DOC-0364,emp_842,Chief Architect,Platform Core Team,Platform,2023-12-25,2025-01-22,Under Review,,3.0,Draft,Chief Architect,Internal,Project Documentation,Confluence,Annual,2026-01-22
+DOC-0365,emp_819,Project Notes,DevOps Core Team,DevOps,2025-12-14,2026-01-09,Under Review,,3.1,Draft,Project Notes,Restricted,Standard,Git Markdown,Annual,2027-01-09
+DOC-0366,emp_432,Unverified,Architecture Core Team,Architecture,2023-04-25,2025-09-22,Draft,,3.2,Draft,Unverified,Internal,Security Recommendation,Confluence,Annual,2026-09-22
+DOC-0367,emp_100,Engineer,Security Core Team,Security,2026-07-07,2026-07-16,Approved,2026-07-16,2.0,Active,Engineer,Restricted,Architecture Decision Record,Git Markdown,Annual,2027-07-16
+DOC-0368,emp_623,Unverified,Product Core Team,Product,2024-03-14,2025-10-20,Under Review,,2.1,Superseded,Unverified,Internal,Deprecated Document,Confluence,Annual,2026-10-20
+DOC-0369,emp_194,Principal Engineer,Platform Core Team,Platform,2023-03-30,2026-06-07,Under Review,,3.1,Draft,Principal Engineer,Confidential,Draft Document,Git Markdown,Annual,2027-06-07
+DOC-0370,emp_848,Architecture Board,Engineering Core Team,Engineering,2023-02-21,2023-07-31,Approved,2023-07-31,2.1,Active,Architecture Board,Confidential,Draft Document,Confluence,Annual,2024-07-30
+DOC-0371,emp_155,Engineer,DevOps Core Team,DevOps,2023-12-10,2024-01-21,Draft,,1.1,Draft,Engineer,Internal,Meeting Decision,Git Markdown,Annual,2025-01-20
+DOC-0372,emp_542,Architecture Team,Product Core Team,Product,2025-05-30,2025-12-17,Under Review,,1.1,Draft,Architecture Team,Public,Meeting Decision,Confluence,Annual,2026-12-17
+DOC-0373,emp_592,Senior Architect,Security Core Team,Security,2022-02-10,2024-11-05,Rejected,,1.2,Draft,Senior Architect,Internal,Deprecated Document,Git Markdown,Annual,2025-11-05
+DOC-0374,emp_787,Chief Architect,DevOps Core Team,DevOps,2023-05-18,2025-06-04,Draft,,2.2,Draft,Chief Architect,Public,Standard,Confluence,Annual,2026-06-04
+DOC-0375,emp_551,Senior Architect,Product Core Team,Product,2026-03-08,2026-05-06,Under Review,,1.2,Draft,Senior Architect,Public,Architecture Decision Record,Git Markdown,Annual,2027-05-06
+DOC-0376,emp_451,Architecture Board,Product Core Team,Product,2022-09-17,2025-03-26,Rejected,,1.2,Superseded,Architecture Board,Internal,Technical Design Document,Confluence,Annual,2026-03-26
+DOC-0377,emp_485,Architecture Board,Security Core Team,Security,2026-01-30,2026-07-18,Approved,2026-07-18,1.1,Active,Architecture Board,Internal,Draft Document,Git Markdown,Annual,2027-07-18
+DOC-0378,emp_497,Chief Architect,DevOps Core Team,DevOps,2024-09-19,2026-07-26,Draft,,1.1,Draft,Chief Architect,Confidential,Meeting Decision,Confluence,Annual,2027-07-26
+DOC-0379,emp_303,Senior Architect,Security Core Team,Security,2026-06-03,2026-07-02,Approved,2026-07-02,3.1,Superseded,Senior Architect,Restricted,Deprecated Document,Git Markdown,Annual,2027-07-02
+DOC-0380,emp_740,Senior Engineer,DevOps Core Team,DevOps,2022-04-29,2025-02-18,Approved,2025-02-18,2.0,Active,Senior Engineer,Restricted,Meeting Decision,Confluence,Annual,2026-02-18
+DOC-0381,emp_633,Engineer,Platform Core Team,Platform,2025-11-23,2026-05-02,Under Review,,3.0,Draft,Engineer,Confidential,Draft Document,Git Markdown,Annual,2027-05-02
+DOC-0382,emp_768,Architecture Team,Data Engineering Core Team,Data Engineering,2024-04-04,2025-10-10,Under Review,,2.2,Draft,Architecture Team,Internal,Engineering Note,Confluence,Annual,2026-10-10
+DOC-0383,emp_169,Senior Engineer,Data Engineering Core Team,Data Engineering,2023-12-28,2026-01-02,Approved,2026-01-02,1.2,Active,Senior Engineer,Public,Deprecated Document,Git Markdown,Annual,2027-01-02
+DOC-0384,emp_255,Principal Engineer,Architecture Core Team,Architecture,2021-08-07,2022-05-03,Under Review,,3.2,Superseded,Principal Engineer,Restricted,Project Documentation,Confluence,Annual,2023-05-03
+DOC-0385,emp_181,Senior Engineer,Platform Core Team,Platform,2021-10-02,2024-07-26,Rejected,,2.0,Draft,Senior Engineer,Confidential,Policy,Git Markdown,Annual,2025-07-26
+DOC-0386,emp_376,Architecture Board,Engineering Core Team,Engineering,2022-04-01,2026-05-30,Under Review,,1.0,Draft,Architecture Board,Confidential,Standard,Confluence,Annual,2027-05-30
+DOC-0387,emp_514,Engineer,Security Core Team,Security,2024-05-30,2026-06-21,Rejected,,2.2,Draft,Engineer,Public,Architecture Decision Record,Git Markdown,Annual,2027-06-21
+DOC-0388,emp_671,Architecture Board,Data Engineering Core Team,Data Engineering,2023-11-24,2026-01-15,Approved,2026-01-15,2.1,Active,Architecture Board,Restricted,Standard,Confluence,Annual,2027-01-15
+DOC-0389,emp_245,Unverified,Architecture Core Team,Architecture,2025-08-27,2026-07-23,Rejected,,3.0,Superseded,Unverified,Internal,Policy,Git Markdown,Annual,2027-07-23
+DOC-0390,emp_561,Senior Engineer,Security Core Team,Security,2022-01-02,2024-07-19,Under Review,,1.1,Draft,Senior Engineer,Restricted,Architecture Decision Record,Confluence,Annual,2025-07-19
+DOC-0391,emp_216,Chief Architect,DevOps Core Team,DevOps,2024-07-22,2025-07-28,Approved,2025-07-28,2.2,Active,Chief Architect,Internal,Policy,Git Markdown,Annual,2026-07-28
+DOC-0392,emp_989,Senior Architect,Data Engineering Core Team,Data Engineering,2022-01-02,2026-04-26,Approved,2026-04-26,2.2,Active,Senior Architect,Confidential,Engineering Note,Confluence,Annual,2027-04-26
+DOC-0393,emp_569,Architecture Board,Engineering Core Team,Engineering,2025-10-18,2026-06-30,Approved,2026-06-30,2.0,Active,Architecture Board,Internal,Policy,Git Markdown,Annual,2027-06-30
+DOC-0394,emp_660,Architecture Team,Engineering Core Team,Engineering,06/23/2024,2026-03-28,Under Review,,1.0,Superseded,Architecture Team,Restricted,Meeting Decision,Confluence,Annual,2027-03-28
+DOC-0395,emp_189,Senior Engineer,Product Core Team,Product,2021-08-12,2023-12-13,Under Review,,2.2,Draft,Senior Engineer,Internal,Architecture Decision Record,Git Markdown,Annual,2024-12-12
+DOC-0396,emp_477,Senior Engineer,Engineering Core Team,Engineering,2025-08-07,2025-09-10,Rejected,,1.1,Draft,Senior Engineer,Confidential,Standard,Confluence,Annual,2026-09-10
+DOC-0397,emp_314,Unverified,Data Engineering Core Team,Data Engineering,2024-06-07,2024-08-05,Approved,2024-08-05,3.2,Active,Unverified,Public,Project Documentation,Git Markdown,Annual,2025-08-05
+DOC-0398,emp_638,Principal Engineer,Data Engineering Core Team,Data Engineering,2026-07-31,2026-08-01,Under Review,,2.2,Draft,Principal Engineer,Confidential,Draft Document,Confluence,Annual,2027-08-01
+DOC-0399,emp_101,Architecture Team,DevOps Core Team,DevOps,2021-02-19,2023-09-29,Approved,2023-09-29,1.2,Active,Architecture Team,Confidential,Technical Design Document,Git Markdown,Annual,2024-09-28
+DOC-0400,emp_755,Architecture Board,DevOps Core Team,DevOps,2024-11-14,2025-08-29,Draft,,2.1,Draft,Architecture Board,Restricted,Project Documentation,Confluence,Annual,2026-08-29
+DOC-0401,emp_298,Senior Architect,Security Core Team,Security,2025-09-04,2026-02-24,Rejected,,1.2,Draft,Senior Architect,Internal,Security Recommendation,Git Markdown,Annual,2027-02-24
+DOC-0402,emp_955,Architecture Board,Security Core Team,Security,2022-09-06,2025-11-06,Draft,,1.0,Draft,Architecture Board,Restricted,Deprecated Document,Confluence,Annual,2026-11-06
+DOC-0403,emp_447,Architecture Board,Platform Core Team,Platform,2024-07-07,2026-01-05,Under Review,,2.0,Draft,Architecture Board,Public,Standard,Git Markdown,Annual,2027-01-05
+DOC-0404,emp_188,Engineer,Engineering Core Team,Engineering,2025-12-02,2026-01-31,Draft,,2.0,Draft,Engineer,Restricted,Policy,Confluence,Annual,2027-01-31
+DOC-0405,emp_618,Project Notes,Platform Core Team,Platform,2025-06-25,2026-02-27,Under Review,,2.2,Draft,Project Notes,Restricted,Architecture Decision Record,Git Markdown,Annual,2027-02-27
+DOC-0406,emp_841,Architecture Team,Data Engineering Core Team,Data Engineering,2023-07-30,2025-09-30,Approved,2025-09-30,1.2,Superseded,Architecture Team,Public,Architecture Decision Record,Confluence,Annual,2026-09-30
+DOC-0407,emp_691,Architecture Board,Product Core Team,Product,2024-08-01,2025-03-03,Draft,,2.1,Draft,Architecture Board,Restricted,Meeting Decision,Git Markdown,Annual,2026-03-03
+DOC-0408,emp_115,Chief Architect,Platform Core Team,Platform,2024-02-21,2025-07-31,Approved,2025-07-31,2.2,Active,Chief Architect,Restricted,Draft Document,Confluence,Annual,2026-07-31
+DOC-0409,emp_418,Chief Architect,Platform Core Team,Platform,2026-01-02,2026-03-29,Rejected,,1.1,Superseded,Chief Architect,Public,Draft Document,Git Markdown,Annual,2027-03-29
+DOC-0410,emp_419,Senior Engineer,Platform Core Team,Platform,2025-08-02,2025-11-11,Approved,2025-11-11,2.2,Active,Senior Engineer,Internal,Security Recommendation,Confluence,Annual,2026-11-11
+DOC-0411,emp_581,Project Notes,Security Core Team,Security,2026-04-25,2026-05-23,Under Review,,3.1,Draft,Project Notes,Restricted,Project Documentation,Git Markdown,Annual,2027-05-23
+DOC-0412,emp_599,Project Notes,Product Core Team,Product,2021-05-14,2024-01-12,Approved,2024-01-12,2.0,Active,Project Notes,Restricted,Architecture Decision Record,Confluence,Annual,2025-01-11
+DOC-0413,emp_433,Chief Architect,Engineering Core Team,Engineering,2024-08-23,2024-11-03,Draft,,2.2,Draft,Chief Architect,Confidential,Deprecated Document,Git Markdown,Annual,2025-11-03
+DOC-0414,emp_313,Senior Engineer,Security Core Team,Security,2023-06-02,2025-11-09,Draft,,1.0,Draft,Senior Engineer,Public,Draft Document,Confluence,Annual,2026-11-09
+DOC-0415,emp_668,Senior Engineer,Data Engineering Core Team,Data Engineering,2025-08-11,2026-03-26,Under Review,,2.0,Draft,Senior Engineer,Public,Technical Design Document,Git Markdown,Annual,2027-03-26
+DOC-0416,emp_322,Chief Architect,Security Core Team,Security,2025-12-23,2026-05-20,Approved,2026-05-20,3.0,Active,Chief Architect,Confidential,Engineering Note,Confluence,Annual,2027-05-20
+DOC-0417,emp_406,Senior Engineer,Platform Core Team,Platform,2025-06-15,2026-05-28,Draft,,2.2,Draft,Senior Engineer,Restricted,Draft Document,Git Markdown,Annual,2027-05-28
+DOC-0418,emp_163,Principal Engineer,Security Core Team,Security,2026-01-20,2026-06-09,Approved,2026-06-09,3.1,Superseded,Principal Engineer,Public,Security Recommendation,Confluence,Annual,2027-06-09
+DOC-0419,emp_828,Senior Engineer,DevOps Core Team,DevOps,2023-04-12,2025-06-01,Rejected,,3.0,Draft,Senior Engineer,Confidential,Standard,Git Markdown,Annual,2026-06-01
+DOC-0420,emp_993,Principal Engineer,Security Core Team,Security,2021-10-03,2021-10-26,Approved,2021-10-26,1.2,Active,Principal Engineer,Confidential,Engineering Note,Confluence,Annual,2022-10-26
+DOC-0421,emp_907,Project Notes,Platform Core Team,Platform,2026-03-21,2026-07-07,Under Review,,2.2,Draft,Project Notes,Confidential,Draft Document,Git Markdown,Annual,2027-07-07
+DOC-0422,emp_829,Architecture Team,Engineering Core Team,Engineering,2022-07-06,2024-10-24,Draft,,1.2,Superseded,Architecture Team,Confidential,Deprecated Document,Confluence,Annual,2025-10-24
+DOC-0423,emp_979,Unverified,Engineering Core Team,Engineering,2023-08-11,2026-07-04,Approved,2026-07-04,3.0,Active,Unverified,Internal,Meeting Decision,Git Markdown,Annual,2027-07-04
+DOC-0424,emp_451,Architecture Board,DevOps Core Team,DevOps,2025-05-14,2025-05-19,Rejected,,2.2,Draft,Architecture Board,Restricted,Deprecated Document,Confluence,Annual,2026-05-19
+DOC-0425,emp_844,Principal Engineer,Platform Core Team,Platform,2022-06-18,2022-10-21,Rejected,,3.0,Draft,Principal Engineer,Restricted,Draft Document,Git Markdown,Annual,2023-10-21
+DOC-0426,emp_178,Unverified,Engineering Core Team,Engineering,2022-06-01,2023-02-27,Draft,,2.0,Draft,Unverified,Public,Meeting Decision,Confluence,Annual,2024-02-27
+DOC-0427,emp_367,Senior Architect,Security Core Team,Security,2023-09-21,2024-09-25,Approved,2024-09-25,1.0,Active,Senior Architect,Internal,Project Documentation,Git Markdown,Annual,2025-09-25
+DOC-0428,emp_843,Project Notes,Security Core Team,Security,2022-03-08,2025-06-03,Draft,,2.0,Superseded,Project Notes,Public,Engineering Note,Confluence,Annual,2026-06-03
+DOC-0429,emp_799,Engineer,DevOps Core Team,DevOps,2023-08-30,2025-02-17,Under Review,,2.0,Draft,Engineer,Restricted,Standard,Git Markdown,Annual,2026-02-17
+DOC-0430,emp_644,Chief Architect,Data Engineering Core Team,Data Engineering,2026-05-13,2026-07-07,Draft,,2.0,Draft,Chief Architect,Restricted,Security Recommendation,Confluence,Annual,2027-07-07
+DOC-0431,emp_445,Unverified,Platform Core Team,Platform,2022-10-04,2025-10-29,Approved,2025-10-29,1.0,Active,Unverified,Confidential,Engineering Note,Git Markdown,Annual,2026-10-29
+DOC-0432,emp_297,Principal Engineer,Platform Core Team,Platform,2021-02-18,2024-08-09,Approved,2024-08-09,3.2,Superseded,Principal Engineer,Internal,Architecture Decision Record,Confluence,Annual,2025-08-09
+DOC-0433,emp_772,Engineer,Product Core Team,Product,2025-07-03,2025-10-05,Approved,2025-10-05,2.1,Active,Engineer,Confidential,Draft Document,Git Markdown,Annual,2026-10-05
+DOC-0434,emp_363,Senior Engineer,Product Core Team,Product,2025-05-18,2025-06-24,Draft,,2.1,Draft,Senior Engineer,Restricted,Engineering Note,Confluence,Annual,2026-06-24
+DOC-0435,emp_305,Project Notes,Security Core Team,Security,2023-03-16,2024-03-15,Rejected,,3.1,Superseded,Project Notes,Internal,Draft Document,Git Markdown,Annual,2025-03-15
+DOC-0436,emp_174,Architecture Board,Architecture Core Team,Architecture,2024-03-16,2026-03-31,Draft,,1.1,Draft,Architecture Board,Internal,Technical Design Document,Confluence,Annual,2027-03-31
+DOC-0437,emp_816,Senior Architect,Security Core Team,Security,2026-01-27,2026-05-07,Approved,2026-05-07,2.1,Active,Senior Architect,Confidential,Security Recommendation,Git Markdown,Annual,2027-05-07
+DOC-0438,emp_805,Engineer,Platform Core Team,Platform,2021-09-06,2024-11-10,Draft,,2.0,Draft,Engineer,Public,Policy,Confluence,Annual,2025-11-10
+DOC-0439,emp_763,Principal Engineer,Product Core Team,Product,2021-12-28,2025-02-05,Approved,2025-02-05,3.0,Active,Principal Engineer,Restricted,Project Documentation,Git Markdown,Annual,2026-02-05
+DOC-0440,emp_747,Chief Architect,Architecture Core Team,Architecture,2025-02-14,2025-08-27,Under Review,,1.2,Superseded,Chief Architect,Internal,Policy,Confluence,Annual,2026-08-27
+DOC-0441,emp_954,Unverified,Architecture Core Team,Architecture,2026-06-03,2026-06-04,Approved,2026-06-04,2.2,Active,Unverified,Public,Policy,Git Markdown,Annual,2027-06-04
+DOC-0442,emp_252,Unverified,Data Engineering Core Team,Data Engineering,2022-04-23,2022-09-17,Approved,2022-09-17,2.2,Active,Unverified,Public,Draft Document,Confluence,Annual,2023-09-17
+DOC-0443,emp_276,Architecture Board,DevOps Core Team,DevOps,2026-01-27,2026-04-15,Approved,2026-04-15,1.2,Active,Architecture Board,Public,Architecture Decision Record,Git Markdown,Annual,2027-04-15
+DOC-0444,emp_923,Chief Architect,Product Core Team,Product,2023-05-23,2025-04-12,Rejected,,3.2,Draft,Chief Architect,Internal,Project Documentation,Confluence,Annual,2026-04-12
+DOC-0445,emp_164,Senior Engineer,Engineering Core Team,Engineering,2022-07-15,2023-04-30,Rejected,,2.2,Draft,Senior Engineer,Internal,Technical Design Document,Git Markdown,Annual,2024-04-29
+DOC-0446,emp_116,Senior Architect,Engineering Core Team,Engineering,2021-06-15,2021-06-28,Approved,2021-06-28,1.2,Active,Senior Architect,Restricted,Policy,Confluence,Annual,2022-06-28
+DOC-0447,emp_755,Senior Architect,Platform Core Team,Platform,2023-12-08,2025-03-13,Rejected,,1.2,Draft,Senior Architect,Public,Meeting Decision,Git Markdown,Annual,2026-03-13
+DOC-0448,emp_528,Senior Engineer,DevOps Core Team,DevOps,2024-02-17,2024-10-15,Under Review,,3.0,Superseded,Senior Engineer,Restricted,Architecture Decision Record,Confluence,Annual,2025-10-15
+DOC-0449,emp_154,Principal Engineer,Security Core Team,Security,2021-08-19,2026-02-05,Under Review,,2.1,Draft,Principal Engineer,Internal,Project Documentation,Git Markdown,Annual,2027-02-05
+DOC-0450,emp_545,Architecture Team,Architecture Core Team,Architecture,2022-11-16,2026-05-02,Rejected,,3.0,Superseded,Architecture Team,Internal,Meeting Decision,Confluence,Annual,2027-05-02
+DOC-0451,emp_706,Project Notes,Engineering Core Team,Engineering,2022-10-30,2025-03-06,Under Review,,2.0,Draft,Project Notes,Public,Draft Document,Git Markdown,Annual,2026-03-06
+DOC-0452,emp_175,Architecture Team,Platform Core Team,Platform,2024-04-13,2025-08-22,Approved,2025-08-22,1.0,Active,Architecture Team,Confidential,Policy,Confluence,Annual,2026-08-22
+DOC-0453,emp_307,Principal Engineer,Platform Core Team,Platform,2021-09-18,2021-11-22,Approved,2021-11-22,1.1,Active,Principal Engineer,Confidential,Security Recommendation,Git Markdown,Annual,2022-11-22
+DOC-0454,emp_691,Senior Architect,Data Engineering Core Team,Data Engineering,2025-10-18,2026-02-12,Approved,2026-02-12,3.1,Active,Senior Architect,Internal,Deprecated Document,Confluence,Annual,2027-02-12
+DOC-0455,emp_353,Architecture Team,DevOps Core Team,DevOps,06/09/2023,2024-09-06,Under Review,,1.1,Draft,Architecture Team,Public,Security Recommendation,Git Markdown,Annual,2025-09-06
+DOC-0456,emp_929,Project Notes,Security Core Team,Security,2023-07-16,2026-04-25,Under Review,,1.2,Superseded,Project Notes,Confidential,Technical Design Document,Confluence,Annual,2027-04-25
+DOC-0457,emp_591,Architecture Board,DevOps Core Team,DevOps,2021-11-28,2025-11-07,Rejected,,3.2,Draft,Architecture Board,Public,Meeting Decision,Git Markdown,Annual,2026-11-07
+DOC-0458,emp_908,Senior Architect,DevOps Core Team,DevOps,2024-07-07,2025-10-25,Approved,2025-10-25,1.1,Active,Senior Architect,Restricted,Security Recommendation,Confluence,Annual,2026-10-25
+DOC-0459,emp_735,Chief Architect,Data Engineering Core Team,Data Engineering,2025-02-15,2025-04-12,Draft,,1.1,Draft,Chief Architect,Restricted,Security Recommendation,Git Markdown,Annual,2026-04-12
+DOC-0460,emp_826,Unverified,DevOps Core Team,DevOps,2021-10-11,2023-08-27,Under Review,,3.1,Draft,Unverified,Internal,Project Documentation,Confluence,Annual,2024-08-26
+DOC-0461,emp_155,Principal Engineer,Architecture Core Team,Architecture,2023-02-03,2025-01-10,Rejected,,3.0,Draft,Principal Engineer,Confidential,Technical Design Document,Git Markdown,Annual,2026-01-10
+DOC-0462,emp_292,Chief Architect,Security Core Team,Security,2021-06-28,2021-12-09,Rejected,,2.0,Draft,Chief Architect,Public,Policy,Confluence,Annual,2022-12-09
+DOC-0463,emp_742,Unverified,Platform Core Team,Platform,2022-08-24,2024-12-24,Under Review,,2.1,Draft,Unverified,Public,Architecture Decision Record,Git Markdown,Annual,2025-12-24
+DOC-0464,emp_692,Engineer,Data Engineering Core Team,Data Engineering,2024-09-04,2026-06-27,Draft,,3.2,Draft,Engineer,Confidential,Security Recommendation,Confluence,Annual,2027-06-27
+DOC-0465,emp_595,Architecture Team,Product Core Team,Product,2026-06-12,2026-06-30,Approved,2026-06-30,2.1,Active,Architecture Team,Internal,Security Recommendation,Git Markdown,Annual,2027-06-30
+DOC-0466,emp_265,Senior Architect,Platform Core Team,Platform,2021-08-28,2021-11-20,Draft,,2.1,Draft,Senior Architect,Restricted,Project Documentation,Confluence,Annual,2022-11-20
+DOC-0467,emp_481,Senior Architect,Architecture Core Team,Architecture,2024-01-11,2024-06-25,Draft,,1.1,Draft,Senior Architect,Confidential,Policy,Git Markdown,Annual,2025-06-25
+DOC-0468,emp_585,Principal Engineer,Engineering Core Team,Engineering,2026-06-09,2026-07-27,Under Review,,3.1,Draft,Principal Engineer,Restricted,Meeting Decision,Confluence,Annual,2027-07-27
+DOC-0469,emp_125,Principal Engineer,DevOps Core Team,DevOps,2024-06-18,2025-01-29,Rejected,,2.0,Draft,Principal Engineer,Internal,Standard,Git Markdown,Annual,2026-01-29
+DOC-0470,emp_969,Unverified,Engineering Core Team,Engineering,2024-10-18,2025-01-15,Rejected,,2.2,Draft,Unverified,Public,Policy,Confluence,Annual,2026-01-15
+DOC-0471,emp_495,Senior Engineer,Product Core Team,Product,2021-01-25,2022-08-30,Draft,,2.2,Draft,Senior Engineer,Public,Security Recommendation,Git Markdown,Annual,2023-08-30
+DOC-0472,emp_925,Senior Architect,Security Core Team,Security,2025-02-01,2026-04-01,Under Review,,3.0,Draft,Senior Architect,Internal,Standard,Confluence,Annual,2027-04-01
+DOC-0473,emp_106,Chief Architect,Engineering Core Team,Engineering,2024-08-01,2025-05-07,Rejected,,2.2,Draft,Chief Architect,Internal,Standard,Git Markdown,Annual,2026-05-07
+DOC-0474,emp_954,Principal Engineer,Security Core Team,Security,2022-09-15,2025-06-22,Rejected,,1.0,Draft,Principal Engineer,Restricted,Draft Document,Confluence,Annual,2026-06-22
+DOC-0475,emp_283,Engineer,Engineering Core Team,Engineering,2026-02-01,2026-07-27,Under Review,,2.1,Superseded,Engineer,Public,Policy,Git Markdown,Annual,2027-07-27
+DOC-0476,emp_810,Project Notes,Security Core Team,Security,2023-02-04,2025-12-19,Approved,2025-12-19,1.2,Active,Project Notes,Public,Technical Design Document,Confluence,Annual,2026-12-19
+DOC-0477,emp_469,Principal Engineer,Platform Core Team,Platform,2024-07-27,2025-07-26,Approved,2025-07-26,3.2,Active,Principal Engineer,Public,Standard,Git Markdown,Annual,2026-07-26
+DOC-0478,emp_430,Unverified,Engineering Core Team,Engineering,2025-08-21,2026-01-22,Draft,,3.1,Draft,Unverified,Public,Security Recommendation,Confluence,Annual,2027-01-22
+DOC-0479,emp_897,Senior Engineer,Platform Core Team,Platform,2023-04-24,2025-03-20,Under Review,,1.2,Superseded,Senior Engineer,Internal,Policy,Git Markdown,Annual,2026-03-20
+DOC-0480,emp_571,Engineer,DevOps Core Team,DevOps,2021-08-27,2026-03-30,Under Review,,2.1,Draft,Engineer,Restricted,Technical Design Document,Confluence,Annual,2027-03-30
+DOC-0481,emp_826,Senior Architect,Data Engineering Core Team,Data Engineering,2021-02-28,2025-05-02,Approved,2025-05-02,3.0,Active,Senior Architect,Internal,Meeting Decision,Git Markdown,Annual,2026-05-02
+DOC-0482,emp_119,Chief Architect,DevOps Core Team,DevOps,2025-04-01,2025-11-07,Under Review,,3.2,Superseded,Chief Architect,Public,Policy,Confluence,Annual,2026-11-07
+DOC-0483,emp_901,Chief Architect,Architecture Core Team,Architecture,02/28/2026,2026-08-01,Under Review,,1.0,Draft,Chief Architect,Restricted,Technical Design Document,Git Markdown,Annual,2027-08-01
+DOC-0484,emp_975,Senior Architect,Architecture Core Team,Architecture,2025-05-19,2026-05-27,Under Review,,1.0,Draft,Senior Architect,Public,Deprecated Document,Confluence,Annual,2027-05-27
+DOC-0485,emp_319,Chief Architect,Product Core Team,Product,2025-10-10,2026-06-10,Draft,,1.1,Draft,Chief Architect,Public,Deprecated Document,Git Markdown,Annual,2027-06-10
+DOC-0486,emp_215,Engineer,Platform Core Team,Platform,2021-09-11,2024-04-22,Approved,2024-04-22,2.1,Active,Engineer,Restricted,Security Recommendation,Confluence,Annual,2025-04-22
+DOC-0487,emp_567,Principal Engineer,Engineering Core Team,Engineering,2025-02-16,2026-01-01,Rejected,,2.1,Draft,Principal Engineer,Confidential,Draft Document,Git Markdown,Annual,2027-01-01
+DOC-0488,emp_790,Architecture Board,Architecture Core Team,Architecture,2024-10-08,2025-01-23,Rejected,,3.2,Draft,Architecture Board,Public,Policy,Confluence,Annual,2026-01-23
+DOC-0489,emp_472,Chief Architect,DevOps Core Team,DevOps,2022-11-25,2024-01-09,Rejected,,2.2,Draft,Chief Architect,Confidential,Project Documentation,Git Markdown,Annual,2025-01-08
+DOC-0490,emp_587,Senior Engineer,Architecture Core Team,Architecture,2026-04-30,2026-06-20,Rejected,,1.1,Draft,Senior Engineer,Public,Draft Document,Confluence,Annual,2027-06-20
+DOC-0491,emp_855,Chief Architect,Platform Core Team,Platform,2025-08-28,2025-10-01,Rejected,,1.1,Draft,Chief Architect,Restricted,Architecture Decision Record,Git Markdown,Annual,2026-10-01
+DOC-0492,emp_306,Project Notes,Engineering Core Team,Engineering,2024-09-17,2026-02-08,Rejected,,3.1,Draft,Project Notes,Public,Meeting Decision,Confluence,Annual,2027-02-08
+DOC-0493,emp_973,Senior Engineer,Security Core Team,Security,2023-06-26,2026-01-22,Approved,2026-01-22,3.2,Superseded,Senior Engineer,Restricted,Standard,Git Markdown,Annual,2027-01-22
+DOC-0494,emp_882,Project Notes,Architecture Core Team,Architecture,2024-03-11,2026-01-31,Rejected,,3.2,Draft,Project Notes,Confidential,Technical Design Document,Confluence,Annual,2027-01-31
+DOC-0495,emp_705,Project Notes,Security Core Team,Security,06/17/2024,2026-05-10,Draft,,2.1,Draft,Project Notes,Public,Standard,Git Markdown,Annual,2027-05-10
+DOC-0496,emp_489,Senior Engineer,Product Core Team,Product,2023-05-27,2025-05-02,Draft,,1.2,Draft,Senior Engineer,Internal,Technical Design Document,Confluence,Annual,2026-05-02
+DOC-0497,emp_217,Principal Engineer,DevOps Core Team,DevOps,2021-12-14,2022-01-23,Draft,,3.1,Superseded,Principal Engineer,Confidential,Security Recommendation,Git Markdown,Annual,2023-01-23
+DOC-0498,emp_430,Engineer,Architecture Core Team,Architecture,2021-07-20,2026-01-30,Rejected,,3.0,Superseded,Engineer,Restricted,Draft Document,Confluence,Annual,2027-01-30
+DOC-0499,emp_546,Senior Engineer,Platform Core Team,Platform,2023-10-15,2025-07-26,Approved,2025-07-26,3.0,Active,Senior Engineer,Restricted,Project Documentation,Git Markdown,Annual,2026-07-26
+DOC-0500,emp_834,Chief Architect,Product Core Team,Product,2021-07-14,2024-11-07,Draft,,3.2,Draft,Chief Architect,Confidential,Draft Document,Confluence,Annual,2025-11-07
+DOC-0501,emp_923,Unverified,Product Core Team,Product,2023-06-06,2026-06-15,Under Review,,2.2,Draft,Unverified,Confidential,Meeting Decision,Git Markdown,Annual,2027-06-15
+DOC-0502,emp_318,Project Notes,DevOps Core Team,DevOps,2022-07-03,2026-01-29,Rejected,,3.2,Draft,Project Notes,Public,Policy,Confluence,Annual,2027-01-29
+DOC-0503,emp_520,Engineer,Platform Core Team,Platform,2025-10-28,2025-11-29,Under Review,,2.1,Draft,Engineer,Internal,Security Recommendation,Git Markdown,Annual,2026-11-29
+DOC-0504,emp_128,Architecture Team,Engineering Core Team,Engineering,2025-06-21,2025-11-26,Rejected,,2.1,Draft,Architecture Team,Public,Project Documentation,Confluence,Annual,2026-11-26
+DOC-0505,emp_280,Unverified,Product Core Team,Product,2026-05-28,2026-07-29,Approved,2026-07-29,1.1,Active,Unverified,Restricted,Architecture Decision Record,Git Markdown,Annual,2027-07-29
+DOC-0506,emp_959,Engineer,DevOps Core Team,DevOps,2022-04-29,2022-12-14,Approved,2022-12-14,3.2,Active,Engineer,Restricted,Engineering Note,Confluence,Annual,2023-12-14
+DOC-0507,emp_952,Senior Engineer,Product Core Team,Product,2025-02-18,2026-03-24,Under Review,,1.0,Draft,Senior Engineer,Public,Draft Document,Git Markdown,Annual,2027-03-24
+DOC-0508,emp_646,Project Notes,Architecture Core Team,Architecture,2024-12-03,2025-03-28,Draft,,2.2,Draft,Project Notes,Internal,Security Recommendation,Confluence,Annual,2026-03-28
+DOC-0509,emp_121,Principal Engineer,Security Core Team,Security,2021-03-13,2025-11-30,Approved,2025-11-30,3.0,Active,Principal Engineer,Restricted,Draft Document,Git Markdown,Annual,2026-11-30
+DOC-0510,emp_987,Unverified,DevOps Core Team,DevOps,2025-10-23,2026-06-06,Rejected,,2.1,Superseded,Unverified,Restricted,Project Documentation,Confluence,Annual,2027-06-06
+DOC-0511,emp_746,Project Notes,Platform Core Team,Platform,2025-12-07,2026-07-02,Rejected,,2.0,Draft,Project Notes,Confidential,Security Recommendation,Git Markdown,Annual,2027-07-02
+DOC-0512,emp_815,Senior Architect,Security Core Team,Security,2023-11-03,2024-01-09,Draft,,3.2,Draft,Senior Architect,Restricted,Meeting Decision,Confluence,Annual,2025-01-08
+DOC-0513,emp_910,Project Notes,DevOps Core Team,DevOps,2021-01-07,2023-04-07,Under Review,,2.2,Draft,Project Notes,Public,Engineering Note,Git Markdown,Annual,2024-04-06
+DOC-0514,emp_562,Senior Engineer,Platform Core Team,Platform,2025-11-24,2026-05-31,Under Review,,3.2,Draft,Senior Engineer,Restricted,Policy,Confluence,Annual,2027-05-31
+DOC-0515,emp_954,Engineer,Platform Core Team,Platform,2022-04-05,2022-05-17,Approved,2022-05-17,3.2,Active,Engineer,Internal,Draft Document,Git Markdown,Annual,2023-05-17
+DOC-0516,emp_510,Architecture Board,DevOps Core Team,DevOps,05/29/2023,2024-11-11,Under Review,,2.0,Superseded,Architecture Board,Public,Draft Document,Confluence,Annual,2025-11-11
+DOC-0517,emp_329,Chief Architect,DevOps Core Team,DevOps,2022-01-26,2026-06-15,Draft,,2.1,Draft,Chief Architect,Internal,Project Documentation,Git Markdown,Annual,2027-06-15
+DOC-0518,emp_284,Engineer,Architecture Core Team,Architecture,2025-06-11,2025-08-24,Approved,2025-08-24,2.0,Active,Engineer,Confidential,Standard,Confluence,Annual,2026-08-24
+DOC-0519,emp_580,Architecture Board,Security Core Team,Security,2025-11-20,2026-02-10,Rejected,,3.1,Draft,Architecture Board,Confidential,Engineering Note,Git Markdown,Annual,2027-02-10
+DOC-0520,emp_340,Senior Engineer,Engineering Core Team,Engineering,2026-02-04,2026-05-05,Approved,2026-05-05,3.2,Superseded,Senior Engineer,Confidential,Policy,Confluence,Annual,2027-05-05
+DOC-0521,emp_366,Senior Architect,Data Engineering Core Team,Data Engineering,2023-10-29,2025-03-16,Draft,,1.0,Draft,Senior Architect,Restricted,Engineering Note,Git Markdown,Annual,2026-03-16
+DOC-0522,emp_611,Senior Architect,Architecture Core Team,Architecture,2025-03-12,2025-09-12,Rejected,,2.2,Draft,Senior Architect,Restricted,Meeting Decision,Confluence,Annual,2026-09-12
+DOC-0523,emp_669,Senior Architect,DevOps Core Team,DevOps,2021-04-19,2022-05-10,Under Review,,1.0,Superseded,Senior Architect,Confidential,Policy,Git Markdown,Annual,2023-05-10
+DOC-0524,emp_465,Project Notes,Security Core Team,Security,2023-09-21,2026-04-15,Rejected,,3.0,Superseded,Project Notes,Public,Deprecated Document,Confluence,Annual,2027-04-15
+DOC-0525,emp_942,Unverified,Product Core Team,Product,2024-02-28,2026-01-07,Under Review,,1.2,Draft,Unverified,Internal,Meeting Decision,Git Markdown,Annual,2027-01-07
+DOC-0526,emp_391,Architecture Board,Engineering Core Team,Engineering,2023-03-19,2025-04-22,Approved,2025-04-22,1.0,Active,Architecture Board,Public,Technical Design Document,Confluence,Annual,2026-04-22
+DOC-0527,emp_437,Architecture Board,DevOps Core Team,DevOps,2024-09-05,2026-06-04,Rejected,,3.2,Draft,Architecture Board,Internal,Architecture Decision Record,Git Markdown,Annual,2027-06-04
+DOC-0528,emp_660,Chief Architect,Architecture Core Team,Architecture,02/21/2023,2023-08-29,Rejected,,1.1,Draft,Chief Architect,Public,Draft Document,Confluence,Annual,2024-08-28
+DOC-0529,emp_223,Senior Architect,Security Core Team,Security,2023-10-03,2026-03-06,Draft,,3.0,Draft,Senior Architect,Restricted,Meeting Decision,Git Markdown,Annual,2027-03-06
+DOC-0530,emp_587,Engineer,Security Core Team,Security,2024-02-28,2025-11-03,Rejected,,2.1,Superseded,Engineer,Internal,Meeting Decision,Confluence,Annual,2026-11-03
+DOC-0531,emp_763,Architecture Team,Architecture Core Team,Architecture,2026-03-22,2026-07-26,Approved,2026-07-26,2.0,Active,Architecture Team,Confidential,Engineering Note,Git Markdown,Annual,2027-07-26
+DOC-0532,emp_537,Unverified,Product Core Team,Product,2024-03-10,2024-04-27,Approved,2024-04-27,3.0,Active,Unverified,Confidential,Meeting Decision,Confluence,Annual,2025-04-27
+DOC-0533,emp_699,Principal Engineer,Architecture Core Team,Architecture,2025-04-24,2026-01-06,Approved,2026-01-06,3.1,Superseded,Principal Engineer,Internal,Technical Design Document,Git Markdown,Annual,2027-01-06
+DOC-0534,emp_701,Senior Engineer,Security Core Team,Security,2025-04-01,2026-03-10,Rejected,,2.1,Draft,Senior Engineer,Internal,Policy,Confluence,Annual,2027-03-10
+DOC-0535,emp_647,Engineer,Product Core Team,Product,2021-01-12,2023-03-31,Approved,2023-03-31,3.1,Superseded,Engineer,Confidential,Architecture Decision Record,Git Markdown,Annual,2024-03-30
+DOC-0536,emp_807,Senior Engineer,Security Core Team,Security,2025-07-06,2025-12-07,Approved,2025-12-07,1.0,Active,Senior Engineer,Public,Standard,Confluence,Annual,2026-12-07
+DOC-0537,emp_764,Project Notes,Engineering Core Team,Engineering,2024-08-23,2025-04-27,Rejected,,3.0,Draft,Project Notes,Public,Engineering Note,Git Markdown,Annual,2026-04-27
+DOC-0538,emp_256,Senior Architect,Engineering Core Team,Engineering,2026-05-28,2026-07-29,Rejected,,2.2,Superseded,Senior Architect,Internal,Policy,Confluence,Annual,2027-07-29
+DOC-0539,emp_745,Chief Architect,Architecture Core Team,Architecture,06/29/2026,2026-07-25,Rejected,,3.2,Draft,Chief Architect,Restricted,Standard,Git Markdown,Annual,2027-07-25
+DOC-0540,emp_831,Architecture Team,DevOps Core Team,DevOps,2023-12-18,2024-01-06,Rejected,,3.0,Draft,Architecture Team,Restricted,Architecture Decision Record,Confluence,Annual,2025-01-05
+DOC-0541,emp_814,Project Notes,Security Core Team,Security,2021-02-12,2022-01-08,Draft,,2.1,Draft,Project Notes,Confidential,Standard,Git Markdown,Annual,2023-01-08
+DOC-0542,emp_400,Senior Architect,Data Engineering Core Team,Data Engineering,2026-05-20,2026-07-12,Draft,,1.2,Draft,Senior Architect,Internal,Standard,Confluence,Annual,2027-07-12
+DOC-0543,emp_260,Architecture Team,Platform Core Team,Platform,2023-10-05,2024-04-28,Rejected,,2.1,Draft,Architecture Team,Internal,Draft Document,Git Markdown,Annual,2025-04-28
+DOC-0544,emp_278,Senior Architect,Architecture Core Team,Architecture,2021-03-07,2025-09-14,Draft,,3.0,Draft,Senior Architect,Public,Deprecated Document,Confluence,Annual,2026-09-14
+DOC-0545,emp_373,Unverified,Architecture Core Team,Architecture,2025-10-14,2026-07-04,Approved,2026-07-04,2.1,Active,Unverified,Public,Engineering Note,Git Markdown,Annual,2027-07-04
+DOC-0546,emp_142,Unverified,Product Core Team,Product,2021-08-04,2022-07-12,Approved,2022-07-12,2.0,Active,Unverified,Restricted,Deprecated Document,Confluence,Annual,2023-07-12
+DOC-0547,emp_762,Senior Architect,Product Core Team,Product,2022-11-17,2023-08-26,Approved,2023-08-26,2.1,Active,Senior Architect,Public,Security Recommendation,Git Markdown,Annual,2024-08-25
+DOC-0548,emp_372,Chief Architect,Data Engineering Core Team,Data Engineering,2025-01-04,2026-03-04,Draft,,1.0,Draft,Chief Architect,Confidential,Security Recommendation,Confluence,Annual,2027-03-04
+DOC-0549,emp_913,Unverified,Security Core Team,Security,2026-04-17,2026-04-20,Rejected,,1.2,Draft,Unverified,Public,Security Recommendation,Git Markdown,Annual,2027-04-20
+DOC-0550,emp_776,Architecture Board,Engineering Core Team,Engineering,2026-01-23,2026-06-19,Approved,2026-06-19,3.2,Active,Architecture Board,Restricted,Engineering Note,Confluence,Annual,2027-06-19
+DOC-0551,emp_108,Senior Engineer,Architecture Core Team,Architecture,2026-01-18,2026-06-02,Under Review,,2.2,Draft,Senior Engineer,Internal,Meeting Decision,Git Markdown,Annual,2027-06-02
+DOC-0552,emp_894,Engineer,Security Core Team,Security,2025-12-10,2026-02-25,Approved,2026-02-25,2.1,Superseded,Engineer,Internal,Project Documentation,Confluence,Annual,2027-02-25
+DOC-0553,emp_448,Unverified,Data Engineering Core Team,Data Engineering,2021-02-17,2021-04-15,Draft,,2.2,Draft,Unverified,Confidential,Engineering Note,Git Markdown,Annual,2022-04-15
+DOC-0554,emp_462,Unverified,Architecture Core Team,Architecture,2021-04-08,2025-07-05,Approved,2025-07-05,3.2,Active,Unverified,Public,Technical Design Document,Confluence,Annual,2026-07-05
+DOC-0555,emp_406,Senior Engineer,DevOps Core Team,DevOps,2024-09-27,2026-05-06,Under Review,,3.2,Draft,Senior Engineer,Internal,Meeting Decision,Git Markdown,Annual,2027-05-06
+DOC-0556,emp_200,Project Notes,Product Core Team,Product,2024-12-28,2026-03-08,Rejected,,1.1,Superseded,Project Notes,Internal,Engineering Note,Confluence,Annual,2027-03-08
+DOC-0557,emp_631,Unverified,Data Engineering Core Team,Data Engineering,2025-11-21,2026-01-27,Rejected,,2.2,Draft,Unverified,Confidential,Standard,Git Markdown,Annual,2027-01-27
+DOC-0558,emp_828,Project Notes,Data Engineering Core Team,Data Engineering,2021-09-22,2025-09-03,Approved,2025-09-03,2.1,Active,Project Notes,Public,Policy,Confluence,Annual,2026-09-03
+DOC-0559,emp_223,Chief Architect,Data Engineering Core Team,Data Engineering,2024-03-16,2025-01-06,Approved,2025-01-06,1.1,Active,Chief Architect,Restricted,Security Recommendation,Git Markdown,Annual,2026-01-06
+DOC-0560,emp_902,Senior Architect,Product Core Team,Product,05/14/2023,2023-08-21,Draft,,1.0,Draft,Senior Architect,Confidential,Draft Document,Confluence,Annual,2024-08-20
+DOC-0561,emp_686,Project Notes,Engineering Core Team,Engineering,2024-03-04,2025-06-10,Rejected,,3.2,Draft,Project Notes,Internal,Meeting Decision,Git Markdown,Annual,2026-06-10
+DOC-0562,emp_987,Senior Architect,Security Core Team,Security,2021-07-02,2025-12-26,Rejected,,2.1,Draft,Senior Architect,Public,Security Recommendation,Confluence,Annual,2026-12-26
+DOC-0563,emp_685,Architecture Board,Engineering Core Team,Engineering,2024-02-24,2025-12-15,Approved,2025-12-15,1.0,Active,Architecture Board,Public,Meeting Decision,Git Markdown,Annual,2026-12-15
+DOC-0564,emp_284,Unverified,Engineering Core Team,Engineering,2022-07-18,2023-09-12,Under Review,,3.1,Draft,Unverified,Public,Architecture Decision Record,Confluence,Annual,2024-09-11
+DOC-0565,emp_448,Architecture Board,Engineering Core Team,Engineering,2022-01-05,2024-05-03,Approved,2024-05-03,2.1,Active,Architecture Board,Restricted,Standard,Git Markdown,Annual,2025-05-03
+DOC-0566,emp_361,Senior Architect,Architecture Core Team,Architecture,2021-11-12,2023-08-02,Rejected,,1.2,Draft,Senior Architect,Restricted,Technical Design Document,Confluence,Annual,2024-08-01
+DOC-0567,emp_522,Senior Architect,Engineering Core Team,Engineering,2022-06-13,2024-07-21,Approved,2024-07-21,1.2,Superseded,Senior Architect,Internal,Security Recommendation,Git Markdown,Annual,2025-07-21
+DOC-0568,emp_575,Senior Engineer,Architecture Core Team,Architecture,2023-04-14,2023-08-26,Rejected,,3.0,Superseded,Senior Engineer,Public,Deprecated Document,Confluence,Annual,2024-08-25
+DOC-0569,emp_681,Principal Engineer,Platform Core Team,Platform,2023-07-03,2023-12-21,Under Review,,1.1,Draft,Principal Engineer,Internal,Standard,Git Markdown,Annual,2024-12-20
+DOC-0570,emp_932,Architecture Board,Security Core Team,Security,2026-05-23,2026-06-29,Under Review,,2.1,Superseded,Architecture Board,Restricted,Policy,Confluence,Annual,2027-06-29
+DOC-0571,emp_388,Unverified,DevOps Core Team,DevOps,2021-11-27,2026-01-18,Approved,2026-01-18,2.2,Active,Unverified,Public,Architecture Decision Record,Git Markdown,Annual,2027-01-18
+DOC-0572,emp_750,Senior Engineer,Platform Core Team,Platform,2026-06-30,2026-07-28,Draft,,2.1,Draft,Senior Engineer,Internal,Meeting Decision,Confluence,Annual,2027-07-28
+DOC-0573,emp_104,Project Notes,Platform Core Team,Platform,2024-10-09,2025-04-04,Rejected,,3.0,Draft,Project Notes,Public,Architecture Decision Record,Git Markdown,Annual,2026-04-04
+DOC-0574,emp_932,Senior Engineer,DevOps Core Team,DevOps,2025-08-22,2026-06-25,Draft,,3.0,Draft,Senior Engineer,Public,Standard,Confluence,Annual,2027-06-25
+DOC-0575,emp_796,Principal Engineer,Platform Core Team,Platform,2022-01-28,2022-07-31,Draft,,1.0,Draft,Principal Engineer,Confidential,Security Recommendation,Git Markdown,Annual,2023-07-31
+DOC-0576,emp_300,Architecture Board,DevOps Core Team,DevOps,2021-08-16,2026-07-02,Draft,,2.0,Draft,Architecture Board,Internal,Standard,Confluence,Annual,2027-07-02
+DOC-0577,emp_702,Chief Architect,Data Engineering Core Team,Data Engineering,2025-03-08,2025-05-13,Under Review,,3.0,Draft,Chief Architect,Restricted,Engineering Note,Git Markdown,Annual,2026-05-13
+DOC-0578,emp_564,Unverified,Data Engineering Core Team,Data Engineering,2026-04-05,2026-05-29,Approved,2026-05-29,2.1,Active,Unverified,Confidential,Architecture Decision Record,Confluence,Annual,2027-05-29
+DOC-0579,emp_148,Architecture Team,Architecture Core Team,Architecture,2026-02-24,2026-06-11,Rejected,,2.0,Draft,Architecture Team,Restricted,Meeting Decision,Git Markdown,Annual,2027-06-11
+DOC-0580,emp_355,Chief Architect,Platform Core Team,Platform,2021-12-03,2023-10-08,Approved,2023-10-08,1.0,Active,Chief Architect,Confidential,Project Documentation,Confluence,Annual,2024-10-07
+DOC-0581,emp_210,Architecture Team,Product Core Team,Product,2022-05-04,2024-03-31,Approved,2024-03-31,3.0,Active,Architecture Team,Public,Policy,Git Markdown,Annual,2025-03-31
+DOC-0582,emp_162,Chief Architect,Security Core Team,Security,2023-02-12,2024-11-14,Approved,2024-11-14,1.1,Active,Chief Architect,Public,Architecture Decision Record,Confluence,Annual,2025-11-14
+DOC-0583,emp_153,Unverified,DevOps Core Team,DevOps,2025-10-07,2026-04-20,Approved,2026-04-20,2.0,Active,Unverified,Public,Meeting Decision,Git Markdown,Annual,2027-04-20
+DOC-0584,emp_766,Senior Engineer,Data Engineering Core Team,Data Engineering,2023-07-19,2026-06-12,Draft,,1.0,Draft,Senior Engineer,Public,Architecture Decision Record,Confluence,Annual,2027-06-12
+DOC-0585,emp_531,Senior Engineer,Platform Core Team,Platform,2025-01-24,2026-04-24,Under Review,,1.0,Draft,Senior Engineer,Internal,Policy,Git Markdown,Annual,2027-04-24
+DOC-0586,emp_894,Unverified,Architecture Core Team,Architecture,2021-10-29,2024-06-16,Draft,,2.1,Draft,Unverified,Public,Engineering Note,Confluence,Annual,2025-06-16
+DOC-0587,emp_452,Engineer,Platform Core Team,Platform,2026-06-23,2026-07-05,Under Review,,2.0,Draft,Engineer,Confidential,Project Documentation,Git Markdown,Annual,2027-07-05
+DOC-0588,emp_528,Principal Engineer,Architecture Core Team,Architecture,2021-11-29,2022-07-01,Rejected,,1.1,Draft,Principal Engineer,Internal,Security Recommendation,Confluence,Annual,2023-07-01
+DOC-0589,emp_592,Architecture Team,Data Engineering Core Team,Data Engineering,07/12/2025,2026-07-25,Rejected,,1.0,Draft,Architecture Team,Restricted,Security Recommendation,Git Markdown,Annual,2027-07-25
+DOC-0590,emp_299,Project Notes,Platform Core Team,Platform,2026-02-13,2026-05-16,Approved,2026-05-16,1.0,Active,Project Notes,Restricted,Draft Document,Confluence,Annual,2027-05-16
+DOC-0591,emp_300,Senior Architect,Product Core Team,Product,2021-12-27,2023-06-16,Approved,2023-06-16,3.0,Superseded,Senior Architect,Confidential,Architecture Decision Record,Git Markdown,Annual,2024-06-15
+DOC-0592,emp_478,Architecture Team,Architecture Core Team,Architecture,2024-09-15,2025-03-09,Rejected,,1.0,Draft,Architecture Team,Internal,Security Recommendation,Confluence,Annual,2026-03-09
+DOC-0593,emp_425,Senior Engineer,Data Engineering Core Team,Data Engineering,2023-05-30,2024-10-11,Approved,2024-10-11,3.0,Active,Senior Engineer,Restricted,Draft Document,Git Markdown,Annual,2025-10-11
+DOC-0594,emp_971,Senior Architect,Product Core Team,Product,2026-06-07,2026-07-14,Rejected,,1.1,Draft,Senior Architect,Public,Deprecated Document,Confluence,Annual,2027-07-14
+DOC-0595,emp_631,Project Notes,Data Engineering Core Team,Data Engineering,2022-01-02,2023-10-23,Draft,,2.2,Draft,Project Notes,Confidential,Policy,Git Markdown,Annual,2024-10-22
+DOC-0596,emp_324,Architecture Team,Data Engineering Core Team,Data Engineering,2023-07-15,2024-11-06,Rejected,,2.1,Draft,Architecture Team,Internal,Project Documentation,Confluence,Annual,2025-11-06
+DOC-0597,emp_555,Principal Engineer,Platform Core Team,Platform,2022-12-22,2024-04-06,Approved,2024-04-06,3.1,Active,Principal Engineer,Confidential,Deprecated Document,Git Markdown,Annual,2025-04-06
+DOC-0598,emp_491,Principal Engineer,Security Core Team,Security,2022-01-03,2024-06-25,Under Review,,1.1,Draft,Principal Engineer,Public,Architecture Decision Record,Confluence,Annual,2025-06-25
+DOC-0599,emp_200,Architecture Team,Engineering Core Team,Engineering,2021-05-27,2023-06-03,Approved,2023-06-03,2.0,Active,Architecture Team,Restricted,Technical Design Document,Git Markdown,Annual,2024-06-02
+DOC-0600,emp_975,Senior Architect,Architecture Core Team,Architecture,2026-02-12,2026-04-19,Approved,2026-04-19,2.1,Active,Senior Architect,Confidential,Deprecated Document,Confluence,Annual,2027-04-19
+DOC-0601,emp_333,Engineer,Security Core Team,Security,2025-01-21,2025-08-23,Rejected,,3.2,Draft,Engineer,Confidential,Project Documentation,Git Markdown,Annual,2026-08-23
+DOC-0602,emp_888,Engineer,Product Core Team,Product,2022-03-06,2024-08-20,Approved,2024-08-20,3.0,Active,Engineer,Restricted,Standard,Confluence,Annual,2025-08-20
+DOC-0603,emp_529,Architecture Team,Architecture Core Team,Architecture,2024-11-05,2025-12-23,Draft,,1.2,Draft,Architecture Team,Public,Standard,Git Markdown,Annual,2026-12-23
+DOC-0604,emp_309,Engineer,DevOps Core Team,DevOps,2021-05-11,2024-05-09,Rejected,,1.1,Draft,Engineer,Confidential,Standard,Confluence,Annual,2025-05-09
+DOC-0605,emp_946,Architecture Board,DevOps Core Team,DevOps,2023-09-28,2023-11-21,Under Review,,2.1,Draft,Architecture Board,Internal,Draft Document,Git Markdown,Annual,2024-11-20
+DOC-0606,emp_111,Unverified,Engineering Core Team,Engineering,2022-11-01,2025-02-19,Under Review,,1.2,Draft,Unverified,Confidential,Engineering Note,Confluence,Annual,2026-02-19
+DOC-0607,emp_542,Principal Engineer,Product Core Team,Product,2021-11-22,2025-04-11,Draft,,3.2,Draft,Principal Engineer,Confidential,Policy,Git Markdown,Annual,2026-04-11
+DOC-0608,emp_638,Architecture Team,Engineering Core Team,Engineering,2026-02-08,2026-07-03,Rejected,,3.0,Draft,Architecture Team,Public,Security Recommendation,Confluence,Annual,2027-07-03
+DOC-0609,emp_727,Engineer,DevOps Core Team,DevOps,2023-05-01,2024-09-22,Under Review,,3.1,Draft,Engineer,Confidential,Engineering Note,Git Markdown,Annual,2025-09-22
+DOC-0610,emp_991,Architecture Team,Security Core Team,Security,2022-07-15,2026-01-21,Draft,,1.2,Draft,Architecture Team,Internal,Engineering Note,Confluence,Annual,2027-01-21
+DOC-0611,emp_616,Chief Architect,Architecture Core Team,Architecture,04/20/2023,2025-10-29,Under Review,,3.0,Draft,Chief Architect,Confidential,Security Recommendation,Git Markdown,Annual,2026-10-29
+DOC-0612,emp_863,Senior Engineer,Security Core Team,Security,2025-10-19,2026-01-26,Rejected,,2.0,Superseded,Senior Engineer,Internal,Standard,Confluence,Annual,2027-01-26
+DOC-0613,emp_772,Unverified,Engineering Core Team,Engineering,2025-01-01,2026-03-25,Under Review,,2.0,Draft,Unverified,Internal,Project Documentation,Git Markdown,Annual,2027-03-25
+DOC-0614,emp_179,Senior Architect,Engineering Core Team,Engineering,2024-10-19,2025-07-25,Under Review,,1.0,Draft,Senior Architect,Public,Architecture Decision Record,Confluence,Annual,2026-07-25
+DOC-0615,emp_806,Engineer,Engineering Core Team,Engineering,2023-06-29,2023-10-14,Approved,2023-10-14,2.0,Superseded,Engineer,Internal,Meeting Decision,Git Markdown,Annual,2024-10-13
+DOC-0616,emp_445,Architecture Board,Security Core Team,Security,10/24/2024,2024-12-27,Approved,2024-12-27,3.0,Active,Architecture Board,Internal,Project Documentation,Confluence,Annual,2025-12-27
+DOC-0617,emp_654,Architecture Team,Data Engineering Core Team,Data Engineering,2026-04-07,2026-05-31,Approved,2026-05-31,1.1,Active,Architecture Team,Restricted,Standard,Git Markdown,Annual,2027-05-31
+DOC-0618,emp_325,Project Notes,Security Core Team,Security,2024-09-09,2025-06-21,Draft,,1.1,Superseded,Project Notes,Restricted,Technical Design Document,Confluence,Annual,2026-06-21
+DOC-0619,emp_197,Principal Engineer,Data Engineering Core Team,Data Engineering,2022-10-27,2026-05-11,Rejected,,3.0,Draft,Principal Engineer,Restricted,Draft Document,Git Markdown,Annual,2027-05-11
+DOC-0620,emp_443,Chief Architect,DevOps Core Team,DevOps,2024-05-31,2026-01-20,Rejected,,3.2,Draft,Chief Architect,Internal,Architecture Decision Record,Confluence,Annual,2027-01-20
+DOC-0621,emp_342,Principal Engineer,Engineering Core Team,Engineering,2025-03-31,2025-08-02,Approved,2025-08-02,2.1,Superseded,Principal Engineer,Restricted,Standard,Git Markdown,Annual,2026-08-02
+DOC-0622,emp_237,Senior Engineer,Platform Core Team,Platform,2022-10-13,2026-05-23,Approved,2026-05-23,2.2,Active,Senior Engineer,Restricted,Meeting Decision,Confluence,Annual,2027-05-23
+DOC-0623,emp_155,Unverified,Platform Core Team,Platform,2025-06-30,2026-06-16,Under Review,,2.2,Draft,Unverified,Restricted,Project Documentation,Git Markdown,Annual,2027-06-16
+DOC-0624,emp_153,Architecture Team,Security Core Team,Security,2026-04-06,2026-05-02,Approved,2026-05-02,3.0,Active,Architecture Team,Internal,Engineering Note,Confluence,Annual,2027-05-02
+DOC-0625,emp_534,Architecture Team,Platform Core Team,Platform,2024-05-25,2025-02-03,Draft,,2.2,Draft,Architecture Team,Internal,Engineering Note,Git Markdown,Annual,2026-02-03
+DOC-0626,emp_582,Senior Architect,Security Core Team,Security,2023-05-16,2026-03-15,Under Review,,2.0,Draft,Senior Architect,Confidential,Policy,Confluence,Annual,2027-03-15
+DOC-0627,emp_844,Unverified,Data Engineering Core Team,Data Engineering,2022-06-11,2024-07-29,Rejected,,2.1,Draft,Unverified,Confidential,Engineering Note,Git Markdown,Annual,2025-07-29
+DOC-0628,emp_113,Architecture Board,Platform Core Team,Platform,2025-02-04,2026-02-22,Rejected,,2.1,Draft,Architecture Board,Restricted,Deprecated Document,Confluence,Annual,2027-02-22
+DOC-0629,emp_494,Chief Architect,Security Core Team,Security,2021-11-29,2022-12-31,Rejected,,3.1,Draft,Chief Architect,Confidential,Draft Document,Git Markdown,Annual,2023-12-31
+DOC-0630,emp_348,Architecture Team,Security Core Team,Security,2021-03-12,2026-05-12,Draft,,3.0,Draft,Architecture Team,Internal,Policy,Confluence,Annual,2027-05-12
+DOC-0631,emp_112,Senior Architect,Architecture Core Team,Architecture,2025-04-28,2025-06-14,Rejected,,3.0,Draft,Senior Architect,Internal,Technical Design Document,Git Markdown,Annual,2026-06-14
+DOC-0632,emp_645,Unverified,DevOps Core Team,DevOps,2024-04-15,2025-02-24,Rejected,,3.0,Draft,Unverified,Public,Standard,Confluence,Annual,2026-02-24
+DOC-0633,emp_866,Architecture Team,Platform Core Team,Platform,2024-12-02,2025-10-13,Approved,2025-10-13,2.0,Active,Architecture Team,Public,Standard,Git Markdown,Annual,2026-10-13
+DOC-0634,emp_274,Engineer,DevOps Core Team,DevOps,2023-02-07,2024-02-23,Under Review,,1.2,Draft,Engineer,Public,Engineering Note,Confluence,Annual,2025-02-22
+DOC-0635,emp_365,Architecture Team,Engineering Core Team,Engineering,2023-06-22,2024-01-31,Under Review,,1.1,Superseded,Architecture Team,Public,Standard,Git Markdown,Annual,2025-01-30
+DOC-0636,emp_109,Chief Architect,Security Core Team,Security,2022-06-29,2022-07-13,Approved,2022-07-13,3.0,Superseded,Chief Architect,Confidential,Architecture Decision Record,Confluence,Annual,2023-07-13
+DOC-0637,emp_444,Engineer,Security Core Team,Security,2024-10-28,2025-10-14,Draft,,2.2,Draft,Engineer,Confidential,Security Recommendation,Git Markdown,Annual,2026-10-14
+DOC-0638,emp_567,Architecture Board,Architecture Core Team,Architecture,2025-01-25,2025-06-16,Approved,2025-06-16,3.1,Active,Architecture Board,Internal,Standard,Confluence,Annual,2026-06-16
+DOC-0639,emp_103,Architecture Team,Security Core Team,Security,2021-02-04,2024-08-24,Draft,,3.1,Draft,Architecture Team,Confidential,Security Recommendation,Git Markdown,Annual,2025-08-24
+DOC-0640,emp_587,Engineer,Engineering Core Team,Engineering,2025-02-12,2026-03-13,Draft,,3.0,Draft,Engineer,Public,Technical Design Document,Confluence,Annual,2027-03-13
+DOC-0641,emp_556,Senior Architect,DevOps Core Team,DevOps,2023-09-15,2025-01-20,Under Review,,3.2,Draft,Senior Architect,Public,Technical Design Document,Git Markdown,Annual,2026-01-20
+DOC-0642,emp_325,Principal Engineer,Architecture Core Team,Architecture,2024-09-25,2026-01-25,Under Review,,3.2,Draft,Principal Engineer,Confidential,Meeting Decision,Confluence,Annual,2027-01-25
+DOC-0643,emp_486,Senior Engineer,Product Core Team,Product,2024-09-01,2026-06-20,Rejected,,1.1,Draft,Senior Engineer,Public,Standard,Git Markdown,Annual,2027-06-20
+DOC-0644,emp_686,Chief Architect,Data Engineering Core Team,Data Engineering,2021-09-18,2026-07-01,Draft,,3.2,Draft,Chief Architect,Public,Security Recommendation,Confluence,Annual,2027-07-01
+DOC-0645,emp_889,Senior Engineer,Security Core Team,Security,2025-06-22,2026-06-04,Under Review,,3.2,Draft,Senior Engineer,Internal,Security Recommendation,Git Markdown,Annual,2027-06-04
+DOC-0646,emp_611,Architecture Team,Platform Core Team,Platform,2021-10-29,2025-03-13,Draft,,3.2,Draft,Architecture Team,Public,Policy,Confluence,Annual,2026-03-13
+DOC-0647,emp_606,Architecture Team,Product Core Team,Product,2024-12-13,2026-01-02,Approved,2026-01-02,2.0,Active,Architecture Team,Internal,Meeting Decision,Git Markdown,Annual,2027-01-02
+DOC-0648,emp_977,Senior Architect,DevOps Core Team,DevOps,2025-01-29,2026-03-06,Draft,,3.0,Draft,Senior Architect,Public,Policy,Confluence,Annual,2027-03-06
+DOC-0649,emp_173,Engineer,Architecture Core Team,Architecture,2025-01-28,2025-11-13,Draft,,1.2,Draft,Engineer,Confidential,Deprecated Document,Git Markdown,Annual,2026-11-13
+DOC-0650,emp_568,Principal Engineer,Product Core Team,Product,2024-03-28,2024-08-15,Rejected,,2.0,Draft,Principal Engineer,Internal,Engineering Note,Confluence,Annual,2025-08-15
+DOC-0651,emp_485,Senior Architect,Architecture Core Team,Architecture,2024-10-23,2025-04-13,Approved,2025-04-13,2.0,Superseded,Senior Architect,Public,Standard,Git Markdown,Annual,2026-04-13
+DOC-0652,emp_350,Engineer,Security Core Team,Security,2021-09-01,2023-01-07,Rejected,,3.2,Draft,Engineer,Internal,Architecture Decision Record,Confluence,Annual,2024-01-07
+DOC-0653,emp_381,Engineer,Engineering Core Team,Engineering,01/23/2023,2023-02-15,Approved,2023-02-15,1.1,Superseded,Engineer,Internal,Policy,Git Markdown,Annual,2024-02-15
+DOC-0654,emp_493,Senior Architect,Architecture Core Team,Architecture,2024-08-13,2025-10-31,Draft,,1.1,Draft,Senior Architect,Public,Policy,Confluence,Annual,2026-10-31
+DOC-0655,emp_669,Engineer,Security Core Team,Security,2025-05-24,2026-07-13,Rejected,,3.2,Superseded,Engineer,Public,Deprecated Document,Git Markdown,Annual,2027-07-13
+DOC-0656,emp_668,Architecture Board,Platform Core Team,Platform,2025-06-28,2025-12-05,Approved,2025-12-05,3.0,Superseded,Architecture Board,Internal,Policy,Confluence,Annual,2026-12-05
+DOC-0657,emp_657,Senior Engineer,Engineering Core Team,Engineering,2023-05-17,2023-05-17,Under Review,,3.1,Draft,Senior Engineer,Confidential,Engineering Note,Git Markdown,Annual,2024-05-16
+DOC-0658,emp_778,Chief Architect,Architecture Core Team,Architecture,2022-05-01,2022-07-15,Under Review,,1.0,Draft,Chief Architect,Internal,Architecture Decision Record,Confluence,Annual,2023-07-15
+DOC-0659,emp_490,Principal Engineer,Engineering Core Team,Engineering,2023-03-31,2025-10-20,Approved,2025-10-20,3.1,Active,Principal Engineer,Internal,Engineering Note,Git Markdown,Annual,2026-10-20
+DOC-0660,emp_677,Senior Engineer,DevOps Core Team,DevOps,05/23/2024,2024-11-06,Rejected,,2.1,Draft,Senior Engineer,Confidential,Deprecated Document,Confluence,Annual,2025-11-06
+DOC-0661,emp_516,Unverified,Engineering Core Team,Engineering,2022-11-06,2026-06-09,Draft,,2.0,Draft,Unverified,Internal,Technical Design Document,Git Markdown,Annual,2027-06-09
+DOC-0662,emp_639,Senior Architect,Engineering Core Team,Engineering,2024-04-20,2026-07-25,Rejected,,2.2,Superseded,Senior Architect,Restricted,Meeting Decision,Confluence,Annual,2027-07-25
+DOC-0663,emp_453,Senior Architect,Architecture Core Team,Architecture,2024-02-04,2025-10-04,Rejected,,1.1,Draft,Senior Architect,Public,Deprecated Document,Git Markdown,Annual,2026-10-04
+DOC-0664,emp_154,Principal Engineer,Platform Core Team,Platform,2024-12-19,2025-08-31,Rejected,,1.1,Draft,Principal Engineer,Restricted,Security Recommendation,Confluence,Annual,2026-08-31
+DOC-0665,emp_750,Principal Engineer,Data Engineering Core Team,Data Engineering,2026-04-25,2026-06-03,Rejected,,1.2,Draft,Principal Engineer,Public,Technical Design Document,Git Markdown,Annual,2027-06-03
+DOC-0666,emp_861,Chief Architect,Data Engineering Core Team,Data Engineering,2024-02-09,2025-06-27,Rejected,,3.0,Draft,Chief Architect,Confidential,Meeting Decision,Confluence,Annual,2026-06-27
+DOC-0667,emp_114,Engineer,DevOps Core Team,DevOps,2022-01-25,2026-04-01,Approved,2026-04-01,3.2,Active,Engineer,Restricted,Draft Document,Git Markdown,Annual,2027-04-01
+DOC-0668,emp_272,Project Notes,Data Engineering Core Team,Data Engineering,2026-01-25,2026-03-23,Under Review,,1.2,Superseded,Project Notes,Restricted,Deprecated Document,Confluence,Annual,2027-03-23
+DOC-0669,emp_795,Senior Engineer,Architecture Core Team,Architecture,2025-08-31,2026-06-03,Approved,2026-06-03,2.1,Active,Senior Engineer,Restricted,Project Documentation,Git Markdown,Annual,2027-06-03
+DOC-0670,emp_945,Unverified,Platform Core Team,Platform,2026-03-31,2026-05-29,Rejected,,1.2,Superseded,Unverified,Confidential,Architecture Decision Record,Confluence,Annual,2027-05-29
+DOC-0671,emp_463,Engineer,DevOps Core Team,DevOps,2021-07-27,2023-12-26,Under Review,,3.0,Superseded,Engineer,Confidential,Architecture Decision Record,Git Markdown,Annual,2024-12-25
+DOC-0672,emp_581,Architecture Team,DevOps Core Team,DevOps,2023-02-06,2024-10-10,Draft,,1.2,Draft,Architecture Team,Restricted,Standard,Confluence,Annual,2025-10-10
+DOC-0673,emp_105,Engineer,Platform Core Team,Platform,2025-12-15,2026-07-25,Under Review,,2.0,Superseded,Engineer,Internal,Security Recommendation,Git Markdown,Annual,2027-07-25
+DOC-0674,emp_781,Project Notes,DevOps Core Team,DevOps,2021-09-01,2024-01-11,Rejected,,3.2,Draft,Project Notes,Internal,Meeting Decision,Confluence,Annual,2025-01-10
+DOC-0675,emp_212,Senior Architect,DevOps Core Team,DevOps,2025-06-12,2025-06-22,Under Review,,3.0,Draft,Senior Architect,Internal,Technical Design Document,Git Markdown,Annual,2026-06-22
+DOC-0676,emp_591,Engineer,DevOps Core Team,DevOps,2022-08-01,2025-04-22,Approved,2025-04-22,1.2,Active,Engineer,Internal,Meeting Decision,Confluence,Annual,2026-04-22
+DOC-0677,emp_782,Architecture Team,Engineering Core Team,Engineering,2022-02-11,2024-10-08,Approved,2024-10-08,3.2,Active,Architecture Team,Internal,Standard,Git Markdown,Annual,2025-10-08
+DOC-0678,emp_235,Chief Architect,Platform Core Team,Platform,2021-03-20,2022-10-01,Under Review,,2.0,Draft,Chief Architect,Internal,Standard,Confluence,Annual,2023-10-01
+DOC-0679,emp_444,Architecture Team,Architecture Core Team,Architecture,2023-09-09,2024-01-12,Rejected,,2.0,Draft,Architecture Team,Restricted,Standard,Git Markdown,Annual,2025-01-11
+DOC-0680,emp_141,Senior Architect,Architecture Core Team,Architecture,2021-04-17,2024-12-29,Draft,,2.1,Draft,Senior Architect,Public,Architecture Decision Record,Confluence,Annual,2025-12-29
+DOC-0681,emp_199,Chief Architect,Architecture Core Team,Architecture,2024-10-30,2026-05-18,Under Review,,3.1,Draft,Chief Architect,Restricted,Architecture Decision Record,Git Markdown,Annual,2027-05-18
+DOC-0682,emp_744,Senior Architect,Engineering Core Team,Engineering,2021-09-04,2021-11-27,Under Review,,2.0,Draft,Senior Architect,Public,Draft Document,Confluence,Annual,2022-11-27
+DOC-0683,emp_838,Unverified,Security Core Team,Security,2021-03-31,2021-12-17,Under Review,,3.1,Draft,Unverified,Restricted,Engineering Note,Git Markdown,Annual,2022-12-17
+DOC-0684,emp_636,Engineer,Engineering Core Team,Engineering,06/08/2025,2025-06-19,Under Review,,3.0,Draft,Engineer,Restricted,Deprecated Document,Confluence,Annual,2026-06-19
+DOC-0685,emp_801,Project Notes,Product Core Team,Product,2025-11-18,2025-12-26,Under Review,,3.1,Draft,Project Notes,Confidential,Deprecated Document,Git Markdown,Annual,2026-12-26
+DOC-0686,emp_909,Architecture Board,Platform Core Team,Platform,2023-07-22,2026-05-18,Draft,,1.1,Draft,Architecture Board,Restricted,Deprecated Document,Confluence,Annual,2027-05-18
+DOC-0687,emp_754,Architecture Board,Platform Core Team,Platform,2026-04-14,2026-05-19,Under Review,,1.2,Draft,Architecture Board,Internal,Engineering Note,Git Markdown,Annual,2027-05-19
+DOC-0688,emp_432,Senior Engineer,DevOps Core Team,DevOps,2026-04-23,2026-07-22,Draft,,2.2,Draft,Senior Engineer,Restricted,Technical Design Document,Confluence,Annual,2027-07-22
+DOC-0689,emp_280,Principal Engineer,Architecture Core Team,Architecture,2026-06-13,2026-06-14,Approved,2026-06-14,3.1,Active,Principal Engineer,Restricted,Meeting Decision,Git Markdown,Annual,2027-06-14
+DOC-0690,emp_432,Architecture Team,Product Core Team,Product,2022-02-22,2025-05-28,Rejected,,1.2,Draft,Architecture Team,Confidential,Meeting Decision,Confluence,Annual,2026-05-28
+DOC-0691,emp_935,Senior Architect,Platform Core Team,Platform,2022-01-22,2025-04-02,Under Review,,1.1,Draft,Senior Architect,Internal,Engineering Note,Git Markdown,Annual,2026-04-02
+DOC-0692,emp_173,Senior Architect,Platform Core Team,Platform,2022-05-18,2024-12-04,Rejected,,3.0,Superseded,Senior Architect,Public,Standard,Confluence,Annual,2025-12-04
+DOC-0693,emp_235,Architecture Board,Product Core Team,Product,2025-04-27,2025-06-08,Under Review,,3.0,Draft,Architecture Board,Public,Project Documentation,Git Markdown,Annual,2026-06-08
+DOC-0694,emp_242,Architecture Team,DevOps Core Team,DevOps,2025-04-05,2026-01-18,Rejected,,2.1,Draft,Architecture Team,Confidential,Policy,Confluence,Annual,2027-01-18
+DOC-0695,emp_944,Architecture Board,Data Engineering Core Team,Data Engineering,2021-07-30,2024-08-18,Draft,,2.0,Superseded,Architecture Board,Public,Architecture Decision Record,Git Markdown,Annual,2025-08-18
+DOC-0696,emp_331,Principal Engineer,Platform Core Team,Platform,2024-11-07,2025-03-02,Rejected,,1.0,Draft,Principal Engineer,Public,Standard,Confluence,Annual,2026-03-02
+DOC-0697,emp_186,Senior Engineer,Architecture Core Team,Architecture,2024-05-23,2024-10-24,Rejected,,3.0,Draft,Senior Engineer,Confidential,Architecture Decision Record,Git Markdown,Annual,2025-10-24
+DOC-0698,emp_996,Senior Engineer,Product Core Team,Product,2022-07-10,2025-04-27,Draft,,3.0,Draft,Senior Engineer,Public,Technical Design Document,Confluence,Annual,2026-04-27
+DOC-0699,emp_557,Engineer,Architecture Core Team,Architecture,2025-07-27,2025-08-30,Approved,2025-08-30,3.1,Active,Engineer,Internal,Policy,Git Markdown,Annual,2026-08-30
+DOC-0700,emp_606,Senior Engineer,Security Core Team,Security,2023-09-13,2026-01-07,Draft,,3.0,Draft,Senior Engineer,Confidential,Standard,Confluence,Annual,2027-01-07
+DOC-0701,emp_185,Engineer,Data Engineering Core Team,Data Engineering,2025-01-04,2026-03-11,Under Review,,1.1,Draft,Engineer,Public,Draft Document,Git Markdown,Annual,2027-03-11
+DOC-0702,emp_161,Chief Architect,Security Core Team,Security,2023-01-10,2023-10-22,Draft,,3.1,Draft,Chief Architect,Internal,Security Recommendation,Confluence,Annual,2024-10-21
+DOC-0703,emp_850,Engineer,DevOps Core Team,DevOps,2024-11-26,2026-02-03,Draft,,1.2,Superseded,Engineer,Public,Architecture Decision Record,Git Markdown,Annual,2027-02-03
+DOC-0704,emp_180,Senior Architect,Platform Core Team,Platform,2021-06-07,2021-07-02,Rejected,,1.1,Draft,Senior Architect,Internal,Project Documentation,Confluence,Annual,2022-07-02
+DOC-0705,emp_900,Project Notes,Security Core Team,Security,2022-08-11,2023-03-26,Under Review,,3.0,Superseded,Project Notes,Internal,Architecture Decision Record,Git Markdown,Annual,2024-03-25
+DOC-0706,emp_413,Unverified,Security Core Team,Security,2023-05-18,2024-04-03,Draft,,3.1,Draft,Unverified,Internal,Project Documentation,Confluence,Annual,2025-04-03
+DOC-0707,emp_719,Unverified,Security Core Team,Security,2025-07-31,2026-07-20,Rejected,,3.2,Draft,Unverified,Confidential,Technical Design Document,Git Markdown,Annual,2027-07-20
+DOC-0708,emp_211,Principal Engineer,Security Core Team,Security,2021-06-09,2023-06-21,Draft,,2.0,Superseded,Principal Engineer,Public,Technical Design Document,Confluence,Annual,2024-06-20
+DOC-0709,emp_346,Architecture Board,Data Engineering Core Team,Data Engineering,2021-06-24,2024-09-03,Approved,2024-09-03,2.0,Active,Architecture Board,Public,Meeting Decision,Git Markdown,Annual,2025-09-03
+DOC-0710,emp_612,Engineer,Product Core Team,Product,2022-10-07,2024-12-15,Under Review,,1.1,Draft,Engineer,Confidential,Project Documentation,Confluence,Annual,2025-12-15
+DOC-0711,emp_701,Architecture Board,Product Core Team,Product,2023-09-04,2023-11-19,Draft,,3.1,Draft,Architecture Board,Public,Standard,Git Markdown,Annual,2024-11-18
+DOC-0712,emp_613,Senior Architect,Product Core Team,Product,2026-07-26,2026-07-31,Draft,,1.1,Draft,Senior Architect,Restricted,Deprecated Document,Confluence,Annual,2027-07-31
+DOC-0713,emp_313,Architecture Team,DevOps Core Team,DevOps,2024-05-27,2024-08-11,Under Review,,2.0,Draft,Architecture Team,Public,Draft Document,Git Markdown,Annual,2025-08-11
+DOC-0714,emp_196,Project Notes,Product Core Team,Product,2022-10-05,2023-09-17,Draft,,2.2,Draft,Project Notes,Restricted,Policy,Confluence,Annual,2024-09-16
+DOC-0715,emp_765,Project Notes,Security Core Team,Security,2026-04-09,2026-04-24,Rejected,,2.1,Superseded,Project Notes,Confidential,Engineering Note,Git Markdown,Annual,2027-04-24
+DOC-0716,emp_185,Senior Engineer,Architecture Core Team,Architecture,2023-11-03,2025-02-05,Draft,,3.0,Draft,Senior Engineer,Public,Standard,Confluence,Annual,2026-02-05
+DOC-0717,emp_484,Principal Engineer,Platform Core Team,Platform,2024-03-13,2025-04-25,Approved,2025-04-25,2.2,Active,Principal Engineer,Public,Engineering Note,Git Markdown,Annual,2026-04-25
+DOC-0718,emp_284,Chief Architect,Security Core Team,Security,2026-02-22,2026-06-03,Rejected,,2.0,Draft,Chief Architect,Restricted,Technical Design Document,Confluence,Annual,2027-06-03
+DOC-0719,emp_385,Chief Architect,DevOps Core Team,DevOps,2021-03-20,2024-04-09,Under Review,,1.2,Draft,Chief Architect,Internal,Policy,Git Markdown,Annual,2025-04-09
+DOC-0720,emp_908,Senior Engineer,Security Core Team,Security,2026-06-28,2026-07-28,Under Review,,1.2,Superseded,Senior Engineer,Confidential,Standard,Confluence,Annual,2027-07-28
+DOC-0721,emp_183,Engineer,Engineering Core Team,Engineering,2025-11-25,2026-05-26,Rejected,,3.1,Draft,Engineer,Internal,Meeting Decision,Git Markdown,Annual,2027-05-26
+DOC-0722,emp_303,Senior Architect,Product Core Team,Product,2026-04-14,2026-06-06,Rejected,,3.0,Draft,Senior Architect,Confidential,Security Recommendation,Confluence,Annual,2027-06-06
+DOC-0723,emp_840,Chief Architect,Engineering Core Team,Engineering,06/16/2024,2024-11-11,Draft,,3.2,Draft,Chief Architect,Restricted,Draft Document,Git Markdown,Annual,2025-11-11
+DOC-0724,emp_911,Chief Architect,Product Core Team,Product,2022-06-23,2025-05-24,Approved,2025-05-24,1.2,Active,Chief Architect,Confidential,Standard,Confluence,Annual,2026-05-24
+DOC-0725,emp_813,Engineer,DevOps Core Team,DevOps,2025-05-05,2025-07-29,Rejected,,1.0,Draft,Engineer,Public,Deprecated Document,Git Markdown,Annual,2026-07-29
+DOC-0726,emp_764,Project Notes,Data Engineering Core Team,Data Engineering,2023-04-28,2025-08-15,Draft,,3.1,Draft,Project Notes,Restricted,Policy,Confluence,Annual,2026-08-15
+DOC-0727,emp_546,Unverified,Platform Core Team,Platform,2022-08-07,2026-04-18,Rejected,,3.2,Draft,Unverified,Public,Standard,Git Markdown,Annual,2027-04-18
+DOC-0728,emp_206,Engineer,DevOps Core Team,DevOps,2025-03-16,2026-04-04,Approved,2026-04-04,3.2,Active,Engineer,Public,Policy,Confluence,Annual,2027-04-04
+DOC-0729,emp_490,Unverified,Product Core Team,Product,02/05/2022,2024-09-23,Approved,2024-09-23,2.1,Active,Unverified,Confidential,Technical Design Document,Git Markdown,Annual,2025-09-23
+DOC-0730,emp_414,Principal Engineer,Architecture Core Team,Architecture,10/10/2024,2025-06-14,Approved,2025-06-14,2.0,Active,Principal Engineer,Public,Standard,Confluence,Annual,2026-06-14
+DOC-0731,emp_274,Senior Engineer,DevOps Core Team,DevOps,2026-07-27,2026-07-30,Under Review,,2.0,Draft,Senior Engineer,Confidential,Draft Document,Git Markdown,Annual,2027-07-30
+DOC-0732,emp_512,Senior Architect,Platform Core Team,Platform,2023-11-26,2024-05-06,Rejected,,3.0,Draft,Senior Architect,Public,Security Recommendation,Confluence,Annual,2025-05-06
+DOC-0733,emp_308,Senior Engineer,Product Core Team,Product,2021-07-11,2021-09-01,Rejected,,3.0,Superseded,Senior Engineer,Public,Technical Design Document,Git Markdown,Annual,2022-09-01
+DOC-0734,emp_564,Senior Architect,Security Core Team,Security,2022-01-18,2023-05-23,Draft,,1.2,Draft,Senior Architect,Confidential,Security Recommendation,Confluence,Annual,2024-05-22
+DOC-0735,emp_213,Chief Architect,Platform Core Team,Platform,2026-03-14,2026-04-14,Approved,2026-04-14,2.0,Active,Chief Architect,Public,Policy,Git Markdown,Annual,2027-04-14
+DOC-0736,emp_523,Architecture Board,Engineering Core Team,Engineering,2023-09-24,2024-02-27,Under Review,,2.1,Draft,Architecture Board,Confidential,Technical Design Document,Confluence,Annual,2025-02-26
+DOC-0737,emp_451,Chief Architect,DevOps Core Team,DevOps,2023-09-19,2023-09-29,Draft,,1.2,Draft,Chief Architect,Public,Security Recommendation,Git Markdown,Annual,2024-09-28
+DOC-0738,emp_322,Chief Architect,Product Core Team,Product,2022-11-02,2023-08-12,Under Review,,3.0,Superseded,Chief Architect,Restricted,Architecture Decision Record,Confluence,Annual,2024-08-11
+DOC-0739,emp_863,Project Notes,DevOps Core Team,DevOps,2023-06-13,2026-04-27,Under Review,,1.2,Draft,Project Notes,Restricted,Policy,Git Markdown,Annual,2027-04-27
+DOC-0740,emp_543,Project Notes,Platform Core Team,Platform,2023-05-18,2024-11-24,Draft,,3.1,Draft,Project Notes,Confidential,Policy,Confluence,Annual,2025-11-24
+DOC-0741,emp_134,Senior Architect,Engineering Core Team,Engineering,2022-06-03,2025-09-16,Rejected,,3.2,Draft,Senior Architect,Restricted,Deprecated Document,Git Markdown,Annual,2026-09-16
+DOC-0742,emp_351,Senior Engineer,Product Core Team,Product,2022-03-17,2025-11-21,Draft,,2.0,Draft,Senior Engineer,Public,Technical Design Document,Confluence,Annual,2026-11-21
+DOC-0743,emp_675,Architecture Team,Security Core Team,Security,2023-03-01,2024-10-01,Under Review,,1.2,Draft,Architecture Team,Restricted,Technical Design Document,Git Markdown,Annual,2025-10-01
+DOC-0744,emp_425,Engineer,Data Engineering Core Team,Data Engineering,2022-02-10,2023-03-20,Approved,2023-03-20,2.0,Active,Engineer,Restricted,Security Recommendation,Confluence,Annual,2024-03-19
+DOC-0745,emp_690,Architecture Team,Architecture Core Team,Architecture,08/07/2022,2022-09-12,Approved,2022-09-12,2.0,Active,Architecture Team,Confidential,Architecture Decision Record,Git Markdown,Annual,2023-09-12
+DOC-0746,emp_581,Chief Architect,Architecture Core Team,Architecture,2025-08-27,2026-03-27,Draft,,2.1,Draft,Chief Architect,Public,Technical Design Document,Confluence,Annual,2027-03-27
+DOC-0747,emp_605,Project Notes,Security Core Team,Security,2025-09-23,2026-04-02,Approved,2026-04-02,1.0,Superseded,Project Notes,Internal,Technical Design Document,Git Markdown,Annual,2027-04-02
+DOC-0748,emp_841,Architecture Team,Platform Core Team,Platform,2025-07-30,2026-05-01,Approved,2026-05-01,1.1,Active,Architecture Team,Public,Security Recommendation,Confluence,Annual,2027-05-01
+DOC-0749,emp_815,Principal Engineer,Architecture Core Team,Architecture,2026-03-10,2026-04-14,Approved,2026-04-14,1.2,Active,Principal Engineer,Confidential,Engineering Note,Git Markdown,Annual,2027-04-14
+DOC-0750,emp_387,Project Notes,Platform Core Team,Platform,2025-05-02,2026-05-11,Rejected,,2.1,Draft,Project Notes,Public,Security Recommendation,Confluence,Annual,2027-05-11
+DOC-0751,emp_176,Chief Architect,DevOps Core Team,DevOps,2021-05-04,2022-07-13,Approved,2022-07-13,2.1,Active,Chief Architect,Internal,Policy,Git Markdown,Annual,2023-07-13
+DOC-0752,emp_825,Principal Engineer,Data Engineering Core Team,Data Engineering,2024-09-04,2025-02-08,Approved,2025-02-08,1.1,Active,Principal Engineer,Confidential,Policy,Confluence,Annual,2026-02-08
+DOC-0753,emp_170,Architecture Team,Product Core Team,Product,2023-05-17,2024-04-17,Draft,,3.2,Draft,Architecture Team,Public,Meeting Decision,Git Markdown,Annual,2025-04-17
+DOC-0754,emp_373,Senior Architect,Engineering Core Team,Engineering,2023-09-03,2026-03-18,Draft,,3.0,Draft,Senior Architect,Restricted,Architecture Decision Record,Confluence,Annual,2027-03-18
+DOC-0755,emp_551,Architecture Board,Data Engineering Core Team,Data Engineering,2023-01-28,2023-08-16,Approved,2023-08-16,3.1,Active,Architecture Board,Internal,Meeting Decision,Git Markdown,Annual,2024-08-15
+DOC-0756,emp_543,Unverified,Data Engineering Core Team,Data Engineering,2024-10-27,2024-12-17,Under Review,,1.0,Draft,Unverified,Public,Technical Design Document,Confluence,Annual,2025-12-17
+DOC-0757,emp_331,Principal Engineer,Data Engineering Core Team,Data Engineering,2024-12-03,2026-01-21,Rejected,,1.2,Draft,Principal Engineer,Restricted,Draft Document,Git Markdown,Annual,2027-01-21
+DOC-0758,emp_851,Principal Engineer,DevOps Core Team,DevOps,2021-07-13,2022-07-27,Rejected,,3.0,Draft,Principal Engineer,Internal,Architecture Decision Record,Confluence,Annual,2023-07-27
+DOC-0759,emp_782,Architecture Board,Security Core Team,Security,2023-05-27,2025-04-10,Approved,2025-04-10,2.0,Active,Architecture Board,Internal,Policy,Git Markdown,Annual,2026-04-10
+DOC-0760,emp_994,Project Notes,Security Core Team,Security,2023-08-26,2024-04-06,Approved,2024-04-06,3.2,Active,Project Notes,Restricted,Project Documentation,Confluence,Annual,2025-04-06
+DOC-0761,emp_411,Chief Architect,Platform Core Team,Platform,2023-07-16,2026-04-15,Draft,,2.2,Draft,Chief Architect,Confidential,Security Recommendation,Git Markdown,Annual,2027-04-15
+DOC-0762,emp_893,Unverified,DevOps Core Team,DevOps,2023-09-19,2024-05-06,Draft,,3.2,Draft,Unverified,Public,Draft Document,Confluence,Annual,2025-05-06
+DOC-0763,emp_131,Project Notes,Platform Core Team,Platform,2024-03-28,2026-04-25,Rejected,,3.0,Draft,Project Notes,Internal,Project Documentation,Git Markdown,Annual,2027-04-25
+DOC-0764,emp_279,Unverified,DevOps Core Team,DevOps,2026-02-08,2026-07-31,Draft,,2.2,Draft,Unverified,Confidential,Meeting Decision,Confluence,Annual,2027-07-31
+DOC-0765,emp_543,Chief Architect,Data Engineering Core Team,Data Engineering,2024-03-06,2026-05-26,Draft,,1.1,Draft,Chief Architect,Internal,Policy,Git Markdown,Annual,2027-05-26
+DOC-0766,emp_598,Principal Engineer,Data Engineering Core Team,Data Engineering,2021-05-13,2025-11-05,Draft,,1.0,Superseded,Principal Engineer,Restricted,Meeting Decision,Confluence,Annual,2026-11-05
+DOC-0767,emp_776,Senior Engineer,Engineering Core Team,Engineering,2021-04-13,2022-09-09,Under Review,,2.2,Draft,Senior Engineer,Internal,Architecture Decision Record,Git Markdown,Annual,2023-09-09
+DOC-0768,emp_397,Chief Architect,Platform Core Team,Platform,2021-03-07,2023-11-01,Draft,,3.2,Draft,Chief Architect,Confidential,Project Documentation,Confluence,Annual,2024-10-31
+DOC-0769,emp_677,Senior Architect,Architecture Core Team,Architecture,2024-10-22,2025-09-17,Under Review,,1.1,Draft,Senior Architect,Internal,Standard,Git Markdown,Annual,2026-09-17
+DOC-0770,emp_287,Unverified,Architecture Core Team,Architecture,2025-05-22,2026-07-22,Rejected,,3.1,Superseded,Unverified,Restricted,Standard,Confluence,Annual,2027-07-22
+DOC-0771,emp_530,Project Notes,Architecture Core Team,Architecture,2023-08-03,2023-09-28,Approved,2023-09-28,2.0,Active,Project Notes,Internal,Standard,Git Markdown,Annual,2024-09-27
+DOC-0772,emp_735,Senior Architect,Data Engineering Core Team,Data Engineering,2026-01-18,2026-06-11,Draft,,2.0,Superseded,Senior Architect,Confidential,Deprecated Document,Confluence,Annual,2027-06-11
+DOC-0773,emp_156,Chief Architect,Product Core Team,Product,2025-08-27,2026-07-25,Approved,2026-07-25,1.1,Active,Chief Architect,Confidential,Meeting Decision,Git Markdown,Annual,2027-07-25
+DOC-0774,emp_628,Architecture Team,Data Engineering Core Team,Data Engineering,2024-02-26,2026-03-25,Rejected,,3.2,Draft,Architecture Team,Internal,Engineering Note,Confluence,Annual,2027-03-25
+DOC-0775,emp_168,Chief Architect,Security Core Team,Security,2021-11-10,2025-03-30,Approved,2025-03-30,1.1,Active,Chief Architect,Public,Architecture Decision Record,Git Markdown,Annual,2026-03-30
+DOC-0776,emp_288,Project Notes,Architecture Core Team,Architecture,2025-09-20,2026-06-26,Draft,,3.1,Draft,Project Notes,Public,Project Documentation,Confluence,Annual,2027-06-26
+DOC-0777,emp_623,Senior Architect,Product Core Team,Product,2022-02-15,2024-10-17,Rejected,,3.0,Draft,Senior Architect,Confidential,Deprecated Document,Git Markdown,Annual,2025-10-17
+DOC-0778,emp_526,Project Notes,Product Core Team,Product,2021-10-31,2021-12-27,Draft,,3.1,Draft,Project Notes,Public,Standard,Confluence,Annual,2022-12-27
+DOC-0779,emp_463,Architecture Board,Data Engineering Core Team,Data Engineering,2023-08-17,2026-03-12,Draft,,1.1,Superseded,Architecture Board,Internal,Engineering Note,Git Markdown,Annual,2027-03-12
+DOC-0780,emp_460,Senior Architect,Engineering Core Team,Engineering,2022-11-26,2025-06-24,Under Review,,3.1,Draft,Senior Architect,Confidential,Draft Document,Confluence,Annual,2026-06-24
+DOC-0781,emp_894,Unverified,Security Core Team,Security,2022-06-15,2023-03-07,Draft,,3.1,Draft,Unverified,Confidential,Deprecated Document,Git Markdown,Annual,2024-03-06
+DOC-0782,emp_795,Project Notes,Engineering Core Team,Engineering,2022-10-25,2024-02-11,Under Review,,1.2,Superseded,Project Notes,Confidential,Policy,Confluence,Annual,2025-02-10
+DOC-0783,emp_138,Chief Architect,Data Engineering Core Team,Data Engineering,2023-06-24,2025-07-29,Under Review,,3.1,Draft,Chief Architect,Confidential,Technical Design Document,Git Markdown,Annual,2026-07-29
+DOC-0784,emp_548,Project Notes,Platform Core Team,Platform,2022-04-07,2023-05-24,Under Review,,3.0,Draft,Project Notes,Public,Meeting Decision,Confluence,Annual,2024-05-23
+DOC-0785,emp_105,Senior Architect,Platform Core Team,Platform,2025-05-05,2025-11-29,Approved,2025-11-29,3.2,Active,Senior Architect,Confidential,Security Recommendation,Git Markdown,Annual,2026-11-29
+DOC-0786,emp_973,Unverified,Architecture Core Team,Architecture,2025-06-30,2025-08-03,Rejected,,2.0,Draft,Unverified,Public,Engineering Note,Confluence,Annual,2026-08-03
+DOC-0787,emp_715,Architecture Board,Security Core Team,Security,2022-11-09,2022-12-25,Under Review,,2.1,Draft,Architecture Board,Confidential,Deprecated Document,Git Markdown,Annual,2023-12-25
+DOC-0788,emp_725,Unverified,Engineering Core Team,Engineering,2022-10-02,2024-12-27,Approved,2024-12-27,1.2,Active,Unverified,Confidential,Deprecated Document,Confluence,Annual,2025-12-27
+DOC-0789,emp_367,Engineer,Engineering Core Team,Engineering,2022-11-17,2023-03-18,Under Review,,3.1,Draft,Engineer,Public,Project Documentation,Git Markdown,Annual,2024-03-17
+DOC-0790,emp_172,Senior Engineer,DevOps Core Team,DevOps,2024-05-10,2026-06-06,Approved,2026-06-06,2.0,Active,Senior Engineer,Restricted,Standard,Confluence,Annual,2027-06-06
+DOC-0791,emp_589,Engineer,Platform Core Team,Platform,2025-05-20,2026-07-29,Under Review,,1.0,Superseded,Engineer,Internal,Meeting Decision,Git Markdown,Annual,2027-07-29
+DOC-0792,emp_593,Unverified,DevOps Core Team,DevOps,2023-03-04,2025-04-14,Under Review,,2.2,Draft,Unverified,Internal,Architecture Decision Record,Confluence,Annual,2026-04-14
+DOC-0793,emp_547,Senior Engineer,Architecture Core Team,Architecture,2022-05-03,2023-08-21,Approved,2023-08-21,1.1,Active,Senior Engineer,Public,Architecture Decision Record,Git Markdown,Annual,2024-08-20
+DOC-0794,emp_229,Architecture Board,Engineering Core Team,Engineering,2022-01-05,2023-08-06,Approved,2023-08-06,3.2,Active,Architecture Board,Internal,Policy,Confluence,Annual,2024-08-05
+DOC-0795,emp_178,Chief Architect,DevOps Core Team,DevOps,2026-04-06,2026-06-14,Under Review,,3.1,Draft,Chief Architect,Internal,Meeting Decision,Git Markdown,Annual,2027-06-14
+DOC-0796,emp_639,Architecture Team,Data Engineering Core Team,Data Engineering,2022-10-16,2025-10-28,Approved,2025-10-28,2.2,Superseded,Architecture Team,Confidential,Meeting Decision,Confluence,Annual,2026-10-28
+DOC-0797,emp_859,Principal Engineer,Data Engineering Core Team,Data Engineering,2022-03-08,2022-11-14,Draft,,1.0,Draft,Principal Engineer,Internal,Deprecated Document,Git Markdown,Annual,2023-11-14
+DOC-0798,emp_376,Architecture Board,Engineering Core Team,Engineering,2024-04-19,2025-05-17,Draft,,1.0,Draft,Architecture Board,Restricted,Meeting Decision,Confluence,Annual,2026-05-17
+DOC-0799,emp_145,Project Notes,Security Core Team,Security,2022-02-26,2024-04-12,Rejected,,3.1,Draft,Project Notes,Public,Project Documentation,Git Markdown,Annual,2025-04-12
+DOC-0800,emp_929,Principal Engineer,Product Core Team,Product,2022-03-20,2026-06-17,Draft,,3.1,Draft,Principal Engineer,Confidential,Draft Document,Confluence,Annual,2027-06-17
+DOC-0801,emp_979,Principal Engineer,Engineering Core Team,Engineering,2023-08-08,2025-12-23,Draft,,2.1,Draft,Principal Engineer,Internal,Deprecated Document,Git Markdown,Annual,2026-12-23
+DOC-0802,emp_402,Unverified,Engineering Core Team,Engineering,2024-03-15,2025-04-23,Approved,2025-04-23,2.1,Active,Unverified,Restricted,Security Recommendation,Confluence,Annual,2026-04-23
+DOC-0803,emp_956,Senior Engineer,Engineering Core Team,Engineering,10/02/2025,2026-01-01,Rejected,,2.0,Draft,Senior Engineer,Confidential,Meeting Decision,Git Markdown,Annual,2027-01-01
+DOC-0804,emp_159,Engineer,Data Engineering Core Team,Data Engineering,2026-04-07,2026-04-17,Draft,,3.1,Draft,Engineer,Public,Draft Document,Confluence,Annual,2027-04-17
+DOC-0805,emp_332,Senior Architect,Product Core Team,Product,2021-10-28,2025-04-15,Approved,2025-04-15,3.0,Active,Senior Architect,Internal,Engineering Note,Git Markdown,Annual,2026-04-15
+DOC-0806,emp_831,Architecture Board,Engineering Core Team,Engineering,2026-06-21,2026-07-07,Approved,2026-07-07,2.2,Active,Architecture Board,Public,Meeting Decision,Confluence,Annual,2027-07-07
+DOC-0807,emp_179,Unverified,Security Core Team,Security,02/22/2022,2023-12-21,Rejected,,2.1,Superseded,Unverified,Internal,Project Documentation,Git Markdown,Annual,2024-12-20
+DOC-0808,emp_401,Project Notes,Security Core Team,Security,2021-03-05,2022-01-27,Draft,,1.2,Superseded,Project Notes,Public,Draft Document,Confluence,Annual,2023-01-27
+DOC-0809,emp_487,Architecture Team,DevOps Core Team,DevOps,2021-03-08,2024-11-12,Under Review,,3.0,Draft,Architecture Team,Public,Draft Document,Git Markdown,Annual,2025-11-12
+DOC-0810,emp_850,Unverified,Data Engineering Core Team,Data Engineering,2025-10-02,2026-06-29,Approved,2026-06-29,3.2,Active,Unverified,Confidential,Technical Design Document,Confluence,Annual,2027-06-29
+DOC-0811,emp_918,Architecture Team,Platform Core Team,Platform,2022-04-18,2024-11-06,Draft,,1.2,Draft,Architecture Team,Internal,Security Recommendation,Git Markdown,Annual,2025-11-06
+DOC-0812,emp_617,Unverified,Engineering Core Team,Engineering,2026-02-17,2026-05-20,Rejected,,2.1,Draft,Unverified,Internal,Technical Design Document,Confluence,Annual,2027-05-20
+DOC-0813,emp_720,Senior Architect,Platform Core Team,Platform,2025-06-18,2025-11-11,Draft,,1.1,Draft,Senior Architect,Confidential,Meeting Decision,Git Markdown,Annual,2026-11-11
+DOC-0814,emp_997,Senior Architect,Product Core Team,Product,2021-02-01,2022-01-08,Approved,2022-01-08,3.2,Active,Senior Architect,Confidential,Policy,Confluence,Annual,2023-01-08
+DOC-0815,emp_174,Senior Architect,Security Core Team,Security,2023-11-21,2026-04-26,Rejected,,2.0,Draft,Senior Architect,Confidential,Engineering Note,Git Markdown,Annual,2027-04-26
+DOC-0816,emp_839,Chief Architect,Architecture Core Team,Architecture,2021-06-01,2025-07-22,Draft,,2.2,Draft,Chief Architect,Confidential,Architecture Decision Record,Confluence,Annual,2026-07-22
+DOC-0817,emp_185,Unverified,Platform Core Team,Platform,2026-01-09,2026-01-10,Draft,,2.1,Draft,Unverified,Restricted,Engineering Note,Git Markdown,Annual,2027-01-10
+DOC-0818,emp_404,Architecture Team,Product Core Team,Product,2022-11-30,2023-03-08,Rejected,,2.1,Draft,Architecture Team,Internal,Policy,Confluence,Annual,2024-03-07
+DOC-0819,emp_201,Senior Engineer,Data Engineering Core Team,Data Engineering,2022-08-07,2023-07-12,Approved,2023-07-12,2.1,Active,Senior Engineer,Internal,Security Recommendation,Git Markdown,Annual,2024-07-11
+DOC-0820,emp_782,Architecture Team,Product Core Team,Product,2021-10-16,2022-04-30,Under Review,,3.0,Draft,Architecture Team,Public,Meeting Decision,Confluence,Annual,2023-04-30
+DOC-0821,emp_600,Architecture Board,Product Core Team,Product,2023-01-27,2024-03-18,Draft,,3.1,Draft,Architecture Board,Confidential,Architecture Decision Record,Git Markdown,Annual,2025-03-18
+DOC-0822,emp_542,Project Notes,DevOps Core Team,DevOps,2022-06-23,2022-12-17,Under Review,,3.2,Draft,Project Notes,Public,Policy,Confluence,Annual,2023-12-17
+DOC-0823,emp_619,Senior Architect,Engineering Core Team,Engineering,2022-07-20,2025-02-02,Approved,2025-02-02,2.0,Active,Senior Architect,Confidential,Security Recommendation,Git Markdown,Annual,2026-02-02
+DOC-0824,emp_351,Architecture Board,Platform Core Team,Platform,2024-04-15,2025-05-05,Under Review,,2.1,Draft,Architecture Board,Internal,Engineering Note,Confluence,Annual,2026-05-05
+DOC-0825,emp_628,Chief Architect,Platform Core Team,Platform,01/07/2021,2023-06-15,Approved,2023-06-15,3.0,Active,Chief Architect,Internal,Project Documentation,Git Markdown,Annual,2024-06-14
+DOC-0826,emp_595,Senior Engineer,DevOps Core Team,DevOps,2024-09-07,2025-03-10,Draft,,2.2,Draft,Senior Engineer,Confidential,Deprecated Document,Confluence,Annual,2026-03-10
+DOC-0827,emp_198,Principal Engineer,Data Engineering Core Team,Data Engineering,2021-08-19,2026-07-28,Draft,,2.1,Draft,Principal Engineer,Internal,Project Documentation,Git Markdown,Annual,2027-07-28
+DOC-0828,emp_813,Senior Engineer,DevOps Core Team,DevOps,2024-12-14,2025-04-24,Rejected,,2.2,Draft,Senior Engineer,Confidential,Standard,Confluence,Annual,2026-04-24
+DOC-0829,emp_675,Architecture Board,Platform Core Team,Platform,2022-06-20,2026-04-02,Draft,,2.1,Draft,Architecture Board,Confidential,Security Recommendation,Git Markdown,Annual,2027-04-02
+DOC-0830,emp_415,Architecture Board,Platform Core Team,Platform,2023-04-20,2024-07-16,Under Review,,3.0,Draft,Architecture Board,Restricted,Policy,Confluence,Annual,2025-07-16
+DOC-0831,emp_461,Senior Engineer,Security Core Team,Security,2021-05-10,2025-01-10,Under Review,,1.0,Draft,Senior Engineer,Confidential,Deprecated Document,Git Markdown,Annual,2026-01-10
+DOC-0832,emp_666,Architecture Team,Architecture Core Team,Architecture,2026-04-10,2026-04-11,Approved,2026-04-11,3.0,Active,Architecture Team,Confidential,Project Documentation,Confluence,Annual,2027-04-11
+DOC-0833,emp_134,Architecture Team,Engineering Core Team,Engineering,2025-03-16,2025-05-18,Rejected,,1.2,Draft,Architecture Team,Restricted,Meeting Decision,Git Markdown,Annual,2026-05-18
+DOC-0834,emp_115,Architecture Board,DevOps Core Team,DevOps,2024-05-23,2024-10-25,Approved,2024-10-25,2.0,Active,Architecture Board,Restricted,Deprecated Document,Confluence,Annual,2025-10-25
+DOC-0835,emp_202,Architecture Team,Architecture Core Team,Architecture,2026-06-09,2026-07-20,Rejected,,2.0,Draft,Architecture Team,Internal,Meeting Decision,Git Markdown,Annual,2027-07-20
+DOC-0836,emp_117,Engineer,DevOps Core Team,DevOps,2025-01-30,2026-03-09,Draft,,3.0,Draft,Engineer,Confidential,Policy,Confluence,Annual,2027-03-09
+DOC-0837,emp_588,Senior Engineer,Platform Core Team,Platform,2021-08-12,2025-03-20,Draft,,3.0,Draft,Senior Engineer,Public,Draft Document,Git Markdown,Annual,2026-03-20
+DOC-0838,emp_512,Senior Architect,Platform Core Team,Platform,2025-09-13,2026-05-13,Under Review,,2.1,Superseded,Senior Architect,Confidential,Draft Document,Confluence,Annual,2027-05-13
+DOC-0839,emp_374,Architecture Board,Architecture Core Team,Architecture,2025-03-27,2026-01-08,Rejected,,2.2,Draft,Architecture Board,Internal,Project Documentation,Git Markdown,Annual,2027-01-08
+DOC-0840,emp_535,Chief Architect,Product Core Team,Product,2023-02-09,2023-10-27,Approved,2023-10-27,3.0,Active,Chief Architect,Internal,Technical Design Document,Confluence,Annual,2024-10-26
+DOC-0841,emp_741,Senior Architect,Security Core Team,Security,2023-09-25,2024-07-07,Rejected,,2.0,Draft,Senior Architect,Confidential,Deprecated Document,Git Markdown,Annual,2025-07-07
+DOC-0842,emp_677,Senior Engineer,Data Engineering Core Team,Data Engineering,2021-10-17,2023-06-03,Under Review,,3.1,Draft,Senior Engineer,Restricted,Engineering Note,Confluence,Annual,2024-06-02
+DOC-0843,emp_636,Senior Architect,DevOps Core Team,DevOps,2021-01-21,2022-11-02,Rejected,,2.0,Draft,Senior Architect,Public,Policy,Git Markdown,Annual,2023-11-02
+DOC-0844,emp_162,Chief Architect,Security Core Team,Security,2023-08-18,2024-07-03,Approved,2024-07-03,3.0,Active,Chief Architect,Restricted,Draft Document,Confluence,Annual,2025-07-03
+DOC-0845,emp_476,Principal Engineer,Product Core Team,Product,2025-04-20,2025-11-12,Draft,,3.2,Draft,Principal Engineer,Internal,Draft Document,Git Markdown,Annual,2026-11-12
+DOC-0846,emp_229,Chief Architect,Platform Core Team,Platform,2024-04-17,2026-02-06,Rejected,,3.2,Draft,Chief Architect,Restricted,Deprecated Document,Confluence,Annual,2027-02-06
+DOC-0847,emp_102,Senior Architect,Security Core Team,Security,2026-07-19,2026-07-22,Approved,2026-07-22,3.0,Active,Senior Architect,Internal,Project Documentation,Git Markdown,Annual,2027-07-22
+DOC-0848,emp_926,Unverified,Engineering Core Team,Engineering,2023-05-22,2026-01-12,Draft,,1.0,Draft,Unverified,Confidential,Policy,Confluence,Annual,2027-01-12
+DOC-0849,emp_180,Unverified,Architecture Core Team,Architecture,2025-09-21,2026-01-08,Under Review,,2.2,Draft,Unverified,Internal,Draft Document,Git Markdown,Annual,2027-01-08
+DOC-0850,emp_671,Chief Architect,Product Core Team,Product,2024-08-28,2025-08-19,Under Review,,2.1,Superseded,Chief Architect,Restricted,Standard,Confluence,Annual,2026-08-19
+DOC-0851,emp_865,Senior Architect,Security Core Team,Security,2022-02-06,2024-07-30,Draft,,1.2,Draft,Senior Architect,Restricted,Architecture Decision Record,Git Markdown,Annual,2025-07-30
+DOC-0852,emp_762,Architecture Board,Engineering Core Team,Engineering,2024-08-07,2025-12-10,Rejected,,3.2,Superseded,Architecture Board,Restricted,Meeting Decision,Confluence,Annual,2026-12-10
+DOC-0853,emp_602,Project Notes,Engineering Core Team,Engineering,2023-08-28,2024-03-27,Approved,2024-03-27,3.2,Active,Project Notes,Internal,Engineering Note,Git Markdown,Annual,2025-03-27
+DOC-0854,emp_554,Architecture Board,Security Core Team,Security,2022-10-06,2023-04-23,Draft,,1.2,Draft,Architecture Board,Public,Architecture Decision Record,Confluence,Annual,2024-04-22
+DOC-0855,emp_114,Unverified,Platform Core Team,Platform,2023-05-03,2023-09-05,Approved,2023-09-05,3.0,Active,Unverified,Restricted,Standard,Git Markdown,Annual,2024-09-04
+DOC-0856,emp_750,Senior Architect,Platform Core Team,Platform,2022-09-30,2024-04-12,Draft,,2.2,Superseded,Senior Architect,Public,Architecture Decision Record,Confluence,Annual,2025-04-12
+DOC-0857,emp_425,Senior Architect,Platform Core Team,Platform,2024-07-07,2024-07-27,Under Review,,1.2,Draft,Senior Architect,Restricted,Draft Document,Git Markdown,Annual,2025-07-27
+DOC-0858,emp_417,Senior Architect,Product Core Team,Product,2023-02-16,2024-09-25,Under Review,,3.1,Draft,Senior Architect,Confidential,Architecture Decision Record,Confluence,Annual,2025-09-25
+DOC-0859,emp_370,Project Notes,Architecture Core Team,Architecture,2023-10-01,2025-09-27,Draft,,3.2,Draft,Project Notes,Confidential,Technical Design Document,Git Markdown,Annual,2026-09-27
+DOC-0860,emp_650,Senior Architect,Product Core Team,Product,2022-03-08,2026-02-13,Rejected,,3.1,Draft,Senior Architect,Internal,Draft Document,Confluence,Annual,2027-02-13
+DOC-0861,emp_625,Chief Architect,DevOps Core Team,DevOps,2022-06-13,2023-09-02,Rejected,,1.2,Draft,Chief Architect,Internal,Project Documentation,Git Markdown,Annual,2024-09-01
+DOC-0862,emp_430,Architecture Board,Data Engineering Core Team,Data Engineering,2024-07-13,2025-07-15,Approved,2025-07-15,2.1,Active,Architecture Board,Restricted,Technical Design Document,Confluence,Annual,2026-07-15
+DOC-0863,emp_290,Unverified,Platform Core Team,Platform,2023-06-19,2026-01-08,Rejected,,2.0,Draft,Unverified,Restricted,Architecture Decision Record,Git Markdown,Annual,2027-01-08
+DOC-0864,emp_998,Architecture Board,Security Core Team,Security,2025-04-12,2026-07-17,Approved,2026-07-17,2.2,Active,Architecture Board,Confidential,Project Documentation,Confluence,Annual,2027-07-17
+DOC-0865,emp_233,Senior Architect,Data Engineering Core Team,Data Engineering,2025-06-03,2025-06-30,Approved,2025-06-30,1.1,Active,Senior Architect,Confidential,Security Recommendation,Git Markdown,Annual,2026-06-30
+DOC-0866,emp_414,Principal Engineer,Platform Core Team,Platform,2022-01-14,2023-05-12,Under Review,,3.0,Draft,Principal Engineer,Internal,Technical Design Document,Confluence,Annual,2024-05-11
+DOC-0867,emp_202,Senior Engineer,Security Core Team,Security,2024-02-01,2026-01-04,Rejected,,2.2,Draft,Senior Engineer,Confidential,Policy,Git Markdown,Annual,2027-01-04
+DOC-0868,emp_509,Senior Architect,Platform Core Team,Platform,2026-01-14,2026-03-27,Rejected,,3.0,Draft,Senior Architect,Restricted,Security Recommendation,Confluence,Annual,2027-03-27
+DOC-0869,emp_477,Architecture Team,Platform Core Team,Platform,2022-11-28,2025-09-19,Approved,2025-09-19,2.0,Active,Architecture Team,Internal,Security Recommendation,Git Markdown,Annual,2026-09-19
+DOC-0870,emp_493,Senior Engineer,Security Core Team,Security,2023-05-22,2024-03-25,Draft,,3.1,Draft,Senior Engineer,Public,Engineering Note,Confluence,Annual,2025-03-25
+DOC-0871,emp_925,Project Notes,Security Core Team,Security,2022-12-11,2023-07-06,Rejected,,1.0,Draft,Project Notes,Restricted,Technical Design Document,Git Markdown,Annual,2024-07-05
+DOC-0872,emp_532,Engineer,Engineering Core Team,Engineering,2022-09-13,2025-01-30,Draft,,1.2,Draft,Engineer,Confidential,Architecture Decision Record,Confluence,Annual,2026-01-30
+DOC-0873,emp_904,Chief Architect,Data Engineering Core Team,Data Engineering,2026-07-02,2026-07-15,Rejected,,1.0,Draft,Chief Architect,Public,Engineering Note,Git Markdown,Annual,2027-07-15
+DOC-0874,emp_149,Engineer,Platform Core Team,Platform,2022-07-31,2022-10-20,Approved,2022-10-20,2.1,Active,Engineer,Public,Policy,Confluence,Annual,2023-10-20
+DOC-0875,emp_655,Architecture Board,Architecture Core Team,Architecture,2022-01-02,2023-08-25,Draft,,2.1,Draft,Architecture Board,Restricted,Meeting Decision,Git Markdown,Annual,2024-08-24
+DOC-0876,emp_279,Architecture Team,Engineering Core Team,Engineering,2024-01-01,2024-04-06,Under Review,,3.1,Draft,Architecture Team,Confidential,Technical Design Document,Confluence,Annual,2025-04-06
+DOC-0877,emp_682,Unverified,Data Engineering Core Team,Data Engineering,2021-03-25,2021-08-28,Draft,,1.2,Draft,Unverified,Public,Policy,Git Markdown,Annual,2022-08-28
+DOC-0878,emp_510,Engineer,DevOps Core Team,DevOps,2022-01-12,2026-03-21,Approved,2026-03-21,2.0,Active,Engineer,Internal,Architecture Decision Record,Confluence,Annual,2027-03-21
+DOC-0879,emp_483,Architecture Board,Data Engineering Core Team,Data Engineering,2023-08-27,2024-11-09,Rejected,,3.0,Draft,Architecture Board,Restricted,Draft Document,Git Markdown,Annual,2025-11-09
+DOC-0880,emp_105,Principal Engineer,DevOps Core Team,DevOps,2022-03-01,2022-04-08,Rejected,,2.1,Draft,Principal Engineer,Confidential,Standard,Confluence,Annual,2023-04-08
+DOC-0881,emp_826,Architecture Board,Platform Core Team,Platform,2022-03-29,2022-08-06,Draft,,3.1,Draft,Architecture Board,Confidential,Security Recommendation,Git Markdown,Annual,2023-08-06
+DOC-0882,emp_448,Senior Engineer,Data Engineering Core Team,Data Engineering,2022-12-11,2025-06-08,Under Review,,3.1,Draft,Senior Engineer,Internal,Security Recommendation,Confluence,Annual,2026-06-08
+DOC-0883,emp_746,Chief Architect,Security Core Team,Security,2024-02-24,2025-02-11,Approved,2025-02-11,3.1,Active,Chief Architect,Restricted,Policy,Git Markdown,Annual,2026-02-11
+DOC-0884,emp_739,Senior Architect,Engineering Core Team,Engineering,2024-03-02,2025-05-17,Rejected,,1.1,Draft,Senior Architect,Confidential,Security Recommendation,Confluence,Annual,2026-05-17
+DOC-0885,emp_505,Chief Architect,Security Core Team,Security,2022-03-09,2022-10-21,Draft,,1.2,Draft,Chief Architect,Confidential,Project Documentation,Git Markdown,Annual,2023-10-21
+DOC-0886,emp_888,Senior Engineer,Data Engineering Core Team,Data Engineering,2024-07-14,2024-10-30,Draft,,3.1,Draft,Senior Engineer,Internal,Security Recommendation,Confluence,Annual,2025-10-30
+DOC-0887,emp_994,Senior Architect,Product Core Team,Product,2023-03-31,2024-11-10,Approved,2024-11-10,2.1,Active,Senior Architect,Internal,Engineering Note,Git Markdown,Annual,2025-11-10
+DOC-0888,emp_293,Engineer,Security Core Team,Security,2024-06-21,2025-02-05,Under Review,,3.0,Draft,Engineer,Confidential,Architecture Decision Record,Confluence,Annual,2026-02-05
+DOC-0889,emp_479,Chief Architect,Data Engineering Core Team,Data Engineering,2025-03-02,2026-04-04,Under Review,,1.1,Draft,Chief Architect,Restricted,Architecture Decision Record,Git Markdown,Annual,2027-04-04
+DOC-0890,emp_400,Senior Architect,Platform Core Team,Platform,2026-01-06,2026-01-13,Under Review,,2.0,Draft,Senior Architect,Confidential,Technical Design Document,Confluence,Annual,2027-01-13
+DOC-0891,emp_993,Senior Engineer,DevOps Core Team,DevOps,2022-05-17,2024-12-18,Approved,2024-12-18,1.2,Superseded,Senior Engineer,Confidential,Engineering Note,Git Markdown,Annual,2025-12-18
+DOC-0892,emp_833,Principal Engineer,Product Core Team,Product,2021-09-05,2025-09-09,Approved,2025-09-09,3.0,Active,Principal Engineer,Restricted,Deprecated Document,Confluence,Annual,2026-09-09
+DOC-0893,emp_906,Engineer,Security Core Team,Security,2021-08-01,2022-05-26,Draft,,3.0,Draft,Engineer,Internal,Technical Design Document,Git Markdown,Annual,2023-05-26
+DOC-0894,emp_370,Architecture Team,Product Core Team,Product,2022-11-07,2026-06-13,Approved,2026-06-13,3.1,Active,Architecture Team,Internal,Technical Design Document,Confluence,Annual,2027-06-13
+DOC-0895,emp_681,Principal Engineer,Product Core Team,Product,2024-05-02,2024-06-07,Under Review,,2.0,Draft,Principal Engineer,Internal,Meeting Decision,Git Markdown,Annual,2025-06-07
+DOC-0896,emp_586,Principal Engineer,DevOps Core Team,DevOps,2024-10-10,2025-08-07,Under Review,,3.0,Draft,Principal Engineer,Internal,Policy,Confluence,Annual,2026-08-07
+DOC-0897,emp_697,Architecture Team,Platform Core Team,Platform,2021-10-31,2025-02-08,Approved,2025-02-08,3.2,Active,Architecture Team,Confidential,Meeting Decision,Git Markdown,Annual,2026-02-08
+DOC-0898,emp_483,Unverified,Platform Core Team,Platform,2025-11-08,2026-07-14,Under Review,,2.0,Draft,Unverified,Confidential,Standard,Confluence,Annual,2027-07-14
+DOC-0899,emp_329,Architecture Team,Platform Core Team,Platform,2022-07-24,2025-12-21,Under Review,,2.2,Draft,Architecture Team,Public,Engineering Note,Git Markdown,Annual,2026-12-21
+DOC-0900,emp_780,Senior Engineer,DevOps Core Team,DevOps,2023-03-28,2023-10-16,Draft,,2.2,Draft,Senior Engineer,Public,Architecture Decision Record,Confluence,Annual,2024-10-15
+DOC-0901,emp_916,Principal Engineer,Platform Core Team,Platform,2024-11-13,2025-07-21,Under Review,,2.0,Draft,Principal Engineer,Public,Engineering Note,Git Markdown,Annual,2026-07-21
+DOC-0902,emp_235,Chief Architect,DevOps Core Team,DevOps,2022-09-13,2023-01-15,Under Review,,3.2,Draft,Chief Architect,Confidential,Deprecated Document,Confluence,Annual,2024-01-15
+DOC-0903,emp_589,Architecture Team,Product Core Team,Product,2023-06-25,2023-12-12,Rejected,,3.2,Draft,Architecture Team,Internal,Technical Design Document,Git Markdown,Annual,2024-12-11
+DOC-0904,emp_896,Project Notes,Security Core Team,Security,2024-04-21,2026-07-25,Rejected,,2.1,Draft,Project Notes,Restricted,Project Documentation,Confluence,Annual,2027-07-25
+DOC-0905,emp_370,Principal Engineer,Data Engineering Core Team,Data Engineering,2022-05-25,2024-04-22,Draft,,3.1,Draft,Principal Engineer,Confidential,Deprecated Document,Git Markdown,Annual,2025-04-22
+DOC-0906,emp_581,Unverified,Engineering Core Team,Engineering,2021-12-01,2022-12-02,Approved,2022-12-02,3.1,Active,Unverified,Public,Policy,Confluence,Annual,2023-12-02
+DOC-0907,emp_897,Architecture Team,Data Engineering Core Team,Data Engineering,2025-04-12,2025-08-08,Under Review,,2.1,Draft,Architecture Team,Confidential,Technical Design Document,Git Markdown,Annual,2026-08-08
+DOC-0908,emp_260,Senior Engineer,Data Engineering Core Team,Data Engineering,2025-04-19,2025-11-07,Under Review,,3.2,Draft,Senior Engineer,Internal,Project Documentation,Confluence,Annual,2026-11-07
+DOC-0909,emp_334,Principal Engineer,Data Engineering Core Team,Data Engineering,2023-08-25,2025-05-07,Draft,,2.2,Draft,Principal Engineer,Restricted,Meeting Decision,Git Markdown,Annual,2026-05-07
+DOC-0910,emp_105,Engineer,Data Engineering Core Team,Data Engineering,04/24/2021,2023-08-09,Draft,,1.1,Draft,Engineer,Restricted,Standard,Confluence,Annual,2024-08-08
+DOC-0911,emp_952,Principal Engineer,DevOps Core Team,DevOps,2021-02-18,2022-12-09,Rejected,,2.2,Draft,Principal Engineer,Internal,Security Recommendation,Git Markdown,Annual,2023-12-09
+DOC-0912,emp_348,Chief Architect,Architecture Core Team,Architecture,2022-10-29,2025-07-07,Rejected,,1.2,Draft,Chief Architect,Confidential,Engineering Note,Confluence,Annual,2026-07-07
+DOC-0913,emp_203,Architecture Board,Architecture Core Team,Architecture,2024-08-02,2025-07-18,Draft,,2.1,Draft,Architecture Board,Public,Architecture Decision Record,Git Markdown,Annual,2026-07-18
+DOC-0914,emp_994,Senior Architect,Product Core Team,Product,2024-04-22,2025-02-22,Approved,2025-02-22,2.2,Active,Senior Architect,Restricted,Engineering Note,Confluence,Annual,2026-02-22
+DOC-0915,emp_973,Senior Engineer,Product Core Team,Product,2026-01-28,2026-05-22,Under Review,,1.1,Draft,Senior Engineer,Restricted,Security Recommendation,Git Markdown,Annual,2027-05-22
+DOC-0916,emp_222,Senior Architect,Data Engineering Core Team,Data Engineering,05/26/2023,2025-08-14,Rejected,,3.0,Draft,Senior Architect,Restricted,Standard,Confluence,Annual,2026-08-14
+DOC-0917,emp_603,Unverified,Product Core Team,Product,2024-03-23,2025-02-27,Approved,2025-02-27,3.0,Active,Unverified,Public,Meeting Decision,Git Markdown,Annual,2026-02-27
+DOC-0918,emp_885,Chief Architect,Security Core Team,Security,2025-08-02,2025-12-21,Rejected,,3.0,Draft,Chief Architect,Restricted,Standard,Confluence,Annual,2026-12-21
+DOC-0919,emp_511,Architecture Board,Data Engineering Core Team,Data Engineering,2022-08-25,2022-09-07,Rejected,,1.1,Superseded,Architecture Board,Confidential,Draft Document,Git Markdown,Annual,2023-09-07
+DOC-0920,emp_568,Unverified,Product Core Team,Product,2025-04-26,2026-06-20,Draft,,3.2,Draft,Unverified,Internal,Project Documentation,Confluence,Annual,2027-06-20
+DOC-0921,emp_716,Unverified,Engineering Core Team,Engineering,2025-05-16,2025-07-20,Draft,,2.1,Draft,Unverified,Internal,Architecture Decision Record,Git Markdown,Annual,2026-07-20
+DOC-0922,emp_890,Architecture Team,Architecture Core Team,Architecture,2021-02-25,2021-12-03,Rejected,,2.0,Draft,Architecture Team,Confidential,Security Recommendation,Confluence,Annual,2022-12-03
+DOC-0923,emp_508,Project Notes,Engineering Core Team,Engineering,2022-02-26,2026-06-23,Rejected,,1.0,Draft,Project Notes,Internal,Project Documentation,Git Markdown,Annual,2027-06-23
+DOC-0924,emp_600,Chief Architect,Platform Core Team,Platform,2023-01-04,2024-10-13,Rejected,,1.2,Draft,Chief Architect,Restricted,Draft Document,Confluence,Annual,2025-10-13
+DOC-0925,emp_509,Engineer,Engineering Core Team,Engineering,2022-12-28,2025-01-04,Draft,,2.2,Draft,Engineer,Restricted,Technical Design Document,Git Markdown,Annual,2026-01-04
+DOC-0926,emp_116,Project Notes,Product Core Team,Product,2025-02-03,2025-12-31,Approved,2025-12-31,1.0,Active,Project Notes,Public,Meeting Decision,Confluence,Annual,2026-12-31
+DOC-0927,emp_987,Architecture Team,Engineering Core Team,Engineering,2023-02-01,2026-07-19,Rejected,,2.0,Draft,Architecture Team,Internal,Meeting Decision,Git Markdown,Annual,2027-07-19
+DOC-0928,emp_130,Senior Architect,Architecture Core Team,Architecture,02/22/2022,2023-11-10,Rejected,,2.2,Draft,Senior Architect,Restricted,Policy,Confluence,Annual,2024-11-09
+DOC-0929,emp_147,Engineer,Engineering Core Team,Engineering,2023-02-12,2026-06-21,Under Review,,1.1,Draft,Engineer,Internal,Deprecated Document,Git Markdown,Annual,2027-06-21
+DOC-0930,emp_550,Unverified,Security Core Team,Security,2025-10-21,2025-10-21,Draft,,2.0,Draft,Unverified,Restricted,Engineering Note,Confluence,Annual,2026-10-21
+DOC-0931,emp_604,Project Notes,DevOps Core Team,DevOps,2022-02-06,2022-10-21,Under Review,,1.0,Draft,Project Notes,Public,Draft Document,Git Markdown,Annual,2023-10-21
+DOC-0932,emp_356,Architecture Team,Engineering Core Team,Engineering,2025-02-04,2025-12-09,Draft,,2.2,Draft,Architecture Team,Restricted,Engineering Note,Confluence,Annual,2026-12-09
+DOC-0933,emp_865,Architecture Board,DevOps Core Team,DevOps,2024-07-18,2024-09-05,Under Review,,1.0,Draft,Architecture Board,Public,Standard,Git Markdown,Annual,2025-09-05
+DOC-0934,emp_978,Project Notes,Engineering Core Team,Engineering,2022-01-20,2025-07-30,Rejected,,1.1,Draft,Project Notes,Restricted,Security Recommendation,Confluence,Annual,2026-07-30
+DOC-0935,emp_290,Senior Engineer,Product Core Team,Product,2022-11-30,2025-08-24,Rejected,,3.1,Draft,Senior Engineer,Restricted,Meeting Decision,Git Markdown,Annual,2026-08-24
+DOC-0936,emp_332,Chief Architect,Data Engineering Core Team,Data Engineering,2025-08-27,2025-10-22,Approved,2025-10-22,2.0,Active,Chief Architect,Restricted,Policy,Confluence,Annual,2026-10-22
+DOC-0937,emp_939,Engineer,Data Engineering Core Team,Data Engineering,2022-02-04,2022-11-21,Approved,2022-11-21,3.1,Active,Engineer,Internal,Deprecated Document,Git Markdown,Annual,2023-11-21
+DOC-0938,emp_335,Unverified,Data Engineering Core Team,Data Engineering,2021-12-08,2024-01-13,Under Review,,1.2,Superseded,Unverified,Internal,Deprecated Document,Confluence,Annual,2025-01-12
+DOC-0939,emp_385,Architecture Team,Data Engineering Core Team,Data Engineering,2026-05-19,2026-07-09,Draft,,3.1,Draft,Architecture Team,Confidential,Architecture Decision Record,Git Markdown,Annual,2027-07-09
+DOC-0940,emp_784,Unverified,Engineering Core Team,Engineering,2022-03-04,2026-04-14,Approved,2026-04-14,2.0,Superseded,Unverified,Internal,Meeting Decision,Confluence,Annual,2027-04-14
+DOC-0941,emp_500,Engineer,Product Core Team,Product,2022-02-01,2023-06-25,Draft,,2.0,Superseded,Engineer,Confidential,Draft Document,Git Markdown,Annual,2024-06-24
+DOC-0942,emp_788,Senior Architect,Platform Core Team,Platform,2025-04-07,2025-09-21,Approved,2025-09-21,3.1,Active,Senior Architect,Public,Meeting Decision,Confluence,Annual,2026-09-21
+DOC-0943,emp_654,Chief Architect,Security Core Team,Security,2023-07-20,2024-05-29,Approved,2024-05-29,3.1,Active,Chief Architect,Restricted,Draft Document,Git Markdown,Annual,2025-05-29
+DOC-0944,emp_699,Engineer,DevOps Core Team,DevOps,2025-11-30,2026-05-30,Rejected,,1.2,Draft,Engineer,Public,Engineering Note,Confluence,Annual,2027-05-30
+DOC-0945,emp_956,Project Notes,Architecture Core Team,Architecture,2023-05-14,2023-09-07,Approved,2023-09-07,2.2,Active,Project Notes,Restricted,Standard,Git Markdown,Annual,2024-09-06
+DOC-0946,emp_185,Senior Engineer,DevOps Core Team,DevOps,2021-07-27,2025-07-26,Rejected,,2.0,Draft,Senior Engineer,Confidential,Architecture Decision Record,Confluence,Annual,2026-07-26
+DOC-0947,emp_991,Unverified,Data Engineering Core Team,Data Engineering,2021-03-28,2024-08-11,Approved,2024-08-11,3.0,Active,Unverified,Public,Standard,Git Markdown,Annual,2025-08-11
+DOC-0948,emp_835,Engineer,DevOps Core Team,DevOps,2022-12-13,2026-07-30,Rejected,,3.2,Draft,Engineer,Public,Architecture Decision Record,Confluence,Annual,2027-07-30
+DOC-0949,emp_321,Architecture Board,Product Core Team,Product,2022-01-06,2022-02-24,Draft,,2.0,Superseded,Architecture Board,Confidential,Draft Document,Git Markdown,Annual,2023-02-24
+DOC-0950,emp_556,Principal Engineer,Architecture Core Team,Architecture,2022-10-27,2025-05-22,Draft,,1.0,Draft,Principal Engineer,Restricted,Architecture Decision Record,Confluence,Annual,2026-05-22
+DOC-0951,emp_460,Senior Engineer,Security Core Team,Security,2024-01-08,2026-02-03,Under Review,,2.0,Draft,Senior Engineer,Public,Draft Document,Git Markdown,Annual,2027-02-03
+DOC-0952,emp_371,Architecture Team,Platform Core Team,Platform,12/20/2022,2024-11-09,Rejected,,1.0,Draft,Architecture Team,Restricted,Policy,Confluence,Annual,2025-11-09
+DOC-0953,emp_651,Unverified,DevOps Core Team,DevOps,2023-03-27,2023-08-29,Under Review,,3.2,Superseded,Unverified,Confidential,Engineering Note,Git Markdown,Annual,2024-08-28
+DOC-0954,emp_494,Senior Architect,Architecture Core Team,Architecture,2025-09-27,2026-02-24,Approved,2026-02-24,1.1,Active,Senior Architect,Public,Technical Design Document,Confluence,Annual,2027-02-24
+DOC-0955,emp_351,Architecture Team,Security Core Team,Security,2023-06-21,2024-09-05,Under Review,,1.0,Superseded,Architecture Team,Confidential,Project Documentation,Git Markdown,Annual,2025-09-05
+DOC-0956,emp_968,Senior Architect,Platform Core Team,Platform,2024-04-04,2025-05-18,Rejected,,3.1,Draft,Senior Architect,Restricted,Deprecated Document,Confluence,Annual,2026-05-18
+DOC-0957,emp_809,Chief Architect,Data Engineering Core Team,Data Engineering,2022-10-21,2024-03-09,Under Review,,3.2,Superseded,Chief Architect,Confidential,Engineering Note,Git Markdown,Annual,2025-03-09
+DOC-0958,emp_940,Unverified,DevOps Core Team,DevOps,2023-08-11,2025-02-12,Approved,2025-02-12,2.1,Active,Unverified,Confidential,Project Documentation,Confluence,Annual,2026-02-12
+DOC-0959,emp_588,Senior Engineer,Security Core Team,Security,2021-05-11,2025-03-07,Approved,2025-03-07,2.2,Active,Senior Engineer,Restricted,Engineering Note,Git Markdown,Annual,2026-03-07
+DOC-0960,emp_320,Engineer,Security Core Team,Security,2022-09-27,2025-10-03,Draft,,3.2,Draft,Engineer,Confidential,Policy,Confluence,Annual,2026-10-03
+DOC-0961,emp_829,Architecture Board,Architecture Core Team,Architecture,2024-04-18,2024-08-18,Approved,2024-08-18,3.1,Active,Architecture Board,Internal,Security Recommendation,Git Markdown,Annual,2025-08-18
+DOC-0962,emp_130,Senior Architect,Product Core Team,Product,2025-02-01,2025-06-03,Draft,,2.2,Superseded,Senior Architect,Confidential,Policy,Confluence,Annual,2026-06-03
+DOC-0963,emp_198,Senior Architect,Product Core Team,Product,2022-12-29,2023-12-27,Rejected,,2.0,Draft,Senior Architect,Internal,Meeting Decision,Git Markdown,Annual,2024-12-26
+DOC-0964,emp_562,Senior Engineer,DevOps Core Team,DevOps,2023-12-09,2024-08-28,Approved,2024-08-28,1.2,Active,Senior Engineer,Public,Technical Design Document,Confluence,Annual,2025-08-28
+DOC-0965,emp_493,Senior Engineer,Engineering Core Team,Engineering,2021-02-26,2025-08-22,Draft,,1.0,Draft,Senior Engineer,Confidential,Meeting Decision,Git Markdown,Annual,2026-08-22
+DOC-0966,emp_687,Senior Engineer,Product Core Team,Product,2025-12-31,2026-04-22,Under Review,,2.0,Draft,Senior Engineer,Public,Engineering Note,Confluence,Annual,2027-04-22
+DOC-0967,emp_457,Chief Architect,Architecture Core Team,Architecture,2024-04-23,2025-10-05,Under Review,,2.0,Draft,Chief Architect,Internal,Engineering Note,Git Markdown,Annual,2026-10-05
+DOC-0968,emp_219,Project Notes,Data Engineering Core Team,Data Engineering,2021-05-15,2023-04-07,Under Review,,1.1,Draft,Project Notes,Internal,Deprecated Document,Confluence,Annual,2024-04-06
+DOC-0969,emp_193,Unverified,Product Core Team,Product,2026-02-11,2026-06-25,Rejected,,3.0,Draft,Unverified,Restricted,Security Recommendation,Git Markdown,Annual,2027-06-25
+DOC-0970,emp_545,Engineer,DevOps Core Team,DevOps,2021-06-18,2024-03-18,Approved,2024-03-18,2.2,Active,Engineer,Confidential,Standard,Confluence,Annual,2025-03-18
+DOC-0971,emp_951,Unverified,DevOps Core Team,DevOps,2022-01-21,2022-07-22,Draft,,3.2,Draft,Unverified,Internal,Architecture Decision Record,Git Markdown,Annual,2023-07-22
+DOC-0972,emp_292,Engineer,Engineering Core Team,Engineering,2026-05-29,2026-06-04,Rejected,,3.0,Draft,Engineer,Restricted,Security Recommendation,Confluence,Annual,2027-06-04
+DOC-0973,emp_829,Architecture Team,Security Core Team,Security,05/30/2021,2025-05-31,Under Review,,3.2,Draft,Architecture Team,Public,Security Recommendation,Git Markdown,Annual,2026-05-31
+DOC-0974,emp_281,Senior Engineer,Engineering Core Team,Engineering,2025-08-20,2025-12-14,Draft,,2.0,Draft,Senior Engineer,Internal,Standard,Confluence,Annual,2026-12-14
+DOC-0975,emp_999,Architecture Team,Security Core Team,Security,2023-04-19,2023-05-09,Rejected,,2.1,Draft,Architecture Team,Internal,Meeting Decision,Git Markdown,Annual,2024-05-08
+DOC-0976,emp_812,Architecture Board,DevOps Core Team,DevOps,2021-09-21,2025-06-09,Under Review,,1.0,Superseded,Architecture Board,Internal,Policy,Confluence,Annual,2026-06-09
+DOC-0977,emp_797,Principal Engineer,Architecture Core Team,Architecture,2022-08-07,2025-08-09,Draft,,3.1,Draft,Principal Engineer,Public,Standard,Git Markdown,Annual,2026-08-09
+DOC-0978,emp_230,Architecture Team,Data Engineering Core Team,Data Engineering,2026-08-01,2026-08-01,Rejected,,1.0,Draft,Architecture Team,Public,Deprecated Document,Confluence,Annual,2027-08-01
+DOC-0979,emp_856,Project Notes,Security Core Team,Security,2023-06-25,2023-09-17,Under Review,,1.2,Draft,Project Notes,Public,Engineering Note,Git Markdown,Annual,2024-09-16
+DOC-0980,emp_759,Architecture Team,Architecture Core Team,Architecture,2023-03-13,2025-04-29,Under Review,,3.0,Draft,Architecture Team,Internal,Architecture Decision Record,Confluence,Annual,2026-04-29
+DOC-0981,emp_171,Project Notes,Security Core Team,Security,2024-05-17,2025-11-09,Draft,,1.2,Draft,Project Notes,Restricted,Project Documentation,Git Markdown,Annual,2026-11-09
+DOC-0982,emp_841,Senior Architect,Data Engineering Core Team,Data Engineering,2023-01-29,2023-04-17,Under Review,,3.0,Draft,Senior Architect,Public,Security Recommendation,Confluence,Annual,2024-04-16
+DOC-0983,emp_880,Architecture Team,Data Engineering Core Team,Data Engineering,2024-02-29,2025-09-09,Approved,2025-09-09,2.2,Superseded,Architecture Team,Confidential,Architecture Decision Record,Git Markdown,Annual,2026-09-09
+DOC-0984,emp_453,Principal Engineer,Platform Core Team,Platform,2023-09-09,2024-07-18,Rejected,,2.0,Draft,Principal Engineer,Internal,Policy,Confluence,Annual,2025-07-18
+DOC-0985,emp_542,Architecture Board,Platform Core Team,Platform,2021-10-22,2022-01-17,Rejected,,3.0,Draft,Architecture Board,Confidential,Meeting Decision,Git Markdown,Annual,2023-01-17
+DOC-0986,emp_851,Project Notes,Security Core Team,Security,2023-06-29,2025-09-01,Rejected,,2.2,Draft,Project Notes,Confidential,Policy,Confluence,Annual,2026-09-01
+DOC-0987,emp_994,Architecture Team,DevOps Core Team,DevOps,2023-01-15,2025-08-20,Rejected,,2.0,Draft,Architecture Team,Confidential,Draft Document,Git Markdown,Annual,2026-08-20
+DOC-0988,emp_304,Architecture Board,Architecture Core Team,Architecture,2022-11-23,2025-12-26,Under Review,,3.1,Draft,Architecture Board,Internal,Project Documentation,Confluence,Annual,2026-12-26
+DOC-0989,emp_863,Principal Engineer,Data Engineering Core Team,Data Engineering,2025-04-25,2025-07-13,Rejected,,1.0,Draft,Principal Engineer,Confidential,Draft Document,Git Markdown,Annual,2026-07-13
+DOC-0990,emp_852,Unverified,Security Core Team,Security,2024-10-16,2025-01-23,Approved,2025-01-23,1.0,Superseded,Unverified,Restricted,Architecture Decision Record,Confluence,Annual,2026-01-23
+DOC-0991,emp_414,Architecture Team,DevOps Core Team,DevOps,2023-01-14,2026-07-13,Draft,,2.1,Draft,Architecture Team,Restricted,Technical Design Document,Git Markdown,Annual,2027-07-13
+DOC-0992,emp_267,Senior Architect,Data Engineering Core Team,Data Engineering,2021-08-31,2024-08-25,Rejected,,3.2,Draft,Senior Architect,Confidential,Standard,Confluence,Annual,2025-08-25
+DOC-0993,emp_199,Project Notes,DevOps Core Team,DevOps,2021-10-05,2023-11-24,Rejected,,1.0,Draft,Project Notes,Restricted,Architecture Decision Record,Git Markdown,Annual,2024-11-23
+DOC-0994,emp_447,Senior Engineer,Engineering Core Team,Engineering,2025-12-21,2026-03-25,Approved,2026-03-25,3.1,Active,Senior Engineer,Confidential,Technical Design Document,Confluence,Annual,2027-03-25
+DOC-0995,emp_828,Principal Engineer,DevOps Core Team,DevOps,2022-12-28,2026-05-15,Rejected,,3.1,Superseded,Principal Engineer,Internal,Technical Design Document,Git Markdown,Annual,2027-05-15
+DOC-0996,emp_426,Project Notes,Data Engineering Core Team,Data Engineering,2021-04-17,2024-12-06,Under Review,,2.1,Draft,Project Notes,Confidential,Engineering Note,Confluence,Annual,2025-12-06
+DOC-0997,emp_664,Senior Engineer,DevOps Core Team,DevOps,2021-09-25,2025-03-26,Approved,2025-03-26,1.1,Active,Senior Engineer,Confidential,Architecture Decision Record,Git Markdown,Annual,2026-03-26
+DOC-0998,emp_443,Engineer,DevOps Core Team,DevOps,2025-07-03,2026-03-22,Rejected,,2.0,Draft,Engineer,Restricted,Security Recommendation,Confluence,Annual,2027-03-22
+DOC-0999,emp_787,Project Notes,Architecture Core Team,Architecture,2025-07-08,2026-06-14,Draft,,1.0,Draft,Project Notes,Internal,Technical Design Document,Git Markdown,Annual,2027-06-14
+DOC-1000,emp_685,Senior Architect,Architecture Core Team,Architecture,2025-05-15,2025-06-28,Approved,2025-06-28,3.1,Active,Senior Architect,Public,Project Documentation,Confluence,Annual,2026-06-28

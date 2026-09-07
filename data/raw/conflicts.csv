@@ -1,0 +1,2 @@
+conflict_id,document_id_a,document_id_b,conflict_type,conflict_topic,detected_conflict,resolution_status,resolution_document_id
+CONF-001,ADR-001,ADR-021,Superseded Decision Clash,Database Choice for Project Alpha,ADR-001 recommends MySQL 5.7 while ADR-021 specifies PostgreSQL 15 as mandatory.,Resolved,ADR-021

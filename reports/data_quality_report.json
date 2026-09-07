@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-09-07T13:48:47.989212",
+  "transformations": [],
+  "documents": {
+    "raw_rows": 1000,
+    "cleaned_rows": 1000,
+    "dropped_duplicates": 0,
+    "missing_before": {
+      "document_id": 0,
+      "title": 0,
+      "document_type": 0,
+      "topic": 0,
+      "content": 0,
+      "summary": 28,
+      "department": 0,
+      "project": 0,
+      "system": 0,
+      "technology": 0,
+      "author_id": 0,
+      "author_role": 0,
+      "created_date": 0,
+      "updated_date": 0,
+      "status": 0,
+      "approval_status": 0,
+      "version": 0,
+      "is_current": 0,
+      "is_superseded": 0,
+      "supersedes_document_id": 999,
+      "authority_level": 0,
+      "confidentiality_level": 0,
+      "owner_team": 0,
+      "source_type": 0,
+      "url_or_reference": 0,
+      "language": 0
+    }
+  },
+  "metadata": {
+    "raw_rows": 1000,
+    "cleaned_rows": 1000
+  },
+  "revisions": {
+    "raw_rows": 1000,
+    "cleaned_rows": 1000
+  },
+  "permissions": {
+    "raw_rows": 8000,
+    "cleaned_rows": 8000
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "system": "Evidence-Ranked Search Prototype",
+  "precision_at_1": 0.2,
+  "precision_at_3": 0.1067,
+  "recall_at_5": 0.36,
+  "recall_at_10": 0.46,
+  "mrr": 0.2817,
+  "ndcg_at_5": 0.2808,
+  "ndcg_at_10": 0.3173,
+  "top_1_accuracy": 0.18,
+  "citation_correctness": 0.2,
+  "conflict_detection": 0.2,
+  "permission_leakage": 0.0,
+  "first_answer_acceptance": 0.88,
+  "avg_latency_ms": 142.74,
+  "p95_latency_ms": 175.15
+}

@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "name": "default_evidence_weights_v1",
+  "description": "Interpretable weighted evidence ranking formula prioritizing approved authoritative architecture decisions",
+  "weights": {
+    "relevance_score": 0.35,
+    "authority_score": 0.20,
+    "freshness_score": 0.15,
+    "approval_score": 0.20,
+    "citation_score": 0.04,
+    "revision_score": 0.03,
+    "conflict_score": 0.03
+  },
+  "authority_levels": {
+    "Architecture Board": 1.00,
+    "Chief Architect": 0.95,
+    "Senior Architect": 0.90,
+    "Architecture Team": 0.90,
+    "Principal Engineer": 0.85,
+    "Senior Engineer": 0.75,
+    "Engineer": 0.60,
+    "Project Notes": 0.40,
+    "Unverified": 0.20
+  },
+  "freshness_lambda": 0.003,
+  "approval_scores": {
+    "Approved": 1.0,
+    "Under Review": 0.4,
+    "Draft": 0.1,
+    "Rejected": 0.0
+  },
+  "superseded_penalty": 0.80
+}
