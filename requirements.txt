@@ -1,0 +1,31 @@
+# Core & Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+sentence-transformers>=2.2.2
+torch>=2.0.0
+rank-bm25>=0.2.2
+
+# Database & ORM
+sqlalchemy>=2.0.0
+
+# Backend & Web Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+pydantic>=2.0.0
+requests>=2.31.0
+
+# Frontend & Dashboard
+streamlit>=1.25.0
+plotly>=5.15.0
+
+# Testing & Quality
+pytest>=7.4.0
+pytest-cov>=4.1.0
+httpx>=0.24.0
+black>=23.7.0
+ruff>=0.0.280
+
+# Environment & Config
+python-dotenv>=1.0.0
+pydantic-settings>=2.0.0
