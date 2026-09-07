@@ -1,0 +1,51 @@
+query_id,query,expected_document_id,expected_answer,topic,difficulty,relevant_documents
+Q-01,What database should we use for Project Alpha?,ADR-021,PostgreSQL 15 is the approved database for Project Alpha.,databases,Easy,"ADR-021,ADR-001"
+Q-02,What authentication mechanism is currently approved for Project Beta?,ADR-002,OAuth 2.0 with OpenID Connect (OIDC) via Okta.,authentication,Easy,ADR-002
+Q-03,What is the restricted encryption key policy for customer data?,DOC-0003,AES-256 KMS key rotation protocols apply.,security,Easy,DOC-0003
+Q-04,Which database choice was superseded for Project Alpha?,ADR-001,ADR-001 (MySQL) was superseded by ADR-021.,databases,Medium,"ADR-001,ADR-021"
+Q-05,What is the approved architecture decision regarding databases for Project Alpha?,ADR-001,Standard guidance for databases in Project Alpha.,databases,Medium,ADR-001
+Q-06,What is the approved architecture decision regarding APIs for Project Gamma?,DOC-0047,Standard guidance for APIs in Project Gamma.,APIs,Medium,DOC-0047
+Q-07,What is the approved architecture decision regarding authentication for Project Beta?,ADR-002,Standard guidance for authentication in Project Beta.,authentication,Medium,ADR-002
+Q-08,What is the approved architecture decision regarding authorization for Project Gamma?,DOC-0013,Standard guidance for authorization in Project Gamma.,authorization,Medium,DOC-0013
+Q-09,What is the approved architecture decision regarding cloud providers for Core Infrastructure?,DOC-0086,Standard guidance for cloud providers in Core Infrastructure.,cloud providers,Medium,DOC-0086
+Q-10,What is the approved architecture decision regarding messaging for Project Alpha?,DOC-0055,Standard guidance for messaging in Project Alpha.,messaging,Medium,DOC-0055
+Q-11,What is the approved architecture decision regarding microservices for Enterprise Gateway?,DOC-0115,Standard guidance for microservices in Enterprise Gateway.,microservices,Medium,DOC-0115
+Q-12,What is the approved architecture decision regarding containers for Project Gamma?,DOC-0179,Standard guidance for containers in Project Gamma.,containers,Medium,DOC-0179
+Q-13,What is the approved architecture decision regarding Kubernetes for Enterprise Gateway?,DOC-0085,Standard guidance for Kubernetes in Enterprise Gateway.,Kubernetes,Medium,DOC-0085
+Q-14,What is the approved architecture decision regarding logging for Project Delta?,DOC-0020,Standard guidance for logging in Project Delta.,logging,Medium,DOC-0020
+Q-15,What is the approved architecture decision regarding monitoring for Project Beta?,DOC-0023,Standard guidance for monitoring in Project Beta.,monitoring,Medium,DOC-0023
+Q-16,What is the approved architecture decision regarding observability for Project Beta?,DOC-0076,Standard guidance for observability in Project Beta.,observability,Medium,DOC-0076
+Q-17,What is the approved architecture decision regarding security for Project Restricted?,DOC-0003,Standard guidance for security in Project Restricted.,security,Medium,DOC-0003
+Q-18,What is the approved architecture decision regarding data storage for Project Beta?,DOC-0017,Standard guidance for data storage in Project Beta.,data storage,Medium,DOC-0017
+Q-19,What is the approved architecture decision regarding caching for Enterprise Gateway?,DOC-0102,Standard guidance for caching in Enterprise Gateway.,caching,Medium,DOC-0102
+Q-20,What is the approved architecture decision regarding networking for Enterprise Gateway?,DOC-0071,Standard guidance for networking in Enterprise Gateway.,networking,Medium,DOC-0071
+Q-21,What is the approved architecture decision regarding CI/CD for Project Delta?,DOC-0026,Standard guidance for CI/CD in Project Delta.,CI/CD,Medium,DOC-0026
+Q-22,What is the approved architecture decision regarding deployment for Project Alpha?,DOC-0004,Standard guidance for deployment in Project Alpha.,deployment,Medium,DOC-0004
+Q-23,What is the approved architecture decision regarding infrastructure for Project Delta?,DOC-0010,Standard guidance for infrastructure in Project Delta.,infrastructure,Medium,DOC-0010
+Q-24,What is the approved architecture decision regarding event streaming for Project Omega?,DOC-0032,Standard guidance for event streaming in Project Omega.,event streaming,Medium,DOC-0032
+Q-25,What is the approved architecture decision regarding frontend architecture for Project Beta?,DOC-0070,Standard guidance for frontend architecture in Project Beta.,frontend architecture,Medium,DOC-0070
+Q-26,What is the approved architecture decision regarding backend architecture for Project Alpha?,DOC-0117,Standard guidance for backend architecture in Project Alpha.,backend architecture,Medium,DOC-0117
+Q-27,What is the approved architecture decision regarding databases for Project Alpha?,ADR-001,Standard guidance for databases in Project Alpha.,databases,Medium,ADR-001
+Q-28,What is the approved architecture decision regarding APIs for Project Gamma?,DOC-0047,Standard guidance for APIs in Project Gamma.,APIs,Medium,DOC-0047
+Q-29,What is the approved architecture decision regarding authentication for Project Beta?,ADR-002,Standard guidance for authentication in Project Beta.,authentication,Medium,ADR-002
+Q-30,What is the approved architecture decision regarding authorization for Project Gamma?,DOC-0013,Standard guidance for authorization in Project Gamma.,authorization,Medium,DOC-0013
+Q-31,What is the approved architecture decision regarding cloud providers for Core Infrastructure?,DOC-0086,Standard guidance for cloud providers in Core Infrastructure.,cloud providers,Medium,DOC-0086
+Q-32,What is the approved architecture decision regarding messaging for Project Alpha?,DOC-0055,Standard guidance for messaging in Project Alpha.,messaging,Medium,DOC-0055
+Q-33,What is the approved architecture decision regarding microservices for Enterprise Gateway?,DOC-0115,Standard guidance for microservices in Enterprise Gateway.,microservices,Medium,DOC-0115
+Q-34,What is the approved architecture decision regarding containers for Project Gamma?,DOC-0179,Standard guidance for containers in Project Gamma.,containers,Medium,DOC-0179
+Q-35,What is the approved architecture decision regarding Kubernetes for Enterprise Gateway?,DOC-0085,Standard guidance for Kubernetes in Enterprise Gateway.,Kubernetes,Medium,DOC-0085
+Q-36,What is the approved architecture decision regarding logging for Project Delta?,DOC-0020,Standard guidance for logging in Project Delta.,logging,Medium,DOC-0020
+Q-37,What is the approved architecture decision regarding monitoring for Project Beta?,DOC-0023,Standard guidance for monitoring in Project Beta.,monitoring,Medium,DOC-0023
+Q-38,What is the approved architecture decision regarding observability for Project Beta?,DOC-0076,Standard guidance for observability in Project Beta.,observability,Medium,DOC-0076
+Q-39,What is the approved architecture decision regarding security for Project Restricted?,DOC-0003,Standard guidance for security in Project Restricted.,security,Medium,DOC-0003
+Q-40,What is the approved architecture decision regarding data storage for Project Beta?,DOC-0017,Standard guidance for data storage in Project Beta.,data storage,Medium,DOC-0017
+Q-41,What is the approved architecture decision regarding caching for Enterprise Gateway?,DOC-0102,Standard guidance for caching in Enterprise Gateway.,caching,Medium,DOC-0102
+Q-42,What is the approved architecture decision regarding networking for Enterprise Gateway?,DOC-0071,Standard guidance for networking in Enterprise Gateway.,networking,Medium,DOC-0071
+Q-43,What is the approved architecture decision regarding CI/CD for Project Delta?,DOC-0026,Standard guidance for CI/CD in Project Delta.,CI/CD,Medium,DOC-0026
+Q-44,What is the approved architecture decision regarding deployment for Project Alpha?,DOC-0004,Standard guidance for deployment in Project Alpha.,deployment,Medium,DOC-0004
+Q-45,What is the approved architecture decision regarding infrastructure for Project Delta?,DOC-0010,Standard guidance for infrastructure in Project Delta.,infrastructure,Medium,DOC-0010
+Q-46,What is the approved architecture decision regarding event streaming for Project Omega?,DOC-0032,Standard guidance for event streaming in Project Omega.,event streaming,Medium,DOC-0032
+Q-47,What is the approved architecture decision regarding frontend architecture for Project Beta?,DOC-0070,Standard guidance for frontend architecture in Project Beta.,frontend architecture,Medium,DOC-0070
+Q-48,What is the approved architecture decision regarding backend architecture for Project Alpha?,DOC-0117,Standard guidance for backend architecture in Project Alpha.,backend architecture,Medium,DOC-0117
+Q-49,What is the approved architecture decision regarding databases for Project Alpha?,ADR-001,Standard guidance for databases in Project Alpha.,databases,Medium,ADR-001
+Q-50,What is the approved architecture decision regarding APIs for Project Gamma?,DOC-0047,Standard guidance for APIs in Project Gamma.,APIs,Medium,DOC-0047
